@@ -1,0 +1,94 @@
+// form {
+
+
+
+// }
+
+fieldset {
+
+    border: none;
+
+}
+
+label {
+
+    // color: var(--black);
+    // font-size: clamp(.75em, 5vw, .75em);
+
+    display: block;
+    margin: 1px;
+    padding: 1px;
+}
+
+// Input Password
+
+input[type="password"] {
+// input[type="confirm-password"]
+
+    border-radius: 2px;
+    border: 2px solid var(--black);
+
+}
+
+::placeholder,
+aria-placeholder,
+::-webkit-input-placeholder {
+
+    color: var(--black);
+
+}
+
+// Focus
+
+input[type=text] {
+
+    transition: width .35s ease-in-out;
+    -webkit-transition: width .35s ease-in-out;
+
+}
+
+input[type=text]:focus {
+
+    width: 250px;
+    background-color: transparent;
+
+}
+
+input:required, aria-required { border: 2px solid var(--black); }
+
+:focus { outline: none; }
+
+// li.hover-bg:hover {
+
+//     background-color: var(--yellow);
+
+// }
+
+.hover:hover {
+
+    background-color: var(--yellow);
+
+}
+
+// input:-moz-placeholder,
+// input::-webkit-input-placeholder {}
+
+// input[type=email]:invalid,
+// aria-invalid {
+
+//     border-radius: 2px;
+//     border: 2px dotted var(--red);
+// }
+
+form:valid, input:valid {
+
+    border: 2px solid var(--green-dark);
+
+}
+
+input:invalid {
+
+    background-color: var(--bg-red-el);
+
+}
+  

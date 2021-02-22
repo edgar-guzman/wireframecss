@@ -1,0 +1,61 @@
+.inline { display: inline; }
+
+.inline-block { display: inline-block; }
+
+.none { display: none; }
+
+.block { display: block; }
+
+// Display Grid
+
+.grid {
+
+    gap: 1rem;
+    padding: 1rem;
+    display: grid;
+
+}
+
+.xd-grid {
+
+    display: grid;
+    grid-gap: 12px;
+    // grid-column: 3/8;
+    // margin: 0 140px 0 140px;
+    grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-columns: repeat(12, 1fr);
+    // grid-template-columns: repeat(11, 1fr 20px) 1fr;
+
+}
+
+.xd-grid-1 {
+
+    display: grid;
+    grid-gap: 12px;
+    // grid-column: 3/8;
+    // max-width: 960px;
+    // margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    // margin: 0 140px 0 140px;
+    // grid-template-columns: repeat(12, 1fr);
+    // grid-template-columns: repeat(11, 1fr 20px) 1fr;
+
+}
+
+// Display Flex
+
+.flex { display: flex; }
+
+.justify-center { justify-content: center; }
+
+.justify-around { justify-content: space-around; }
+
+.justify-between { justify-content: space-between; }
+
+.justify-evenly { justify-content: space-evenly; }
+
+.fd-row { flex-direction: row; }
+
+// Align
+
+.align-items { align-items: center; }

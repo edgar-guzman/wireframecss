@@ -1,0 +1,23 @@
+h1 {
+    font-size: larger;
+    width: clamp(100%, 5vw, 100%);
+    // background-color: blanchedalmond;
+}
+
+@media (max-width: 30em) {
+    h1 {
+
+        padding-bottom: .2em;
+        font-size: clamp(larger, calc(5vw, 1rem), larger);
+
+    }
+}
+
+// @media (max-width: 50em) {
+//     h1 {
+
+        // padding-bottom: .2em;
+        // font-size: clamp(larger, calc(5vw, 1rem), larger);
+
+//     }
+// }

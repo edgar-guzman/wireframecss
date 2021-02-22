@@ -1,0 +1,164 @@
+:root {
+
+    --white: #ffffff;
+    --black: #000000;
+    --transparent: transparent;
+
+    // COLOR GRAY
+
+    --gray-light: #fafbfc;
+    --gray-medium: #808080;
+    --gray: #f6f8fa;
+    --gray-dark: #24292e;
+
+    $gray-000: #fafbfc;
+    $gray-100: #f6f8fa;
+    $gray-200: #808080;
+    $gray-900: #24292e;
+
+    $bg-gray-light: #fafbfc;
+    $bg-gray-medium: #808080;
+    $bg-gray: #f6f8fa;
+    $bg-gray-dark: #24292e;
+
+    --bg-gray-light: #fafbfc;
+    --bg-gray-medium: #808080;
+    --bg-gray: #f6f8fa;
+    --bg-gray-dark: #24292e;
+
+    // COLOR BLUE
+
+    --blue-el: #F0F4FB;
+    --blue-light: #f1f8ff;
+    --blue: #0366d6;
+
+    $blue-00: #F0F4FB;
+    $blue-50: #f1f8ff;
+    $blue-500: #0366d6;
+
+    $bg-blue-el: #F0F4FB;
+    $bg-blue-light: #f1f8ff;
+    $bg-blue: #0366d6;
+
+    --bg-blue-el: #F0F4FB;
+    --bg-blue-light: #f1f8ff;
+    --bg-blue: #0366d6;
+
+    // COLOR GREEN
+
+    --green-el: #ddffdd;
+    --green-light: #dcffe4;
+    --green-dark: #28a745;
+    --green: #008000;
+
+    $green-50: #ddffdd;
+    $green-100: #dcffe4;
+    $green-500: #28a745;
+    $green-900: #008000;
+
+    $bg-green-50: #ddffdd;
+    $bg-green-100: #dcffe4;
+    $bg-green-500: #28a745;
+    $bg-green-900: #008000;
+
+    --bg-green-el: #ddffdd;
+    --bg-green-light: #dcffe4;
+    --bg-green-dark: #28a745;
+    --bg-green: #008000;
+
+    // COLOR PURPLE
+
+    --purple-light: #f5f0ff;
+    --purple: #6f42c1;
+
+    $purple-light: #f5f0ff;
+    $purple: #6f42c1;
+
+    $bg-purple-light: #f5f0ff;
+    $bg-purple: #6f42c1;
+
+    --bg-purple-light: #f5f0ff;
+    --bg-purple: #6f42c1;
+
+    // COLOR YELLOW
+
+    --yellow-el: #fffff0;
+    --yellow-light: #fff5b1;
+    --mastard-yellow: #fff000;
+    --yellow-ld: #ffd33d;
+    --yellow-dark: #dbab09;
+    --yellow: #ffff00;
+
+    $yellow-el: #fffff0;
+    $yellow-light: #fff5b1;
+    $mastard-yellow: #fff000;
+    $yellow-ld: #ffd33d;
+    $yellow-dark: #dbab09;
+    $yellow: #ffff00;
+
+    $bg-yellow-el: #fffff0;
+    $bg-yellow-light: #fff5b1;
+    $bg-mastard-yellow: #fff000;
+    $bg-yellow-ld: #ffd33d;
+    $bg-yellow-dark: #dbab09;
+    $bg-yellow: #ffff00;
+
+    --bg-yellow-el: #fffff0;
+    --bg-yellow-light: #fff5b1;
+    --bg-mastard-yellow: #fff000;
+    --bg-yellow-ld: #ffd33d;
+    --bg-yellow-dark: #dbab09;
+    --bg-yellow: #ffff00;
+
+    // COLOR ORANGE
+
+    --orange: #d15704;
+
+    $orange: #d15704;
+
+    $orange-700: #d15704;
+
+    --bg-orange: #d15704;
+
+    // COLOR RED
+
+    --red-el: #ffdddd;
+    --red-light: #ffeef0;
+    --red: #ff0000;
+
+    $red-50: #ffdddd;
+    $red-light: #ffeef0;
+    $red: #ff0000;
+
+    $bg-red-50: #ffdddd;
+    $bg-red-light: #ffeef0;
+    $bg-red: #ff0000;
+
+    --bg-red-el: #ffdddd;
+    --bg-red-light: #ffeef0;
+    --bg-red: #ff0000;
+    
+    // COLOR PINK
+
+    --pink: #ea4aaa;
+
+    $pink: #ea4aaa;
+
+    $bg-pink: #ea4aaa;
+
+    --bg-pink: #ea4aaa;
+
+    // --html: font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+
+}

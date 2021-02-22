@@ -1,0 +1,99 @@
+table {
+
+    border-collapse: collapse;
+
+}
+
+th,
+.td-data {
+
+    padding: 0.25rem;
+    // text-align: center;
+    border: 2px solid #000000;
+
+}
+
+.td-data { transition: all 300ms; }
+
+tbody:hover .td-data {
+
+    color: var(--transparent);
+    text-shadow: 0 0 3px #aaa;
+
+}
+
+tbody:hover tr:hover .td-data {
+
+    color: #444;
+    font-style: italic;
+    text-shadow: 0 1px 0 #fff;
+
+}
+
+// OG DATA
+
+// table {
+
+//     width: 100%;
+//     border-collapse: collapse;
+
+// }
+
+// th,
+// td.td-data {
+
+//     padding: 0.25rem;
+//     text-align: left;
+//     border: 2px solid #000000;
+
+// }
+
+// td.td-data { transition: all 300ms; }
+
+// tbody:hover td.td-data {
+
+//     color: transparent;
+//     text-shadow: 0 0 3px #aaa;
+
+// }
+
+// tbody:hover tr:hover td.td-data {
+
+//     color: #444;
+//     text-shadow: 0 1px 0 #fff;
+
+// }
+
+// https://codepen.io/trungk18/pen/OJRepGp
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+} 
+
+th,
+td.test_td-data {
+
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+
+}
+
+td.test_td-data { transition: all 300ms; }
+
+tbody:hover td.test_td-data {
+
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+
+}
+
+tbody:hover tr:hover td.test_td-data {
+
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+
+}
