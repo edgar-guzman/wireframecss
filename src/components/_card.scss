@@ -1,7 +1,133 @@
+section.col-modular {
+
+    width: clamp(100vw, 5vw, 100vw);
+    height: clamp(100vh, 5vh, 100vh);
+    background-color: blanchedalmond;
+
+}
+
+
+
+// card
+
+section.col-groups--modular {
+
+    gap: .6em;
+    display: grid;
+    /* width: 100%; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    // background-color: blue;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+
+}
+
 // .col-groups {}
 
-// a.card {}
+a.card {
 
-// div.newly-card {}
+    height: 451px;
+    margin: 0 auto;
+    // border-radius: .2em;
+    // width: clamp(400px, 5vw, 400px);
+    // border: 1px solid var(--black);
 
-// img.newly-imagine {}
+}
+
+div.newly-card {
+
+    height: 451px;
+    border-radius: .2em;
+    width: clamp(400px, 5vw, 400px);
+    border: 1px solid var(--black);
+
+}
+
+.newly-imagine img {
+
+    max-width: 100%;
+    height: 451px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: .20em;
+    // border-radius: 1em;
+
+}
+
+// .newly-card img {
+
+//     max-width: 100%;
+//     height: 451px;
+//     overflow: hidden;
+//     object-fit: cover;
+//     border-radius: .20em;
+//     /* border-radius: 1em; */
+
+// }
+
+.newly-card:hover {
+
+    cursor: pointer;
+    background-color: var(--black);
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    border: 2px solid 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+
+}
+
+.newly-imagine img:hover { transform: translate(-5px, -5px); }
+
+// The Final UI Project
+
+section.showcase-container {
+
+    /* width: 100%; */
+    display: grid;
+    grid-gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+
+}
+
+.showcase-card {
+
+    height: 451px;
+    margin: 0 auto;
+    /* border-radius: .2em; */
+    width: clamp(400px, 5vw, 400px);
+    /* border: 1px solid var(--black); */
+
+}
+
+.newly-card {
+
+    height: 451px;
+    border-radius: .2em;
+    width: clamp(400px, 5vw, 400px);
+    border: 1px solid var(--black);
+
+}
+
+.newly-card img {
+
+    max-width: 100%;
+    height: 451px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: .20em;
+    /* border-radius: 1em; */
+
+}
+
+.newly-card:hover {
+
+    cursor: pointer;
+    background-color: var(--black);
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    border: 2px solid 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+
+}
+
+.newly-card img:hover { transform: translate(-5px, -5px); }
