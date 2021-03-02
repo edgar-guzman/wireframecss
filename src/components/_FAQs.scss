@@ -1,0 +1,19 @@
+.FAQs-container {
+    height: 100vh;
+    background-color: blueviolet;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FAQs {
+    width: 60%;
+    height: 10vh;
+    border-radius: .6em;
+    // background-color: burlywood;
+    border: 1px solid var(--black);
+}
+
+.font-clamp { font-size: clamp(15px, 5vw, 15px); }

@@ -54,8 +54,15 @@
 
 .justify-evenly { justify-content: space-evenly; }
 
+.fd-column { flex-direction: column; }
+.fd-column-reverse { flex-direction: column-reverse; }
 .fd-row { flex-direction: row; }
+.fd-row-reverse { flex-direction: row-reverse; }
 
-// Align
+// Align-Items
 
-.align-items { align-items: center; }
+.align-baseline { align-items: baseline; }
+.align-center { align-items: center; }
+.align-flex-end { align-items: flex-end; }
+.align-flex-start { align-items: flex-start; }
+.align-stretch { align-items: stretch; }
