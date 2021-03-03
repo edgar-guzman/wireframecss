@@ -41,3 +41,28 @@
 .font-normal { font-style: normal; }
 
 .font-oblique { font-style: oblique; }
+
+// FONT CLAMP;
+
+.font-clamp {
+
+    padding: 1em;
+    // width: clamp(50%, 5vw, 50%);
+    font-size: clamp(15px, 5vw, 15px);
+
+}
+
+@media (max-width: 50em) {
+    .font-clamp {
+        padding: 1em;
+        // width: clamp(10%, 5vw, 10%);
+        // font-size: clamp(15px, 5vw, 15px);
+    }
+}
+
+@media (min-width: 640px) {
+    .font-clamp {
+        padding: 1em;
+        background-color: yellow;
+    }
+}

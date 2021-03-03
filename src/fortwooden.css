@@ -81,14 +81,19 @@
 }
 
 .FAQs {
-  width: 60%;
-  height: 10vh;
+  width: 50%;
   border-radius: .6em;
-  border: 1px solid var(--black);
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
 }
 
-.font-clamp {
-  font-size: clamp(15px, 5vw, 15px);
+summary {
+  outline: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  color: transparent;
 }
 
 fieldset {
@@ -556,6 +561,44 @@ button {
   font-style: oblique;
 }
 
+.font-clamp {
+  padding: 1em;
+  font-size: clamp(15px, 5vw, 15px);
+}
+
+@media (max-width: 50em) {
+  .font-clamp {
+    padding: 1em;
+  }
+}
+
+@media (min-width: 640px) {
+  .font-clamp {
+    padding: 1em;
+    background-color: yellow;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
 .object-fit {
   -o-object-fit: cover;
      object-fit: cover;
@@ -563,6 +606,18 @@ button {
 
 .background-position {
   background-position: center;
+}
+
+.w-50vw {
+  width: clamp(50vw, 5vw, 50vw);
+}
+
+.w-100vw {
+  width: clamp(100vw, 5vw, 100vw);
+}
+
+.border-1px {
+  border: 1px solid;
 }
 
 .h-auto {
@@ -759,6 +814,26 @@ button {
 
 .h-100vh {
   height: 100vh;
+}
+
+.radius-full {
+  border-radius: 50%;
+}
+
+.radius-2px {
+  border-radius: 2px;
+}
+
+.radius-50 {
+  border-radius: 50px;
+}
+
+.radius-2rem {
+  border-radius: .2rem;
+}
+
+.radius-2em {
+  border-radius: .2em;
 }
 
 .margin {
