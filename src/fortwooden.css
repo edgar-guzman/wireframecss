@@ -608,6 +608,10 @@ button {
   background-position: center;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-50vw {
   width: clamp(50vw, 5vw, 50vw);
 }
@@ -806,6 +810,10 @@ button {
 
 .mnh-100 {
   min-height: 100%;
+}
+
+.mnh-100 {
+  min-height: 100vh;
 }
 
 .h-60px {
@@ -1179,28 +1187,28 @@ button {
           justify-content: space-evenly;
 }
 
-.fd-column {
+.fd-column, .flex-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.fd-column-reverse {
+.fd-column-reverse, .flex-column-reverse {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
 
-.fd-row {
+.fd-row, .flex-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-.fd-row-reverse {
+.fd-row-reverse .flex-row-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;

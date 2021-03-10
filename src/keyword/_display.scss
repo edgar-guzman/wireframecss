@@ -54,10 +54,10 @@
 
 .justify-evenly { justify-content: space-evenly; }
 
-.fd-column { flex-direction: column; }
-.fd-column-reverse { flex-direction: column-reverse; }
-.fd-row { flex-direction: row; }
-.fd-row-reverse { flex-direction: row-reverse; }
+.fd-column, .flex-column { flex-direction: column; }
+.fd-column-reverse, .flex-column-reverse { flex-direction: column-reverse; }
+.fd-row, .flex-row { flex-direction: row; }
+.fd-row-reverse .flex-row-reverse { flex-direction: row-reverse; }
 
 // Align-Items
 
