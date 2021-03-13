@@ -2,26 +2,29 @@
 // * Woodprint v1 (url)
 // * Licensed under MIT (url)
 
-// @import "";
+// @import '';
 
-@import "fortwooden/main";
-@import "fortwooden/basic";
+@import
+    'fortwooden/main',
+    'fortwooden/basic';
 
-@import "components/FAQs";
-@import "components/form";
-@import "components/card";
-@import "components/table";
-@import "components/header";
-@import "components/button";
-@import "components/notification";
+@import
+    'components/FAQs',
+    'components/form',
+    'components/card',
+    'components/table',
+    'components/header',
+    'components/button',
+    'components/notification';
 
-@import "keyword/font";
-@import "keyword/color";
-@import "keyword/image";
-@import "keyword/width";
-@import "keyword/border";
-@import "keyword/height";
-@import "keyword/radius";
-@import "keyword/margin";
-@import "keyword/padding";
-@import "keyword/display";
+@import
+    'keyword/font',
+    'keyword/color',
+    'keyword/image',
+    'keyword/width',
+    'keyword/border',
+    'keyword/height',
+    'keyword/radius',
+    'keyword/margin',
+    'keyword/padding',
+    'keyword/display';
