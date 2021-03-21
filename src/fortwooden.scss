@@ -4,27 +4,26 @@
 
 // @import '';
 
-@import
-    'fortwooden/main',
-    'fortwooden/basic';
+// @use
+    // @use  'fortwooden/main';
+    @use 'fortwooden/basic';
 
-@import
-    'components/FAQs',
-    'components/form',
-    'components/card',
-    'components/table',
-    'components/header',
-    'components/button',
-    'components/notification';
+// @use
+    @use 'components/FAQs';
+    @use 'components/form';
+    // @use 'components/card';
+    @use 'components/table';
+    @use 'components/header';
+    @use 'components/button';
+    @use 'components/notification';
 
-@import
-    'keyword/font',
-    'keyword/color',
-    'keyword/image',
-    'keyword/width',
-    'keyword/border',
-    'keyword/height',
-    'keyword/radius',
-    'keyword/margin',
-    'keyword/padding',
-    'keyword/display';
+// @use
+    @use 'keyword/font';
+    @use 'keyword/color';
+    @use 'keyword/image';
+    @use 'keyword/width';
+    @use 'keyword/border';
+    @use 'keyword/height';
+    @use 'keyword/margin';
+    @use 'keyword/padding';
+    @use 'keyword/display';

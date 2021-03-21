@@ -15,6 +15,46 @@ button {
             justify-content: center;
             flex-direction: column;
         }
+
+        .btn--gray {
+            display: flex;
+            opacity: 0.40;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
+
+.btn--gray {
+
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+    padding: .6em 1.6em;
+    border-radius: .2em;
+    border: 1px solid var(--gray-ccc);
+    background-color: var(--bg-gray-ccc);
+
+    &:hover {
+
+        color: var(--black);
+        text-decoration: underline;
+        background-color: transparent;
+        border: 1px solid var(--black);
+
+    }
+
+    &:active {
+
+        border-radius: .2em;
+        // color: var(--black);
+        text-decoration: dashed;
+        background-color: transparent;
+        border: 1px solid var(--black);
+        box-shadow: 3.6px 1px 3.6px -1px #000000;
+
     }
 
 }
@@ -60,6 +100,13 @@ button {
         flex-direction: column;
         justify-content: center;
         // background-color: green;
+    }
+
+    .btn--gray {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
