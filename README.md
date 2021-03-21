@@ -6,6 +6,6 @@
 
 ``npm i sass``
 
-``type: "start": "sass --watch src/fortwooden.scss dist/fortwooden.css"``
+``type: "start": "sass --watch src/fortwooden.scss dist/fortwooden.css" in 'package.json'``
 
 ``and in Terminal tpe: "npm start" to start sass``
