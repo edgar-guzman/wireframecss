@@ -1,3 +1,13 @@
+main.text-contact {
+  width: 50vw;
+  height: 100vh;
+  font-size: clamp(1rem, 5vw, 3rem);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 :root {
   --white: #ffffff;
   --black: #000000;
