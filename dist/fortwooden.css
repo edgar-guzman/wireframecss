@@ -5167,6 +5167,1296 @@ button {
   -webkit-text-fill-color: var(--white);
 }
 
+.isolation-auto {
+  isolation: auto;
+}
+.isolation-isolate {
+  isolation: isolate;
+}
+.isolation-inherit {
+  isolation: inherit;
+}
+.isolation-initial {
+  isolation: initial;
+}
+.isolation-unset {
+  isolation: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:isolation-auto {
+    isolation: auto;
+  }
+  .sm\:isolation-isolate {
+    isolation: isolate;
+  }
+  .sm\:isolation-inherit {
+    isolation: inherit;
+  }
+  .sm\:isolation-initial {
+    isolation: initial;
+  }
+  .sm\:isolation-unset {
+    isolation: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:isolation-auto {
+    isolation: auto;
+  }
+  .md\:isolation-isolate {
+    isolation: isolate;
+  }
+  .md\:isolation-inherit {
+    isolation: inherit;
+  }
+  .md\:isolation-initial {
+    isolation: initial;
+  }
+  .md\:isolation-unset {
+    isolation: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:isolation-auto {
+    isolation: auto;
+  }
+  .lg\:isolation-isolate {
+    isolation: isolate;
+  }
+  .lg\:isolation-inherit {
+    isolation: inherit;
+  }
+  .lg\:isolation-initial {
+    isolation: initial;
+  }
+  .lg\:isolation-unset {
+    isolation: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:isolation-auto {
+    isolation: auto;
+  }
+  .xl\:isolation-isolate {
+    isolation: isolate;
+  }
+  .xl\:isolation-inherit {
+    isolation: inherit;
+  }
+  .xl\:isolation-initial {
+    isolation: initial;
+  }
+  .xl\:isolation-unset {
+    isolation: unset;
+  }
+}
+.bg-position-top {
+  background-position: top;
+}
+.bg-position-left {
+  background-position: left;
+}
+.bg-position-right {
+  background-position: right;
+}
+.bg-position-bottom {
+  background-position: bottom;
+}
+.bg-position-center {
+  background-position: center;
+}
+.bg-position-inherit {
+  background-position: inherit;
+}
+.bg-position-initial {
+  background-position: initial;
+}
+.bg-position-unset {
+  background-position: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-position-top {
+    background-position: top;
+  }
+  .sm\:bg-position-left {
+    background-position: left;
+  }
+  .sm\:bg-position-right {
+    background-position: right;
+  }
+  .sm\:bg-position-bottom {
+    background-position: bottom;
+  }
+  .sm\:bg-position-center {
+    background-position: center;
+  }
+  .sm\:bg-position-inherit {
+    background-position: inherit;
+  }
+  .sm\:bg-position-initial {
+    background-position: initial;
+  }
+  .sm\:bg-position-unset {
+    background-position: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-position-top {
+    background-position: top;
+  }
+  .md\:bg-position-left {
+    background-position: left;
+  }
+  .md\:bg-position-right {
+    background-position: right;
+  }
+  .md\:bg-position-bottom {
+    background-position: bottom;
+  }
+  .md\:bg-position-center {
+    background-position: center;
+  }
+  .md\:bg-position-inherit {
+    background-position: inherit;
+  }
+  .md\:bg-position-initial {
+    background-position: initial;
+  }
+  .md\:bg-position-unset {
+    background-position: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-position-top {
+    background-position: top;
+  }
+  .lg\:bg-position-left {
+    background-position: left;
+  }
+  .lg\:bg-position-right {
+    background-position: right;
+  }
+  .lg\:bg-position-bottom {
+    background-position: bottom;
+  }
+  .lg\:bg-position-center {
+    background-position: center;
+  }
+  .lg\:bg-position-inherit {
+    background-position: inherit;
+  }
+  .lg\:bg-position-initial {
+    background-position: initial;
+  }
+  .lg\:bg-position-unset {
+    background-position: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-position-top {
+    background-position: top;
+  }
+  .xl\:bg-position-left {
+    background-position: left;
+  }
+  .xl\:bg-position-right {
+    background-position: right;
+  }
+  .xl\:bg-position-bottom {
+    background-position: bottom;
+  }
+  .xl\:bg-position-center {
+    background-position: center;
+  }
+  .xl\:bg-position-inherit {
+    background-position: inherit;
+  }
+  .xl\:bg-position-initial {
+    background-position: initial;
+  }
+  .xl\:bg-position-unset {
+    background-position: unset;
+  }
+}
+.bg-position-x-top {
+  background-position-x: top;
+}
+.bg-position-x-left {
+  background-position-x: left;
+}
+.bg-position-x-right {
+  background-position-x: right;
+}
+.bg-position-x-bottom {
+  background-position-x: bottom;
+}
+.bg-position-x-center {
+  background-position-x: center;
+}
+.bg-position-x-inherit {
+  background-position-x: inherit;
+}
+.bg-position-x-initial {
+  background-position-x: initial;
+}
+.bg-position-x-unset {
+  background-position-x: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-position-x-top {
+    background-position-x: top;
+  }
+  .sm\:bg-position-x-left {
+    background-position-x: left;
+  }
+  .sm\:bg-position-x-right {
+    background-position-x: right;
+  }
+  .sm\:bg-position-x-bottom {
+    background-position-x: bottom;
+  }
+  .sm\:bg-position-x-center {
+    background-position-x: center;
+  }
+  .sm\:bg-position-x-inherit {
+    background-position-x: inherit;
+  }
+  .sm\:bg-position-x-initial {
+    background-position-x: initial;
+  }
+  .sm\:bg-position-x-unset {
+    background-position-x: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-position-x-top {
+    background-position-x: top;
+  }
+  .md\:bg-position-x-left {
+    background-position-x: left;
+  }
+  .md\:bg-position-x-right {
+    background-position-x: right;
+  }
+  .md\:bg-position-x-bottom {
+    background-position-x: bottom;
+  }
+  .md\:bg-position-x-center {
+    background-position-x: center;
+  }
+  .md\:bg-position-x-inherit {
+    background-position-x: inherit;
+  }
+  .md\:bg-position-x-initial {
+    background-position-x: initial;
+  }
+  .md\:bg-position-x-unset {
+    background-position-x: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-position-x-top {
+    background-position-x: top;
+  }
+  .lg\:bg-position-x-left {
+    background-position-x: left;
+  }
+  .lg\:bg-position-x-right {
+    background-position-x: right;
+  }
+  .lg\:bg-position-x-bottom {
+    background-position-x: bottom;
+  }
+  .lg\:bg-position-x-center {
+    background-position-x: center;
+  }
+  .lg\:bg-position-x-inherit {
+    background-position-x: inherit;
+  }
+  .lg\:bg-position-x-initial {
+    background-position-x: initial;
+  }
+  .lg\:bg-position-x-unset {
+    background-position-x: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-position-x-top {
+    background-position-x: top;
+  }
+  .xl\:bg-position-x-left {
+    background-position-x: left;
+  }
+  .xl\:bg-position-x-right {
+    background-position-x: right;
+  }
+  .xl\:bg-position-x-bottom {
+    background-position-x: bottom;
+  }
+  .xl\:bg-position-x-center {
+    background-position-x: center;
+  }
+  .xl\:bg-position-x-inherit {
+    background-position-x: inherit;
+  }
+  .xl\:bg-position-x-initial {
+    background-position-x: initial;
+  }
+  .xl\:bg-position-x-unset {
+    background-position-x: unset;
+  }
+}
+.bg-position-y-top {
+  background-position-y: top;
+}
+.bg-position-y-left {
+  background-position-y: left;
+}
+.bg-position-y-right {
+  background-position-y: right;
+}
+.bg-position-y-bottom {
+  background-position-y: bottom;
+}
+.bg-position-y-center {
+  background-position-y: center;
+}
+.bg-position-y-inherit {
+  background-position-y: inherit;
+}
+.bg-position-y-initial {
+  background-position-y: initial;
+}
+.bg-position-y-unset {
+  background-position-y: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-position-y-top {
+    background-position-y: top;
+  }
+  .sm\:bg-position-y-left {
+    background-position-y: left;
+  }
+  .sm\:bg-position-y-right {
+    background-position-y: right;
+  }
+  .sm\:bg-position-y-bottom {
+    background-position-y: bottom;
+  }
+  .sm\:bg-position-y-center {
+    background-position-y: center;
+  }
+  .sm\:bg-position-y-inherit {
+    background-position-y: inherit;
+  }
+  .sm\:bg-position-y-initial {
+    background-position-y: initial;
+  }
+  .sm\:bg-position-y-unset {
+    background-position-y: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-position-y-top {
+    background-position-y: top;
+  }
+  .md\:bg-position-y-left {
+    background-position-y: left;
+  }
+  .md\:bg-position-y-right {
+    background-position-y: right;
+  }
+  .md\:bg-position-y-bottom {
+    background-position-y: bottom;
+  }
+  .md\:bg-position-y-center {
+    background-position-y: center;
+  }
+  .md\:bg-position-y-inherit {
+    background-position-y: inherit;
+  }
+  .md\:bg-position-y-initial {
+    background-position-y: initial;
+  }
+  .md\:bg-position-y-unset {
+    background-position-y: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-position-y-top {
+    background-position-y: top;
+  }
+  .lg\:bg-position-y-left {
+    background-position-y: left;
+  }
+  .lg\:bg-position-y-right {
+    background-position-y: right;
+  }
+  .lg\:bg-position-y-bottom {
+    background-position-y: bottom;
+  }
+  .lg\:bg-position-y-center {
+    background-position-y: center;
+  }
+  .lg\:bg-position-y-inherit {
+    background-position-y: inherit;
+  }
+  .lg\:bg-position-y-initial {
+    background-position-y: initial;
+  }
+  .lg\:bg-position-y-unset {
+    background-position-y: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-position-y-top {
+    background-position-y: top;
+  }
+  .xl\:bg-position-y-left {
+    background-position-y: left;
+  }
+  .xl\:bg-position-y-right {
+    background-position-y: right;
+  }
+  .xl\:bg-position-y-bottom {
+    background-position-y: bottom;
+  }
+  .xl\:bg-position-y-center {
+    background-position-y: center;
+  }
+  .xl\:bg-position-y-inherit {
+    background-position-y: inherit;
+  }
+  .xl\:bg-position-y-initial {
+    background-position-y: initial;
+  }
+  .xl\:bg-position-y-unset {
+    background-position-y: unset;
+  }
+}
+.bg-image-none {
+  background-image: none;
+}
+.bg-image-inherit {
+  background-image: inherit;
+}
+.bg-image-initial {
+  background-image: initial;
+}
+.bg-image-unset {
+  background-image: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-image-none {
+    background-image: none;
+  }
+  .sm\:bg-image-inherit {
+    background-image: inherit;
+  }
+  .sm\:bg-image-initial {
+    background-image: initial;
+  }
+  .sm\:bg-image-unset {
+    background-image: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-image-none {
+    background-image: none;
+  }
+  .md\:bg-image-inherit {
+    background-image: inherit;
+  }
+  .md\:bg-image-initial {
+    background-image: initial;
+  }
+  .md\:bg-image-unset {
+    background-image: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-image-none {
+    background-image: none;
+  }
+  .lg\:bg-image-inherit {
+    background-image: inherit;
+  }
+  .lg\:bg-image-initial {
+    background-image: initial;
+  }
+  .lg\:bg-image-unset {
+    background-image: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-image-none {
+    background-image: none;
+  }
+  .xl\:bg-image-inherit {
+    background-image: inherit;
+  }
+  .xl\:bg-image-initial {
+    background-image: initial;
+  }
+  .xl\:bg-image-unset {
+    background-image: unset;
+  }
+}
+.bg-repeat-round {
+  background-repeat: round;
+}
+.bg-repeat-space {
+  background-repeat: space;
+}
+.bg-repeat-repeat {
+  background-repeat: repeat;
+}
+.bg-repeat-repeat-y {
+  background-repeat: repeat-y;
+}
+.bg-repeat-repeat-x {
+  background-repeat: repeat-x;
+}
+.bg-repeat-no-repeat {
+  background-repeat: no-repeat;
+}
+.bg-repeat-inherit {
+  background-repeat: inherit;
+}
+.bg-repeat-initial {
+  background-repeat: initial;
+}
+.bg-repeat-unset {
+  background-repeat: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-repeat-round {
+    background-repeat: round;
+  }
+  .sm\:bg-repeat-space {
+    background-repeat: space;
+  }
+  .sm\:bg-repeat-repeat {
+    background-repeat: repeat;
+  }
+  .sm\:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .sm\:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .sm\:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .sm\:bg-repeat-inherit {
+    background-repeat: inherit;
+  }
+  .sm\:bg-repeat-initial {
+    background-repeat: initial;
+  }
+  .sm\:bg-repeat-unset {
+    background-repeat: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-repeat-round {
+    background-repeat: round;
+  }
+  .md\:bg-repeat-space {
+    background-repeat: space;
+  }
+  .md\:bg-repeat-repeat {
+    background-repeat: repeat;
+  }
+  .md\:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .md\:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .md\:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .md\:bg-repeat-inherit {
+    background-repeat: inherit;
+  }
+  .md\:bg-repeat-initial {
+    background-repeat: initial;
+  }
+  .md\:bg-repeat-unset {
+    background-repeat: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-repeat-round {
+    background-repeat: round;
+  }
+  .lg\:bg-repeat-space {
+    background-repeat: space;
+  }
+  .lg\:bg-repeat-repeat {
+    background-repeat: repeat;
+  }
+  .lg\:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .lg\:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .lg\:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .lg\:bg-repeat-inherit {
+    background-repeat: inherit;
+  }
+  .lg\:bg-repeat-initial {
+    background-repeat: initial;
+  }
+  .lg\:bg-repeat-unset {
+    background-repeat: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-repeat-round {
+    background-repeat: round;
+  }
+  .xl\:bg-repeat-space {
+    background-repeat: space;
+  }
+  .xl\:bg-repeat-repeat {
+    background-repeat: repeat;
+  }
+  .xl\:bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .xl\:bg-repeat-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .xl\:bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .xl\:bg-repeat-inherit {
+    background-repeat: inherit;
+  }
+  .xl\:bg-repeat-initial {
+    background-repeat: initial;
+  }
+  .xl\:bg-repeat-unset {
+    background-repeat: unset;
+  }
+}
+.bg-size-auto {
+  background-size: auto;
+}
+.bg-size-contain {
+  background-size: contain;
+}
+.bg-size-cover {
+  background-size: cover;
+}
+.bg-size-inherit {
+  background-size: inherit;
+}
+.bg-size-initial {
+  background-size: initial;
+}
+.bg-size-unset {
+  background-size: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-size-auto {
+    background-size: auto;
+  }
+  .sm\:bg-size-contain {
+    background-size: contain;
+  }
+  .sm\:bg-size-cover {
+    background-size: cover;
+  }
+  .sm\:bg-size-inherit {
+    background-size: inherit;
+  }
+  .sm\:bg-size-initial {
+    background-size: initial;
+  }
+  .sm\:bg-size-unset {
+    background-size: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-size-auto {
+    background-size: auto;
+  }
+  .md\:bg-size-contain {
+    background-size: contain;
+  }
+  .md\:bg-size-cover {
+    background-size: cover;
+  }
+  .md\:bg-size-inherit {
+    background-size: inherit;
+  }
+  .md\:bg-size-initial {
+    background-size: initial;
+  }
+  .md\:bg-size-unset {
+    background-size: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-size-auto {
+    background-size: auto;
+  }
+  .lg\:bg-size-contain {
+    background-size: contain;
+  }
+  .lg\:bg-size-cover {
+    background-size: cover;
+  }
+  .lg\:bg-size-inherit {
+    background-size: inherit;
+  }
+  .lg\:bg-size-initial {
+    background-size: initial;
+  }
+  .lg\:bg-size-unset {
+    background-size: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-size-auto {
+    background-size: auto;
+  }
+  .xl\:bg-size-contain {
+    background-size: contain;
+  }
+  .xl\:bg-size-cover {
+    background-size: cover;
+  }
+  .xl\:bg-size-inherit {
+    background-size: inherit;
+  }
+  .xl\:bg-size-initial {
+    background-size: initial;
+  }
+  .xl\:bg-size-unset {
+    background-size: unset;
+  }
+}
+.bg-clip-border-box {
+  background-clip: border-box;
+}
+.bg-clip-content-box {
+  background-clip: content-box;
+}
+.bg-clip-padding-box {
+  background-clip: padding-box;
+}
+.bg-clip-inherit {
+  background-clip: inherit;
+}
+.bg-clip-initial {
+  background-clip: initial;
+}
+.bg-clip-unset {
+  background-clip: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-clip-border-box {
+    background-clip: border-box;
+  }
+  .sm\:bg-clip-content-box {
+    background-clip: content-box;
+  }
+  .sm\:bg-clip-padding-box {
+    background-clip: padding-box;
+  }
+  .sm\:bg-clip-inherit {
+    background-clip: inherit;
+  }
+  .sm\:bg-clip-initial {
+    background-clip: initial;
+  }
+  .sm\:bg-clip-unset {
+    background-clip: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-clip-border-box {
+    background-clip: border-box;
+  }
+  .md\:bg-clip-content-box {
+    background-clip: content-box;
+  }
+  .md\:bg-clip-padding-box {
+    background-clip: padding-box;
+  }
+  .md\:bg-clip-inherit {
+    background-clip: inherit;
+  }
+  .md\:bg-clip-initial {
+    background-clip: initial;
+  }
+  .md\:bg-clip-unset {
+    background-clip: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-clip-border-box {
+    background-clip: border-box;
+  }
+  .lg\:bg-clip-content-box {
+    background-clip: content-box;
+  }
+  .lg\:bg-clip-padding-box {
+    background-clip: padding-box;
+  }
+  .lg\:bg-clip-inherit {
+    background-clip: inherit;
+  }
+  .lg\:bg-clip-initial {
+    background-clip: initial;
+  }
+  .lg\:bg-clip-unset {
+    background-clip: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-clip-border-box {
+    background-clip: border-box;
+  }
+  .xl\:bg-clip-content-box {
+    background-clip: content-box;
+  }
+  .xl\:bg-clip-padding-box {
+    background-clip: padding-box;
+  }
+  .xl\:bg-clip-inherit {
+    background-clip: inherit;
+  }
+  .xl\:bg-clip-initial {
+    background-clip: initial;
+  }
+  .xl\:bg-clip-unset {
+    background-clip: unset;
+  }
+}
+.bg-attachment-fixed {
+  background-attachment: fixed;
+}
+.bg-attachment-local {
+  background-attachment: local;
+}
+.bg-attachment-scroll {
+  background-attachment: scroll;
+}
+.bg-attachment-scroll {
+  background-attachment: scroll;
+}
+.bg-attachment-inherit {
+  background-attachment: inherit;
+}
+.bg-attachment-initial {
+  background-attachment: initial;
+}
+.bg-attachment-unset {
+  background-attachment: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-attachment-fixed {
+    background-attachment: fixed;
+  }
+  .sm\:bg-attachment-local {
+    background-attachment: local;
+  }
+  .sm\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .sm\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .sm\:bg-attachment-inherit {
+    background-attachment: inherit;
+  }
+  .sm\:bg-attachment-initial {
+    background-attachment: initial;
+  }
+  .sm\:bg-attachment-unset {
+    background-attachment: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-attachment-fixed {
+    background-attachment: fixed;
+  }
+  .md\:bg-attachment-local {
+    background-attachment: local;
+  }
+  .md\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .md\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .md\:bg-attachment-inherit {
+    background-attachment: inherit;
+  }
+  .md\:bg-attachment-initial {
+    background-attachment: initial;
+  }
+  .md\:bg-attachment-unset {
+    background-attachment: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-attachment-fixed {
+    background-attachment: fixed;
+  }
+  .lg\:bg-attachment-local {
+    background-attachment: local;
+  }
+  .lg\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .lg\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .lg\:bg-attachment-inherit {
+    background-attachment: inherit;
+  }
+  .lg\:bg-attachment-initial {
+    background-attachment: initial;
+  }
+  .lg\:bg-attachment-unset {
+    background-attachment: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-attachment-fixed {
+    background-attachment: fixed;
+  }
+  .xl\:bg-attachment-local {
+    background-attachment: local;
+  }
+  .xl\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .xl\:bg-attachment-scroll {
+    background-attachment: scroll;
+  }
+  .xl\:bg-attachment-inherit {
+    background-attachment: inherit;
+  }
+  .xl\:bg-attachment-initial {
+    background-attachment: initial;
+  }
+  .xl\:bg-attachment-unset {
+    background-attachment: unset;
+  }
+}
+.bg-blend-mode-color {
+  background-blend-mode: color;
+}
+.bg-blend-mode-color-burn {
+  background-blend-mode: color-burn;
+}
+.bg-blend-mode-color-dodge {
+  background-blend-mode: color-dodge;
+}
+.bg-blend-mode-darken {
+  background-blend-mode: darken;
+}
+.bg-blend-mode-difference {
+  background-blend-mode: difference;
+}
+.bg-blend-mode-exclusion {
+  background-blend-mode: exclusion;
+}
+.bg-blend-mode-hard-light {
+  background-blend-mode: hard-light;
+}
+.bg-blend-mode-hue {
+  background-blend-mode: hue;
+}
+.bg-blend-mode-lighten {
+  background-blend-mode: lighten;
+}
+.bg-blend-mode-luminosity {
+  background-blend-mode: luminosity;
+}
+.bg-blend-mode-multiply {
+  background-blend-mode: multiply;
+}
+.bg-blend-mode-normal {
+  background-blend-mode: normal;
+}
+.bg-blend-mode-overlay {
+  background-blend-mode: overlay;
+}
+.bg-blend-mode-saturation {
+  background-blend-mode: saturation;
+}
+.bg-blend-mode-screen {
+  background-blend-mode: screen;
+}
+.bg-blend-mode-soft-light {
+  background-blend-mode: soft-light;
+}
+.bg-blend-mode-inherit {
+  background-blend-mode: inherit;
+}
+.bg-blend-mode-initial {
+  background-blend-mode: initial;
+}
+.bg-blend-mode-unset {
+  background-blend-mode: unset;
+}
+
+@media (max-width: 640px) {
+  .sm\:bg-blend-mode-color {
+    background-blend-mode: color;
+  }
+  .sm\:bg-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+  .sm\:bg-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+  .sm\:bg-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+  .sm\:bg-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+  .sm\:bg-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+  .sm\:bg-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+  .sm\:bg-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+  .sm\:bg-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+  .sm\:bg-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
+  .sm\:bg-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+  .sm\:bg-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+  .sm\:bg-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+  .sm\:bg-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+  .sm\:bg-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+  .sm\:bg-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+  .sm\:bg-blend-mode-inherit {
+    background-blend-mode: inherit;
+  }
+  .sm\:bg-blend-mode-initial {
+    background-blend-mode: initial;
+  }
+  .sm\:bg-blend-mode-unset {
+    background-blend-mode: unset;
+  }
+}
+@media (max-width: 800px) {
+  .md\:bg-blend-mode-color {
+    background-blend-mode: color;
+  }
+  .md\:bg-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+  .md\:bg-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+  .md\:bg-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+  .md\:bg-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+  .md\:bg-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+  .md\:bg-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+  .md\:bg-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+  .md\:bg-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+  .md\:bg-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
+  .md\:bg-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+  .md\:bg-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+  .md\:bg-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+  .md\:bg-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+  .md\:bg-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+  .md\:bg-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+  .md\:bg-blend-mode-inherit {
+    background-blend-mode: inherit;
+  }
+  .md\:bg-blend-mode-initial {
+    background-blend-mode: initial;
+  }
+  .md\:bg-blend-mode-unset {
+    background-blend-mode: unset;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-blend-mode-color {
+    background-blend-mode: color;
+  }
+  .lg\:bg-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+  .lg\:bg-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+  .lg\:bg-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+  .lg\:bg-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+  .lg\:bg-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+  .lg\:bg-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+  .lg\:bg-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+  .lg\:bg-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+  .lg\:bg-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
+  .lg\:bg-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+  .lg\:bg-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+  .lg\:bg-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+  .lg\:bg-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+  .lg\:bg-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+  .lg\:bg-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+  .lg\:bg-blend-mode-inherit {
+    background-blend-mode: inherit;
+  }
+  .lg\:bg-blend-mode-initial {
+    background-blend-mode: initial;
+  }
+  .lg\:bg-blend-mode-unset {
+    background-blend-mode: unset;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-blend-mode-color {
+    background-blend-mode: color;
+  }
+  .xl\:bg-blend-mode-color-burn {
+    background-blend-mode: color-burn;
+  }
+  .xl\:bg-blend-mode-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+  .xl\:bg-blend-mode-darken {
+    background-blend-mode: darken;
+  }
+  .xl\:bg-blend-mode-difference {
+    background-blend-mode: difference;
+  }
+  .xl\:bg-blend-mode-exclusion {
+    background-blend-mode: exclusion;
+  }
+  .xl\:bg-blend-mode-hard-light {
+    background-blend-mode: hard-light;
+  }
+  .xl\:bg-blend-mode-hue {
+    background-blend-mode: hue;
+  }
+  .xl\:bg-blend-mode-lighten {
+    background-blend-mode: lighten;
+  }
+  .xl\:bg-blend-mode-luminosity {
+    background-blend-mode: luminosity;
+  }
+  .xl\:bg-blend-mode-multiply {
+    background-blend-mode: multiply;
+  }
+  .xl\:bg-blend-mode-normal {
+    background-blend-mode: normal;
+  }
+  .xl\:bg-blend-mode-overlay {
+    background-blend-mode: overlay;
+  }
+  .xl\:bg-blend-mode-saturation {
+    background-blend-mode: saturation;
+  }
+  .xl\:bg-blend-mode-screen {
+    background-blend-mode: screen;
+  }
+  .xl\:bg-blend-mode-soft-light {
+    background-blend-mode: soft-light;
+  }
+  .xl\:bg-blend-mode-inherit {
+    background-blend-mode: inherit;
+  }
+  .xl\:bg-blend-mode-initial {
+    background-blend-mode: initial;
+  }
+  .xl\:bg-blend-mode-unset {
+    background-blend-mode: unset;
+  }
+}
 .object-fit {
   object-fit: cover;
 }
@@ -5976,6 +7266,10 @@ button {
     width: 100%;
   }
 }
+.w-half {
+  width: 50vw;
+}
+
 @media (max-width: 640px) {
   .sm\:w-half {
     width: 50vw;
