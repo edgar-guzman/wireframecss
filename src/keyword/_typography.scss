@@ -1,0 +1,2325 @@
+// NOTE TO SELF
+// print:text-black when printing
+// print:bg-black when printing
+
+// TEXT ARENA //
+.text {
+    &-center { text-align: center; }
+    &-end { text-align: end; }
+    &-justify { text-align: justify; }
+    &-left { text-align: left; }
+    &-right { text-align: right; }
+    &-start { text-align: start; }
+    &-inherit { text-align: inherit; }
+    &-initial { text-align: inherit; }
+    &-unset { text-align: unset; }
+}
+
+.h\:text {
+    &-center:hover { text-align: center; }
+    &-end:hover { text-align: end; }
+    &-justify:hover { text-align: justify; }
+    &-left:hover { text-align: left; }
+    &-right:hover { text-align: right; }
+    &-start:hover { text-align: start; }
+    &-inherit:hover { text-align: inherit; }
+    &-initial:hover { text-align: inherit; }
+    &-unset:hover { text-align: unset; }
+}
+
+.a\:text {
+    &-center:active { text-align: center; }
+    &-end:active { text-align: end; }
+    &-justify:active { text-align: justify; }
+    &-left:active { text-align: left; }
+    &-right:active { text-align: right; }
+    &-start:active { text-align: start; }
+    &-inherit:active { text-align: inherit; }
+    &-initial:active { text-align: inherit; }
+    &-unset:active { text-align: unset; }
+}
+
+// TEXT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:text {
+        &-center { text-align: center; }
+        &-end { text-align: end; }
+        &-justify { text-align: justify; }
+        &-left { text-align: left; }
+        &-right { text-align: right; }
+        &-start { text-align: start; }
+        &-inherit { text-align: inherit; }
+        &-initial { text-align: inherit; }
+        &-unset { text-align: unset; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:text {
+        &-center { text-align: center; }
+        &-end { text-align: end; }
+        &-justify { text-align: justify; }
+        &-left { text-align: left; }
+        &-right { text-align: right; }
+        &-start { text-align: start; }
+        &-inherit { text-align: inherit; }
+        &-initial { text-align: inherit; }
+        &-unset { text-align: unset; }
+    }
+}
+
+@media (max-width: 1024px) {
+    .lg\:text {
+        &-center { text-align: center; }
+        &-end { text-align: end; }
+        &-justify { text-align: justify; }
+        &-left { text-align: left; }
+        &-right { text-align: right; }
+        &-start { text-align: start; }
+        &-inherit { text-align: inherit; }
+        &-initial { text-align: inherit; }
+        &-unset { text-align: unset; }
+    }
+}
+
+@media (max-width: 1280px) {
+    .xl\:text {
+        &-center { text-align: center; }
+        &-end { text-align: end; }
+        &-justify { text-align: justify; }
+        &-left { text-align: left; }
+        &-right { text-align: right; }
+        &-start { text-align: start; }
+        &-inherit { text-align: inherit; }
+        &-initial { text-align: inherit; }
+        &-unset { text-align: unset; }
+    }
+}
+
+// H:TEXT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:h\:text {
+        &-center:hover { text-align: center; }
+        &-end:hover { text-align: end; }
+        &-justify:hover { text-align: justify; }
+        &-left:hover { text-align: left; }
+        &-right:hover { text-align: right; }
+        &-start:hover { text-align: start; }
+        &-inherit:hover { text-align: inherit; }
+        &-initial:hover { text-align: inherit; }
+        &-unset:hover { text-align: unset; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:h\:text {
+        &-center:hover { text-align: center; }
+        &-end:hover { text-align: end; }
+        &-justify:hover { text-align: justify; }
+        &-left:hover { text-align: left; }
+        &-right:hover { text-align: right; }
+        &-start:hover { text-align: start; }
+        &-inherit:hover { text-align: inherit; }
+        &-initial:hover { text-align: inherit; }
+        &-unset:hover { text-align: unset; }
+    }
+}
+
+@media (max-width: 1024px) {
+    .lg\:h\:text {
+        &-center:hover { text-align: center; }
+        &-end:hover { text-align: end; }
+        &-justify:hover { text-align: justify; }
+        &-left:hover { text-align: left; }
+        &-right:hover { text-align: right; }
+        &-start:hover { text-align: start; }
+        &-inherit:hover { text-align: inherit; }
+        &-initial:hover { text-align: inherit; }
+        &-unset:hover { text-align: unset; }
+    }
+}
+
+@media (max-width: 1280px) {
+    .xl\:h\:text {
+        &-center:hover { text-align: center; }
+        &-end:hover { text-align: end; }
+        &-justify:hover { text-align: justify; }
+        &-left:hover { text-align: left; }
+        &-right:hover { text-align: right; }
+        &-start:hover { text-align: start; }
+        &-inherit:hover { text-align: inherit; }
+        &-initial:hover { text-align: inherit; }
+        &-unset:hover { text-align: unset; }
+    }
+}
+
+// A:TEXT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:text {
+        &-center:active { text-align: center; }
+        &-end:active { text-align: end; }
+        &-justify:active { text-align: justify; }
+        &-left:active { text-align: left; }
+        &-right:active { text-align: right; }
+        &-start:active { text-align: start; }
+        &-inherit:active { text-align: inherit; }
+        &-initial:active { text-align: inherit; }
+        &-unset:active { text-align: unset; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:a\:text {
+        &-center:active { text-align: center; }
+        &-end:active { text-align: end; }
+        &-justify:active { text-align: justify; }
+        &-left:active { text-align: left; }
+        &-right:active { text-align: right; }
+        &-start:active { text-align: start; }
+        &-inherit:active { text-align: inherit; }
+        &-initial:active { text-align: inherit; }
+        &-unset:active { text-align: unset; }
+    }
+}
+
+@media (max-width: 1024px) {
+    .lg\:a\:text {
+        &-center:active { text-align: center; }
+        &-end:active { text-align: end; }
+        &-justify:active { text-align: justify; }
+        &-left:active { text-align: left; }
+        &-right:active { text-align: right; }
+        &-start:active { text-align: start; }
+        &-inherit:active { text-align: inherit; }
+        &-initial:active { text-align: inherit; }
+        &-unset:active { text-align: unset; }
+    }
+}
+
+@media (max-width: 1280px) {
+    .xl\:a\:text {
+        &-center:active { text-align: center; }
+        &-end:active { text-align: end; }
+        &-justify:active { text-align: justify; }
+        &-left:active { text-align: left; }
+        &-right:active { text-align: right; }
+        &-start:active { text-align: start; }
+        &-inherit:active { text-align: inherit; }
+        &-initial:active { text-align: inherit; }
+        &-unset:active { text-align: unset; }
+    }
+}
+
+// LETTER-SPACING ARENA //
+.letter-spacing {
+    &-normal { letter-spacing: normal; }
+    &-tighter { letter-spacing: -0.05em; }
+    &-tight { letter-spacing: -0.025em; }
+    &-wide { letter-spacing: 0.025em; }
+    &-wider { letter-spacing: 0.025em; }
+    &-widest { letter-spacing: 0.1em; }
+}
+
+// LETTER-SPACING @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:letter-spacing {
+        &-normal { letter-spacing: normal; }
+        &-tighter { letter-spacing: -0.05em; }
+        &-tight { letter-spacing: -0.025em; }
+        &-wide { letter-spacing: 0.025em; }
+        &-wider { letter-spacing: 0.025em; }
+        &-widest { letter-spacing: 0.1em; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:letter-spacing {
+        &-normal { letter-spacing: normal; }
+        &-tighter { letter-spacing: -0.05em; }
+        &-tight { letter-spacing: -0.025em; }
+        &-wide { letter-spacing: 0.025em; }
+        &-wider { letter-spacing: 0.025em; }
+        &-widest { letter-spacing: 0.1em; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:letter-spacing {
+        &-normal { letter-spacing: normal; }
+        &-tighter { letter-spacing: -0.05em; }
+        &-tight { letter-spacing: -0.025em; }
+        &-wide { letter-spacing: 0.025em; }
+        &-wider { letter-spacing: 0.025em; }
+        &-widest { letter-spacing: 0.1em; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:letter-spacing {
+        &-normal { letter-spacing: normal; }
+        &-tighter { letter-spacing: -0.05em; }
+        &-tight { letter-spacing: -0.025em; }
+        &-wide { letter-spacing: 0.025em; }
+        &-wider { letter-spacing: 0.025em; }
+        &-widest { letter-spacing: 0.1em; }
+    }
+}
+
+// FROM OPACITY-0 TO HOVER:OPACITY-0 TO ACTIVE:OPACITY-0 //
+.text-opacity {
+    &-0 { opacity: 0; }
+    &-1 { opacity: 1; }
+}
+.h\:text-opacity {
+    &-0:hover { opacity: 0; }
+    &-1:hover { opacity: 1; }
+}
+.a\:text-opacity {
+    &-0:active { opacity: 0; }
+    &-1:active { opacity: 1; }
+}
+
+// TEXT-OPACITY @MEDIA //
+@media (max-width: 640px) {
+    .sm\:text-opacity {
+        &-0 { opacity: 0; }
+        &-1 { opacity: 1; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:text-opacity {
+        &-0 { opacity: 0; }
+        &-1 { opacity: 1; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:text-opacity {
+        &-0 { opacity: 0; }
+        &-1 { opacity: 1; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:text-opacity {
+        &-0 { opacity: 0; }
+        &-1 { opacity: 1; }
+    }
+}
+
+// H:TEXT-OPACITY @MEDIA //
+@media (max-width: 640px) {
+    .sm\:h\:text-opacity {
+        &-0:hover { opacity: 0; }
+        &-1:hover { opacity: 1; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:h\:text-opacity {
+        &-0:hover { opacity: 0; }
+        &-1:hover { opacity: 1; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:text-opacity {
+        &-0:hover { opacity: 0; }
+        &-1:hover { opacity: 1; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:text-opacity {
+        &-0:hover { opacity: 0; }
+        &-1:hover { opacity: 1; }
+    }
+}
+
+// A:TEXT-OPACITY @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:text-opacity {
+        &-0:hover { opacity: 0; }
+        &-1:hover { opacity: 1; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:a\:text-opacity {
+        &-0:active { opacity: 0; }
+        &-1:active { opacity: 1; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:text-opacity {
+        &-0:active { opacity: 0; }
+        &-1:active { opacity: 1; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:text-opacity {
+        &-0:active { opacity: 0; }
+        &-1:active { opacity: 1; }
+    }
+}
+
+// :PLACEHOLDER ARENA
+.placeholder {
+    &-transparent::placeholder { color: transparent; }
+    &-current::placeholder { color: currentColor; }
+    &-white::placeholder { color: var(--white); }
+    &-black::placeholder { color: var(--black); }
+    &-green::placeholder { color: var(--green); }
+    &-red::placeholder { color: var(--red); }
+}
+
+@media (max-width: 640px) {
+    .sm\:placeholder {
+        &-transparent::placeholder { color: transparent; }
+        &-current::placeholder { color: currentColor; }
+        &-white::placeholder { color: var(--white); }
+        &-black::placeholder { color: var(--black); }
+        &-green::placeholder { color: var(--green); }
+        &-red::placeholder { color: var(--red); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:placeholder {
+        &-transparent::placeholder { color: transparent; }
+        &-current::placeholder { color: currentColor; }
+        &-white::placeholder { color: var(--white); }
+        &-black::placeholder { color: var(--black); }
+        &-green::placeholder { color: var(--green); }
+        &-red::placeholder { color: var(--red); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:placeholder {
+        &-transparent::placeholder { color: transparent; }
+        &-current::placeholder { color: currentColor; }
+        &-white::placeholder { color: var(--white); }
+        &-black::placeholder { color: var(--black); }
+        &-green::placeholder { color: var(--green); }
+        &-red::placeholder { color: var(--red); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:placeholder {
+        &-transparent::placeholder { color: transparent; }
+        &-current::placeholder { color: currentColor; }
+        &-white::placeholder { color: var(--white); }
+        &-black::placeholder { color: var(--black); }
+        &-green::placeholder { color: var(--green); }
+        &-red::placeholder { color: var(--red); }
+    }
+}
+
+// TEXT-DECORATION ARENA
+.text-decoration {
+    &-none { text-decoration: none; }
+    &-overline { text-decoration: overline; }
+    &-line-through { text-decoration: line-through; }
+    &-underline { text-decoration: underline; }
+}
+
+.h\:text-decoration {
+    &-none:hover { text-decoration: none; }
+    &-overline:hover { text-decoration: overline; }
+    &-underline:hover { text-decoration: underline; }
+    &-line-through:hover { text-decoration: line-through; }
+}
+
+.a\:text-decoration {
+    &-none:active { text-decoration: none; }
+    &-overline:active { text-decoration: overline; }
+    &-underline:active { text-decoration: underline; }
+    &-line-through:active { text-decoration: line-through; }
+}
+
+// TEXT-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:text-decoration {
+        &-none { text-decoration: none; }
+        &-overline { text-decoration: overline; }
+        &-line-through { text-decoration: line-through; }
+        &-underline { text-decoration: underline; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:text-decoration {
+        &-none { text-decoration: none; }
+        &-overline { text-decoration: overline; }
+        &-line-through { text-decoration: line-through; }
+        &-underline { text-decoration: underline; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:text-decoration {
+        &-none { text-decoration: none; }
+        &-overline { text-decoration: overline; }
+        &-line-through { text-decoration: line-through; }
+        &-underline { text-decoration: underline; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:text-decoration {
+        &-none { text-decoration: none; }
+        &-overline { text-decoration: overline; }
+        &-line-through { text-decoration: line-through; }
+        &-underline { text-decoration: underline; }
+    }
+}
+
+// H:TEXT-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:h\:text-decoration {
+        &-none:hover { text-decoration: none; }
+        &-overline:hover { text-decoration: overline; }
+        &-underline:hover { text-decoration: underline; }
+        &-line-through:hover { text-decoration: line-through; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:h\:text-decoration {
+        &-none:hover { text-decoration: none; }
+        &-overline:hover { text-decoration: overline; }
+        &-underline:hover { text-decoration: underline; }
+        &-line-through:hover { text-decoration: line-through; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:text-decoration {
+        &-none:hover { text-decoration: none; }
+        &-overline:hover { text-decoration: overline; }
+        &-underline:hover { text-decoration: underline; }
+        &-line-through:hover { text-decoration: line-through; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:text-decoration {
+        &-none:hover { text-decoration: none; }
+        &-overline:hover { text-decoration: overline; }
+        &-underline:hover { text-decoration: underline; }
+        &-line-through:hover { text-decoration: line-through; }
+    }
+}
+
+// A:TEXT-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:text-decoration {
+        &-none:active { text-decoration: none; }
+        &-overline:active { text-decoration: overline; }
+        &-underline:active { text-decoration: underline; }
+        &-line-through:active { text-decoration: line-through; }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:a\:text-decoration {
+        &-none:active { text-decoration: none; }
+        &-overline:active { text-decoration: overline; }
+        &-underline:active { text-decoration: underline; }
+        &-line-through:active { text-decoration: line-through; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:text-decoration {
+        &-none:active { text-decoration: none; }
+        &-overline:active { text-decoration: overline; }
+        &-underline:active { text-decoration: underline; }
+        &-line-through:active { text-decoration: line-through; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:text-decoration {
+        &-none:active { text-decoration: none; }
+        &-overline:active { text-decoration: overline; }
+        &-underline:active { text-decoration: underline; }
+        &-line-through:active { text-decoration: line-through; }
+    }
+}
+
+// COLOR/BACKGROUND-COLOR ARENA
+// LIGHT OR DARK THEME ARENA
+// LIGHT MODE
+.light {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+@media (max-width: 640px) {
+    .sm\:light {
+        color: var(--black);
+        background-color: var(--white);
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:light {
+        color: var(--black);
+        background-color: var(--white);
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:light {
+        color: var(--black);
+        background-color: var(--white);
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:light {
+        color: var(--black);
+        background-color: var(--white);
+    }
+}
+
+// DARK MODE
+.dark {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+@media (max-width: 640px) {
+    .sm\:dark {
+        color: var(--white);
+        background-color: var(--black);
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:dark {
+        color: var(--white);
+        background-color: var(--black);
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:dark {
+        color: var(--white);
+        background-color: var(--black);
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:dark {
+        color: var(--white);
+        background-color: var(--black);
+    }
+}
+
+// TEXT-BG--COLOR/HOVER\:TEXT-BG--COLOR
+.text {
+    &-transparent { color: var(--transparent); }
+    &-white { color: var(--white); }
+    &-black { color: var(--black); }
+    &-gray-ccc { color: var(--gray-ccc); }
+    &-gray-light { color: var(--gray-light); }
+    &-gray-medium { color: var(--gray-medium); }
+    &-gray-dark { color: var(--gray-dark); }
+    &-blue-el { color: var(--blue-el); }
+    &-blue-light { color: var(--blue-light); }
+    &-blue { color: var(--blue); }
+    &-green-el { color: var(--green-el); }
+    &-green-light { color: var(--green-light); }
+    &-green-dark { color: var(--green-dark); }
+    &-green { color: var(--green); }
+    &-purple-light { color: var(--purple-light); }
+    &-purple { color: var(--purple); }
+    &-yellow-el { color: var(--yellow-el); }
+    &-yellow-light { color: var(--yellow-light); }
+    &-yellow-mastard { color: var(--yellow-mastard); }
+    &-yellow-ld { color: var(--yellow-ld); }
+    &-yellow-dark { color: var(--yellow-dark); }
+    &-yellow { color: var(--yellow); }
+    &-orange { color: var(--orange); }
+    &-red-el { color: var(--red-el); }
+    &-red-light { color: var(--red-light); }
+    &-red { color: var(--red); }
+    &-pink { color: var(--pink); }
+
+    &-blue-50 { color: var(--blue-50); }
+}
+.h\:text {
+    &-transparent:hover { color: var(--transparent); }
+    &-white:hover { color: var(--white); }
+    &-black:hover { color: var(--black); }
+    &-gray-ccc:hover { color: var(--gray-ccc); }
+    &-gray-light:hover { color: var(--gray-light); }
+    &-gray-medium:hover { color: var(--gray-medium); }
+    &-gray-dark:hover { color: var(--gray-dark); }
+    &-gray-ccc:hover { color: var(--gray-ccc); }
+    &-blue-el:hover { color: var(--blue-el); }
+    &-blue-light:hover { color: var(--blue-light); }
+    &-blue:hover { color: var(--blue); }
+    &-green-el:hover { color: var(--green-el); }
+    &-green-light:hover { color: var(--green-light); }
+    &-green-dark:hover { color: var(--green-dark); }
+    &-green:hover { color: var(--green); }
+    &-purple-light:hover { color: var(--purple-light); }
+    &-purple:hover { color: var(--purple); }
+    &-yellow-el:hover { color: var(--yellow-el); }
+    &-yellow-light:hover { color: var(--yellow-light); }
+    &-yellow-mastard:hover { color: var(--yellow-mastard); }
+    &-yellow-ld:hover { color: var(--yellow-ld); }
+    &-yellow-dark:hover { color: var(--yellow-dark); }
+    &-yellow:hover { color: var(--yellow); }
+    &-orange:hover { color: var(--orange); }
+    &-red-el:hover { color: var(--red-el); }
+    &-red-light:hover { color: var(--red-light); }
+    &-red:hover { color: var(--red); }
+    &-pink:hover { color: var(--pink); }
+
+    &-blue-50:hover { color: var(--blue-50); }
+}
+.a\:text {
+    &-transparent:active { color: var(--transparent); }
+    &-white:active { color: var(--white); }
+    &-black:active { color: var(--black); }
+    &-gray-light:active { color: var(--gray-light); }
+    &-gray-medium:active { color: var(--gray-medium); }
+    &-gray-dark:active { color: var(--gray-dark); }
+    &-blue-el:active { color: var(--blue-el); }
+    &-blue-light:active { color: var(--blue-light); }
+    &-blue:active { color: var(--blue); }
+    &-green-el:active { color: var(--green-el); }
+    &-green-light:active { color: var(--green-light); }
+    &-green-dark:active { color: var(--green-dark); }
+    &-green:active { color: var(--green); }
+    &-purple-light:active { color: var(--purple-light); }
+    &purple:active { color: var(--purple); }
+    &-yellow-el:active { color: var(--yellow-el); }
+    &-yellow-light:active { color: var(--yellow-light); }
+    &-yellow-mastard:active { color: var(--yellow-mastard); }
+    &-yellow-ld:active { color: var(--yellow-ld); }
+    &-yellow-dark:active { color: var(--yellow-dark); }
+    &-yellow:active { color: var(--yellow); }
+    &-orange:active { color: var(--orange); }
+    &-red-el:active { color: var(--red-el); }
+    &-red-light:active { color: var(--red-light); }
+    &-red:active { color: var(--red); }
+    &-pink:active { color: var(--pink); }
+
+    &-blue-50:active { color: var(--blue-50); }
+}
+
+.bg {
+    &-transparent { background-color: var(--transparent); }
+    &-white { background-color: var(--white); }
+    &-black { background-color: var(--black); }
+    &-gray-ccc { background-color: var(--gray-ccc); }
+    &-gray-light { background-color: var(--gray-light); }
+    &-gray-medium { background-color: var(--gray-medium); }
+    &-gray-dark { background-color: var(--gray-dark); }
+    &-green-el { background-color: var(--green-el); }
+    &-green-light { background-color: var(--green-light); }
+    &-green-dark { background-color: var(--green-dark); }
+    &-green { background-color: var(--green); }
+    &-purple-light { background-color: var(--purple-light); }
+    &-purple { background-color: var(--purple); }
+    &-yellow-el { background-color: var(--yellow-el); }
+    &-yellow-light { background-color: var(--yellow-light); }
+    &-yellow-mastard { background-color: var(--yellow-mastard); }
+    &-yellow-ld { background-color: var(--yellow-ld); }
+    &-yellow-dark { background-color: var(--yellow-dark); }
+    &-yellow { background-color: var(--yellow); }
+    &-orange { background-color: var(--orange); }
+    &-red-el { background-color: var(--red-el); }
+    &-red-light { background-color: var(--red-light); }
+    &-red { background-color: var(--red); }
+    &-pink { background-color: var(--pink); }
+
+    &-blue-50 { background-color: var(--blue-50); }
+}
+.h\:bg {
+    &-transparent:hover { color: var(--transparent); }
+    &-white:hover { background-color: var(--white); }
+    &-black { background-color: var(--black); }
+    &-gray-ccc:hover { background-color: var(--gray-ccc); }
+    &-gray-light:hover { background-color: var(--gray-light); }
+    &-gray-medium:hover { background-color: var(--gray-medium); }
+    &-gray-dark:hover { background-color: var(--gray-dark); }
+    &-green-el:hover { background-color: var(--green-el); }
+    &-green-light:hover { background-color: var(--green-light); }
+    &-green-dark:hover { background-color: var(--green-dark); }
+    &-green:hover { background-color: var(--green); }
+    &-purple-light:hover { background-color: var(--purple-light); }
+    &-purple:hover { background-color: var(--purple); }
+    &-yellow-el:hover { background-color: var(--yellow-el); }
+    &-yellow-mastard:hover { background-color: var(--yellow-mastard); }
+    &-yellow-ld:hover { background-color: var(--yellow-ld); }
+    &-yellow-light:hover { background-color: var(--yellow-light); }
+    &-yellow-dark:hover { background-color: var(--yellow-dark); }
+    &-yellow:hover { background-color: var(--yellow); }
+    &-orange:hover { background-color: var(--orange); }
+    &-red-el:hover { background-color: var(--red-el); }
+    &-red-light:hover { background-color: var(--red-light); }
+    &-red:hover { background-color: var(--red); }
+    &-pink:hover { background-color: var(--pink); }
+
+    &-blue-50:hover { background-color: var(--blue-50); }
+}
+.a\:bg {
+    &-transparent:active { color: var(--transparent); }
+    &-white:active { background-color: var(--white); }
+    &-black { background-color: var(--black); }
+    &-gray-ccc:active { background-color: var(--gray-ccc); }
+    &-gray-light:active { background-color: var(--gray-light); }
+    &-gray-medium:active { background-color: var(--gray-medium); }
+    &-gray-dark:active { background-color: var(--gray-dark); }
+    &-green-el:active { background-color: var(--green-el); }
+    &-green-light:active { background-color: var(--green-light); }
+    &-green-dark:active { background-color: var(--green-dark); }
+    &-green:active { background-color: var(--green); }
+    &-purple-light:active { background-color: var(--purple-light); }
+    &-purple:active { background-color: var(--purple); }
+    &-yellow-el:active { background-color: var(--yellow-el); }
+    &-yellow-mastard:active { background-color: var(--yellow-mastard); }
+    &-yellow-ld:active { background-color: var(--yellow-ld); }
+    &-yellow-light:active { background-color: var(--yellow-light); }
+    &-yellow-dark:active { background-color: var(--yellow-dark); }
+    &-yellow:active { background-color: var(--yellow); }
+    &-orange:active { background-color: var(--orange); }
+    &-red-el:active { background-color: var(--red-el); }
+    &-red-light:active { background-color: var(--red-light); }
+    &-red:hover { background-color: var(--red); }
+    &-pink:active { background-color: var(--pink); }
+
+    &-blue-50:active { background-color: var(--blue-50); }
+}
+
+// @MEDIA FOR COLOR/BG-COLOR
+
+@media (max-width: 640px) {
+    .sm\:text {
+        &-transparent { color: var(--transparent); }
+        &-white { color: var(--white); }
+        &-black { color: var(--black); }
+        &-gray-ccc { color: var(--gray-ccc); }
+        &-gray-light { color: var(--gray-light); }
+        &-gray-medium { color: var(--gray-medium); }
+        &-gray-dark { color: var(--gray-dark); }
+        &-blue-el { color: var(--blue-el); }
+        &-blue-light { color: var(--blue-light); }
+        &-blue { color: var(--blue); }
+        &-green-el { color: var(--green-el); }
+        &-green-light { color: var(--green-light); }
+        &-green-dark { color: var(--green-dark); }
+        &-green { color: var(--green); }
+        &-purple-light { color: var(--purple-light); }
+        &-purple { color: var(--purple); }
+        &-yellow-el { color: var(--yellow-el); }
+        &-yellow-light { color: var(--yellow-light); }
+        &-yellow-mastard { color: var(--yellow-mastard); }
+        &-yellow-ld { color: var(--yellow-ld); }
+        &-yellow-dark { color: var(--yellow-dark); }
+        &-yellow { color: var(--yellow); }
+        &-orange { color: var(--orange); }
+        &-red-el { color: var(--red-el); }
+        &-red-light { color: var(--red-light); }
+        &-red { color: var(--red); }
+        &-pink { color: var(--pink); }
+
+        &-blue-50 { color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:text {
+        &-transparent { color: var(--transparent); }
+        &-white { color: var(--white); }
+        &-black { color: var(--black); }
+        &-gray-ccc { color: var(--gray-ccc); }
+        &-gray-light { color: var(--gray-light); }
+        &-gray-medium { color: var(--gray-medium); }
+        &-gray-dark { color: var(--gray-dark); }
+        &-blue-el { color: var(--blue-el); }
+        &-blue-light { color: var(--blue-light); }
+        &-blue { color: var(--blue); }
+        &-green-el { color: var(--green-el); }
+        &-green-light { color: var(--green-light); }
+        &-green-dark { color: var(--green-dark); }
+        &-green { color: var(--green); }
+        &-purple-light { color: var(--purple-light); }
+        &-purple { color: var(--purple); }
+        &-yellow-el { color: var(--yellow-el); }
+        &-yellow-light { color: var(--yellow-light); }
+        &-yellow-mastard { color: var(--yellow-mastard); }
+        &-yellow-ld { color: var(--yellow-ld); }
+        &-yellow-dark { color: var(--yellow-dark); }
+        &-yellow { color: var(--yellow); }
+        &-orange { color: var(--orange); }
+        &-red-el { color: var(--red-el); }
+        &-red-light { color: var(--red-light); }
+        &-red { color: var(--red); }
+        &-pink { color: var(--pink); }
+
+        &-blue-50 { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:text {
+        &-transparent { color: var(--transparent); }
+        &-white { color: var(--white); }
+        &-black { color: var(--black); }
+        &-gray-ccc { color: var(--gray-ccc); }
+        &-gray-light { color: var(--gray-light); }
+        &-gray-medium { color: var(--gray-medium); }
+        &-gray-dark { color: var(--gray-dark); }
+        &-blue-el { color: var(--blue-el); }
+        &-blue-light { color: var(--blue-light); }
+        &-blue { color: var(--blue); }
+        &-green-el { color: var(--green-el); }
+        &-green-light { color: var(--green-light); }
+        &-green-dark { color: var(--green-dark); }
+        &-green { color: var(--green); }
+        &-purple-light { color: var(--purple-light); }
+        &-purple { color: var(--purple); }
+        &-yellow-el { color: var(--yellow-el); }
+        &-yellow-light { color: var(--yellow-light); }
+        &-yellow-mastard { color: var(--yellow-mastard); }
+        &-yellow-ld { color: var(--yellow-ld); }
+        &-yellow-dark { color: var(--yellow-dark); }
+        &-yellow { color: var(--yellow); }
+        &-orange { color: var(--orange); }
+        &-red-el { color: var(--red-el); }
+        &-red-light { color: var(--red-light); }
+        &-red { color: var(--red); }
+        &-pink { color: var(--pink); }
+
+        &-blue-50 { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:text {
+        &-transparent { color: var(--transparent); }
+        &-white { color: var(--white); }
+        &-black { color: var(--black); }
+        &-gray-ccc { color: var(--gray-ccc); }
+        &-gray-light { color: var(--gray-light); }
+        &-gray-medium { color: var(--gray-medium); }
+        &-gray-dark { color: var(--gray-dark); }
+        &-blue-el { color: var(--blue-el); }
+        &-blue-light { color: var(--blue-light); }
+        &-blue { color: var(--blue); }
+        &-green-el { color: var(--green-el); }
+        &-green-light { color: var(--green-light); }
+        &-green-dark { color: var(--green-dark); }
+        &-green { color: var(--green); }
+        &-purple-light { color: var(--purple-light); }
+        &-purple { color: var(--purple); }
+        &-yellow-el { color: var(--yellow-el); }
+        &-yellow-light { color: var(--yellow-light); }
+        &-yellow-mastard { color: var(--yellow-mastard); }
+        &-yellow-ld { color: var(--yellow-ld); }
+        &-yellow-dark { color: var(--yellow-dark); }
+        &-yellow { color: var(--yellow); }
+        &-orange { color: var(--orange); }
+        &-red-el { color: var(--red-el); }
+        &-red-light { color: var(--red-light); }
+        &-red { color: var(--red); }
+        &-pink { color: var(--pink); }
+
+        &-blue-50 { color: var(--blue-50); }
+    }
+}
+
+// H:TEXT //
+@media (max-width: 640px) {
+    .sm\:h\:text {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { color: var(--white); }
+        &-black:hover { color: var(--black); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-gray-light:hover { color: var(--gray-light); }
+        &-gray-medium:hover { color: var(--gray-medium); }
+        &-gray-dark:hover { color: var(--gray-dark); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-blue-el:hover { color: var(--blue-el); }
+        &-blue-light:hover { color: var(--blue-light); }
+        &-blue:hover { color: var(--blue); }
+        &-green-el:hover { color: var(--green-el); }
+        &-green-light:hover { color: var(--green-light); }
+        &-green-dark:hover { color: var(--green-dark); }
+        &-green:hover { color: var(--green); }
+        &-purple-light:hover { color: var(--purple-light); }
+        &-purple:hover { color: var(--purple); }
+        &-yellow-el:hover { color: var(--yellow-el); }
+        &-yellow-light:hover { color: var(--yellow-light); }
+        &-yellow-mastard:hover { color: var(--yellow-mastard); }
+        &-yellow-ld:hover { color: var(--yellow-ld); }
+        &-yellow-dark:hover { color: var(--yellow-dark); }
+        &-yellow:hover { color: var(--yellow); }
+        &-orange:hover { color: var(--orange); }
+        &-red-el:hover { color: var(--red-el); }
+        &-red-light:hover { color: var(--red-light); }
+        &-red:hover { color: var(--red); }
+        &-pink:hover { color: var(--pink); }
+
+        &-blue-50:hover { color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:h\:text {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { color: var(--white); }
+        &-black:hover { color: var(--black); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-gray-light:hover { color: var(--gray-light); }
+        &-gray-medium:hover { color: var(--gray-medium); }
+        &-gray-dark:hover { color: var(--gray-dark); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-blue-el:hover { color: var(--blue-el); }
+        &-blue-light:hover { color: var(--blue-light); }
+        &-blue:hover { color: var(--blue); }
+        &-green-el:hover { color: var(--green-el); }
+        &-green-light:hover { color: var(--green-light); }
+        &-green-dark:hover { color: var(--green-dark); }
+        &-green:hover { color: var(--green); }
+        &-purple-light:hover { color: var(--purple-light); }
+        &-purple:hover { color: var(--purple); }
+        &-yellow-el:hover { color: var(--yellow-el); }
+        &-yellow-light:hover { color: var(--yellow-light); }
+        &-yellow-mastard:hover { color: var(--yellow-mastard); }
+        &-yellow-ld:hover { color: var(--yellow-ld); }
+        &-yellow-dark:hover { color: var(--yellow-dark); }
+        &-yellow:hover { color: var(--yellow); }
+        &-orange:hover { color: var(--orange); }
+        &-red-el:hover { color: var(--red-el); }
+        &-red-light:hover { color: var(--red-light); }
+        &-red:hover { color: var(--red); }
+        &-pink:hover { color: var(--pink); }
+
+        &-blue-50:hover { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:text {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { color: var(--white); }
+        &-black:hover { color: var(--black); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-gray-light:hover { color: var(--gray-light); }
+        &-gray-medium:hover { color: var(--gray-medium); }
+        &-gray-dark:hover { color: var(--gray-dark); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-blue-el:hover { color: var(--blue-el); }
+        &-blue-light:hover { color: var(--blue-light); }
+        &-blue:hover { color: var(--blue); }
+        &-green-el:hover { color: var(--green-el); }
+        &-green-light:hover { color: var(--green-light); }
+        &-green-dark:hover { color: var(--green-dark); }
+        &-green:hover { color: var(--green); }
+        &-purple-light:hover { color: var(--purple-light); }
+        &-purple:hover { color: var(--purple); }
+        &-yellow-el:hover { color: var(--yellow-el); }
+        &-yellow-light:hover { color: var(--yellow-light); }
+        &-yellow-mastard:hover { color: var(--yellow-mastard); }
+        &-yellow-ld:hover { color: var(--yellow-ld); }
+        &-yellow-dark:hover { color: var(--yellow-dark); }
+        &-yellow:hover { color: var(--yellow); }
+        &-orange:hover { color: var(--orange); }
+        &-red-el:hover { color: var(--red-el); }
+        &-red-light:hover { color: var(--red-light); }
+        &-red:hover { color: var(--red); }
+        &-pink:hover { color: var(--pink); }
+
+        &-blue-50:hover { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:text {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { color: var(--white); }
+        &-black:hover { color: var(--black); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-gray-light:hover { color: var(--gray-light); }
+        &-gray-medium:hover { color: var(--gray-medium); }
+        &-gray-dark:hover { color: var(--gray-dark); }
+        &-gray-ccc:hover { color: var(--gray-ccc); }
+        &-blue-el:hover { color: var(--blue-el); }
+        &-blue-light:hover { color: var(--blue-light); }
+        &-blue:hover { color: var(--blue); }
+        &-green-el:hover { color: var(--green-el); }
+        &-green-light:hover { color: var(--green-light); }
+        &-green-dark:hover { color: var(--green-dark); }
+        &-green:hover { color: var(--green); }
+        &-purple-light:hover { color: var(--purple-light); }
+        &-purple:hover { color: var(--purple); }
+        &-yellow-el:hover { color: var(--yellow-el); }
+        &-yellow-light:hover { color: var(--yellow-light); }
+        &-yellow-mastard:hover { color: var(--yellow-mastard); }
+        &-yellow-ld:hover { color: var(--yellow-ld); }
+        &-yellow-dark:hover { color: var(--yellow-dark); }
+        &-yellow:hover { color: var(--yellow); }
+        &-orange:hover { color: var(--orange); }
+        &-red-el:hover { color: var(--red-el); }
+        &-red-light:hover { color: var(--red-light); }
+        &-red:hover { color: var(--red); }
+        &-pink:hover { color: var(--pink); }
+
+        &-blue-50:hover { color: var(--blue-50); }
+    }
+}
+
+// A:TEXT //
+@media (max-width: 640px) {
+    .sm\:a\:text {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { color: var(--white); }
+        &-black:active { color: var(--black); }
+        &-gray-light:active { color: var(--gray-light); }
+        &-gray-medium:active { color: var(--gray-medium); }
+        &-gray-dark:active { color: var(--gray-dark); }
+        &-blue-el:active { color: var(--blue-el); }
+        &-blue-light:active { color: var(--blue-light); }
+        &-blue:active { color: var(--blue); }
+        &-green-el:active { color: var(--green-el); }
+        &-green-light:active { color: var(--green-light); }
+        &-green-dark:active { color: var(--green-dark); }
+        &-green:active { color: var(--green); }
+        &-purple-light:active { color: var(--purple-light); }
+        &purple:active { color: var(--purple); }
+        &-yellow-el:active { color: var(--yellow-el); }
+        &-yellow-light:active { color: var(--yellow-light); }
+        &-yellow-mastard:active { color: var(--yellow-mastard); }
+        &-yellow-ld:active { color: var(--yellow-ld); }
+        &-yellow-dark:active { color: var(--yellow-dark); }
+        &-yellow:active { color: var(--yellow); }
+        &-orange:active { color: var(--orange); }
+        &-red-el:active { color: var(--red-el); }
+        &-red-light:active { color: var(--red-light); }
+        &-red:active { color: var(--red); }
+        &-pink:active { color: var(--pink); }
+
+        &-blue-50:active { color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:a\:text {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { color: var(--white); }
+        &-black:active { color: var(--black); }
+        &-gray-light:active { color: var(--gray-light); }
+        &-gray-medium:active { color: var(--gray-medium); }
+        &-gray-dark:active { color: var(--gray-dark); }
+        &-blue-el:active { color: var(--blue-el); }
+        &-blue-light:active { color: var(--blue-light); }
+        &-blue:active { color: var(--blue); }
+        &-green-el:active { color: var(--green-el); }
+        &-green-light:active { color: var(--green-light); }
+        &-green-dark:active { color: var(--green-dark); }
+        &-green:active { color: var(--green); }
+        &-purple-light:active { color: var(--purple-light); }
+        &purple:active { color: var(--purple); }
+        &-yellow-el:active { color: var(--yellow-el); }
+        &-yellow-light:active { color: var(--yellow-light); }
+        &-yellow-mastard:active { color: var(--yellow-mastard); }
+        &-yellow-ld:active { color: var(--yellow-ld); }
+        &-yellow-dark:active { color: var(--yellow-dark); }
+        &-yellow:active { color: var(--yellow); }
+        &-orange:active { color: var(--orange); }
+        &-red-el:active { color: var(--red-el); }
+        &-red-light:active { color: var(--red-light); }
+        &-red:active { color: var(--red); }
+        &-pink:active { color: var(--pink); }
+
+        &-blue-50:active { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:text {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { color: var(--white); }
+        &-black:active { color: var(--black); }
+        &-gray-light:active { color: var(--gray-light); }
+        &-gray-medium:active { color: var(--gray-medium); }
+        &-gray-dark:active { color: var(--gray-dark); }
+        &-blue-el:active { color: var(--blue-el); }
+        &-blue-light:active { color: var(--blue-light); }
+        &-blue:active { color: var(--blue); }
+        &-green-el:active { color: var(--green-el); }
+        &-green-light:active { color: var(--green-light); }
+        &-green-dark:active { color: var(--green-dark); }
+        &-green:active { color: var(--green); }
+        &-purple-light:active { color: var(--purple-light); }
+        &purple:active { color: var(--purple); }
+        &-yellow-el:active { color: var(--yellow-el); }
+        &-yellow-light:active { color: var(--yellow-light); }
+        &-yellow-mastard:active { color: var(--yellow-mastard); }
+        &-yellow-ld:active { color: var(--yellow-ld); }
+        &-yellow-dark:active { color: var(--yellow-dark); }
+        &-yellow:active { color: var(--yellow); }
+        &-orange:active { color: var(--orange); }
+        &-red-el:active { color: var(--red-el); }
+        &-red-light:active { color: var(--red-light); }
+        &-red:active { color: var(--red); }
+        &-pink:active { color: var(--pink); }
+
+        &-blue-50:active { color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:text {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { color: var(--white); }
+        &-black:active { color: var(--black); }
+        &-gray-light:active { color: var(--gray-light); }
+        &-gray-medium:active { color: var(--gray-medium); }
+        &-gray-dark:active { color: var(--gray-dark); }
+        &-blue-el:active { color: var(--blue-el); }
+        &-blue-light:active { color: var(--blue-light); }
+        &-blue:active { color: var(--blue); }
+        &-green-el:active { color: var(--green-el); }
+        &-green-light:active { color: var(--green-light); }
+        &-green-dark:active { color: var(--green-dark); }
+        &-green:active { color: var(--green); }
+        &-purple-light:active { color: var(--purple-light); }
+        &purple:active { color: var(--purple); }
+        &-yellow-el:active { color: var(--yellow-el); }
+        &-yellow-light:active { color: var(--yellow-light); }
+        &-yellow-mastard:active { color: var(--yellow-mastard); }
+        &-yellow-ld:active { color: var(--yellow-ld); }
+        &-yellow-dark:active { color: var(--yellow-dark); }
+        &-yellow:active { color: var(--yellow); }
+        &-orange:active { color: var(--orange); }
+        &-red-el:active { color: var(--red-el); }
+        &-red-light:active { color: var(--red-light); }
+        &-red:active { color: var(--red); }
+        &-pink:active { color: var(--pink); }
+
+        &-blue-50:active { color: var(--blue-50); }
+    }
+}
+
+// BG @MEDIA //
+@media (max-width: 640px) {
+    .sm\:bg {
+        &-transparent { background-color: var(--transparent); }
+        &-white { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc { background-color: var(--gray-ccc); }
+        &-gray-light { background-color: var(--gray-light); }
+        &-gray-medium { background-color: var(--gray-medium); }
+        &-gray-dark { background-color: var(--gray-dark); }
+        &-green-el { background-color: var(--green-el); }
+        &-green-light { background-color: var(--green-light); }
+        &-green-dark { background-color: var(--green-dark); }
+        &-green { background-color: var(--green); }
+        &-purple-light { background-color: var(--purple-light); }
+        &-purple { background-color: var(--purple); }
+        &-yellow-el { background-color: var(--yellow-el); }
+        &-yellow-light { background-color: var(--yellow-light); }
+        &-yellow-mastard { background-color: var(--yellow-mastard); }
+        &-yellow-ld { background-color: var(--yellow-ld); }
+        &-yellow-dark { background-color: var(--yellow-dark); }
+        &-yellow { background-color: var(--yellow); }
+        &-orange { background-color: var(--orange); }
+        &-red-el { background-color: var(--red-el); }
+        &-red-light { background-color: var(--red-light); }
+        &-red { background-color: var(--red); }
+        &-pink { background-color: var(--pink); }
+
+        &-blue-50 { background-color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:bg {
+        &-transparent { background-color: var(--transparent); }
+        &-white { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc { background-color: var(--gray-ccc); }
+        &-gray-light { background-color: var(--gray-light); }
+        &-gray-medium { background-color: var(--gray-medium); }
+        &-gray-dark { background-color: var(--gray-dark); }
+        &-green-el { background-color: var(--green-el); }
+        &-green-light { background-color: var(--green-light); }
+        &-green-dark { background-color: var(--green-dark); }
+        &-green { background-color: var(--green); }
+        &-purple-light { background-color: var(--purple-light); }
+        &-purple { background-color: var(--purple); }
+        &-yellow-el { background-color: var(--yellow-el); }
+        &-yellow-light { background-color: var(--yellow-light); }
+        &-yellow-mastard { background-color: var(--yellow-mastard); }
+        &-yellow-ld { background-color: var(--yellow-ld); }
+        &-yellow-dark { background-color: var(--yellow-dark); }
+        &-yellow { background-color: var(--yellow); }
+        &-orange { background-color: var(--orange); }
+        &-red-el { background-color: var(--red-el); }
+        &-red-light { background-color: var(--red-light); }
+        &-red { background-color: var(--red); }
+        &-pink { background-color: var(--pink); }
+
+        &-blue-50 { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg {
+        &-transparent { background-color: var(--transparent); }
+        &-white { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc { background-color: var(--gray-ccc); }
+        &-gray-light { background-color: var(--gray-light); }
+        &-gray-medium { background-color: var(--gray-medium); }
+        &-gray-dark { background-color: var(--gray-dark); }
+        &-green-el { background-color: var(--green-el); }
+        &-green-light { background-color: var(--green-light); }
+        &-green-dark { background-color: var(--green-dark); }
+        &-green { background-color: var(--green); }
+        &-purple-light { background-color: var(--purple-light); }
+        &-purple { background-color: var(--purple); }
+        &-yellow-el { background-color: var(--yellow-el); }
+        &-yellow-light { background-color: var(--yellow-light); }
+        &-yellow-mastard { background-color: var(--yellow-mastard); }
+        &-yellow-ld { background-color: var(--yellow-ld); }
+        &-yellow-dark { background-color: var(--yellow-dark); }
+        &-yellow { background-color: var(--yellow); }
+        &-orange { background-color: var(--orange); }
+        &-red-el { background-color: var(--red-el); }
+        &-red-light { background-color: var(--red-light); }
+        &-red { background-color: var(--red); }
+        &-pink { background-color: var(--pink); }
+
+        &-blue-50 { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg {
+        &-transparent { background-color: var(--transparent); }
+        &-white { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc { background-color: var(--gray-ccc); }
+        &-gray-light { background-color: var(--gray-light); }
+        &-gray-medium { background-color: var(--gray-medium); }
+        &-gray-dark { background-color: var(--gray-dark); }
+        &-green-el { background-color: var(--green-el); }
+        &-green-light { background-color: var(--green-light); }
+        &-green-dark { background-color: var(--green-dark); }
+        &-green { background-color: var(--green); }
+        &-purple-light { background-color: var(--purple-light); }
+        &-purple { background-color: var(--purple); }
+        &-yellow-el { background-color: var(--yellow-el); }
+        &-yellow-light { background-color: var(--yellow-light); }
+        &-yellow-mastard { background-color: var(--yellow-mastard); }
+        &-yellow-ld { background-color: var(--yellow-ld); }
+        &-yellow-dark { background-color: var(--yellow-dark); }
+        &-yellow { background-color: var(--yellow); }
+        &-orange { background-color: var(--orange); }
+        &-red-el { background-color: var(--red-el); }
+        &-red-light { background-color: var(--red-light); }
+        &-red { background-color: var(--red); }
+        &-pink { background-color: var(--pink); }
+
+        &-blue-50 { background-color: var(--blue-50); }
+    }
+}
+
+// H:BG @MEDIA //
+@media (max-width: 640px) {
+    .sm\:h\:bg {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:hover { background-color: var(--gray-ccc); }
+        &-gray-light:hover { background-color: var(--gray-light); }
+        &-gray-medium:hover { background-color: var(--gray-medium); }
+        &-gray-dark:hover { background-color: var(--gray-dark); }
+        &-green-el:hover { background-color: var(--green-el); }
+        &-green-light:hover { background-color: var(--green-light); }
+        &-green-dark:hover { background-color: var(--green-dark); }
+        &-green:hover { background-color: var(--green); }
+        &-purple-light:hover { background-color: var(--purple-light); }
+        &-purple:hover { background-color: var(--purple); }
+        &-yellow-el:hover { background-color: var(--yellow-el); }
+        &-yellow-mastard:hover { background-color: var(--yellow-mastard); }
+        &-yellow-ld:hover { background-color: var(--yellow-ld); }
+        &-yellow-light:hover { background-color: var(--yellow-light); }
+        &-yellow-dark:hover { background-color: var(--yellow-dark); }
+        &-yellow:hover { background-color: var(--yellow); }
+        &-orange:hover { background-color: var(--orange); }
+        &-red-el:hover { background-color: var(--red-el); }
+        &-red-light:hover { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:hover { background-color: var(--pink); }
+
+        &-blue-50:hover { background-color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:h\:bg {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:hover { background-color: var(--gray-ccc); }
+        &-gray-light:hover { background-color: var(--gray-light); }
+        &-gray-medium:hover { background-color: var(--gray-medium); }
+        &-gray-dark:hover { background-color: var(--gray-dark); }
+        &-green-el:hover { background-color: var(--green-el); }
+        &-green-light:hover { background-color: var(--green-light); }
+        &-green-dark:hover { background-color: var(--green-dark); }
+        &-green:hover { background-color: var(--green); }
+        &-purple-light:hover { background-color: var(--purple-light); }
+        &-purple:hover { background-color: var(--purple); }
+        &-yellow-el:hover { background-color: var(--yellow-el); }
+        &-yellow-mastard:hover { background-color: var(--yellow-mastard); }
+        &-yellow-ld:hover { background-color: var(--yellow-ld); }
+        &-yellow-light:hover { background-color: var(--yellow-light); }
+        &-yellow-dark:hover { background-color: var(--yellow-dark); }
+        &-yellow:hover { background-color: var(--yellow); }
+        &-orange:hover { background-color: var(--orange); }
+        &-red-el:hover { background-color: var(--red-el); }
+        &-red-light:hover { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:hover { background-color: var(--pink); }
+
+        &-blue-50:hover { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:bg {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:hover { background-color: var(--gray-ccc); }
+        &-gray-light:hover { background-color: var(--gray-light); }
+        &-gray-medium:hover { background-color: var(--gray-medium); }
+        &-gray-dark:hover { background-color: var(--gray-dark); }
+        &-green-el:hover { background-color: var(--green-el); }
+        &-green-light:hover { background-color: var(--green-light); }
+        &-green-dark:hover { background-color: var(--green-dark); }
+        &-green:hover { background-color: var(--green); }
+        &-purple-light:hover { background-color: var(--purple-light); }
+        &-purple:hover { background-color: var(--purple); }
+        &-yellow-el:hover { background-color: var(--yellow-el); }
+        &-yellow-mastard:hover { background-color: var(--yellow-mastard); }
+        &-yellow-ld:hover { background-color: var(--yellow-ld); }
+        &-yellow-light:hover { background-color: var(--yellow-light); }
+        &-yellow-dark:hover { background-color: var(--yellow-dark); }
+        &-yellow:hover { background-color: var(--yellow); }
+        &-orange:hover { background-color: var(--orange); }
+        &-red-el:hover { background-color: var(--red-el); }
+        &-red-light:hover { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:hover { background-color: var(--pink); }
+
+        &-blue-50:hover { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:bg {
+        &-transparent:hover { color: var(--transparent); }
+        &-white:hover { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:hover { background-color: var(--gray-ccc); }
+        &-gray-light:hover { background-color: var(--gray-light); }
+        &-gray-medium:hover { background-color: var(--gray-medium); }
+        &-gray-dark:hover { background-color: var(--gray-dark); }
+        &-green-el:hover { background-color: var(--green-el); }
+        &-green-light:hover { background-color: var(--green-light); }
+        &-green-dark:hover { background-color: var(--green-dark); }
+        &-green:hover { background-color: var(--green); }
+        &-purple-light:hover { background-color: var(--purple-light); }
+        &-purple:hover { background-color: var(--purple); }
+        &-yellow-el:hover { background-color: var(--yellow-el); }
+        &-yellow-mastard:hover { background-color: var(--yellow-mastard); }
+        &-yellow-ld:hover { background-color: var(--yellow-ld); }
+        &-yellow-light:hover { background-color: var(--yellow-light); }
+        &-yellow-dark:hover { background-color: var(--yellow-dark); }
+        &-yellow:hover { background-color: var(--yellow); }
+        &-orange:hover { background-color: var(--orange); }
+        &-red-el:hover { background-color: var(--red-el); }
+        &-red-light:hover { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:hover { background-color: var(--pink); }
+
+        &-blue-50:hover { background-color: var(--blue-50); }
+    }
+}
+
+// A:BG @MEDIA //
+
+@media (max-width: 640px) {
+    .sm\:a\:bg {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:active { background-color: var(--gray-ccc); }
+        &-gray-light:active { background-color: var(--gray-light); }
+        &-gray-medium:active { background-color: var(--gray-medium); }
+        &-gray-dark:active { background-color: var(--gray-dark); }
+        &-green-el:active { background-color: var(--green-el); }
+        &-green-light:active { background-color: var(--green-light); }
+        &-green-dark:active { background-color: var(--green-dark); }
+        &-green:active { background-color: var(--green); }
+        &-purple-light:active { background-color: var(--purple-light); }
+        &-purple:active { background-color: var(--purple); }
+        &-yellow-el:active { background-color: var(--yellow-el); }
+        &-yellow-mastard:active { background-color: var(--yellow-mastard); }
+        &-yellow-ld:active { background-color: var(--yellow-ld); }
+        &-yellow-light:active { background-color: var(--yellow-light); }
+        &-yellow-dark:active { background-color: var(--yellow-dark); }
+        &-yellow:active { background-color: var(--yellow); }
+        &-orange:active { background-color: var(--orange); }
+        &-red-el:active { background-color: var(--red-el); }
+        &-red-light:active { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:active { background-color: var(--pink); }
+
+        &-blue-50:active { background-color: var(--blue-50); }
+    }
+}
+
+@media (max-width: 768px) {
+    .md\:a\:bg {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:active { background-color: var(--gray-ccc); }
+        &-gray-light:active { background-color: var(--gray-light); }
+        &-gray-medium:active { background-color: var(--gray-medium); }
+        &-gray-dark:active { background-color: var(--gray-dark); }
+        &-green-el:active { background-color: var(--green-el); }
+        &-green-light:active { background-color: var(--green-light); }
+        &-green-dark:active { background-color: var(--green-dark); }
+        &-green:active { background-color: var(--green); }
+        &-purple-light:active { background-color: var(--purple-light); }
+        &-purple:active { background-color: var(--purple); }
+        &-yellow-el:active { background-color: var(--yellow-el); }
+        &-yellow-mastard:active { background-color: var(--yellow-mastard); }
+        &-yellow-ld:active { background-color: var(--yellow-ld); }
+        &-yellow-light:active { background-color: var(--yellow-light); }
+        &-yellow-dark:active { background-color: var(--yellow-dark); }
+        &-yellow:active { background-color: var(--yellow); }
+        &-orange:active { background-color: var(--orange); }
+        &-red-el:active { background-color: var(--red-el); }
+        &-red-light:active { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:active { background-color: var(--pink); }
+
+        &-blue-50:active { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:bg {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:active { background-color: var(--gray-ccc); }
+        &-gray-light:active { background-color: var(--gray-light); }
+        &-gray-medium:active { background-color: var(--gray-medium); }
+        &-gray-dark:active { background-color: var(--gray-dark); }
+        &-green-el:active { background-color: var(--green-el); }
+        &-green-light:active { background-color: var(--green-light); }
+        &-green-dark:active { background-color: var(--green-dark); }
+        &-green:active { background-color: var(--green); }
+        &-purple-light:active { background-color: var(--purple-light); }
+        &-purple:active { background-color: var(--purple); }
+        &-yellow-el:active { background-color: var(--yellow-el); }
+        &-yellow-mastard:active { background-color: var(--yellow-mastard); }
+        &-yellow-ld:active { background-color: var(--yellow-ld); }
+        &-yellow-light:active { background-color: var(--yellow-light); }
+        &-yellow-dark:active { background-color: var(--yellow-dark); }
+        &-yellow:active { background-color: var(--yellow); }
+        &-orange:active { background-color: var(--orange); }
+        &-red-el:active { background-color: var(--red-el); }
+        &-red-light:active { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:active { background-color: var(--pink); }
+
+        &-blue-50:active { background-color: var(--blue-50); }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:bg {
+        &-transparent:active { color: var(--transparent); }
+        &-white:active { background-color: var(--white); }
+        &-black { background-color: var(--black); }
+        &-gray-ccc:active { background-color: var(--gray-ccc); }
+        &-gray-light:active { background-color: var(--gray-light); }
+        &-gray-medium:active { background-color: var(--gray-medium); }
+        &-gray-dark:active { background-color: var(--gray-dark); }
+        &-green-el:active { background-color: var(--green-el); }
+        &-green-light:active { background-color: var(--green-light); }
+        &-green-dark:active { background-color: var(--green-dark); }
+        &-green:active { background-color: var(--green); }
+        &-purple-light:active { background-color: var(--purple-light); }
+        &-purple:active { background-color: var(--purple); }
+        &-yellow-el:active { background-color: var(--yellow-el); }
+        &-yellow-mastard:active { background-color: var(--yellow-mastard); }
+        &-yellow-ld:active { background-color: var(--yellow-ld); }
+        &-yellow-light:active { background-color: var(--yellow-light); }
+        &-yellow-dark:active { background-color: var(--yellow-dark); }
+        &-yellow:active { background-color: var(--yellow); }
+        &-orange:active { background-color: var(--orange); }
+        &-red-el:active { background-color: var(--red-el); }
+        &-red-light:active { background-color: var(--red-light); }
+        &-red:hover { background-color: var(--red); }
+        &-pink:active { background-color: var(--pink); }
+
+        &-blue-50:active { background-color: var(--blue-50); }
+    }
+}
+
+// HIGHLIGHT-BACKGROUND
+.highlight-yellow { background-color: var(--yellow); }
+
+// TEST-STROKE ARENA //
+.text-stroke-color {
+    // color: var(--black);
+    // -webkit-text-fill-color: var(--white); /* Will override color (regardless of order) */
+    // -webkit-text-stroke-width: 1px;
+    &-transparent { -webkit-text-stroke-color: var(--transparent); }
+    &-black { -webkit-text-stroke-color: var(--black); }
+    &-white { -webkit-text-stroke-color: var(--white); }
+}
+
+.text-stroke-width {
+    // -webkit-text-stroke-width: 1px;
+    &-0 { -webkit-text-stroke-width: 0px; }
+    &-1 { -webkit-text-stroke-width: 1px; }
+    &-2 { -webkit-text-stroke-width: 2px; }
+    &-3 { -webkit-text-stroke-width: 3px; }
+}
+
+.fill-color {
+    /* Will override color (regardless of order) */
+    &-transparent { -webkit-text-fill-color: var(--transparent); }
+    &-black { -webkit-text-fill-color: var(--black); }
+    &-white { -webkit-text-fill-color: var(--white); }
+}
+
+// ISOLATION ARENA //
+.isolation {
+    &-auto { isolation: auto; }
+    &-isolate { isolation: isolate; }
+    &-inherit { isolation: inherit; }
+    &-initial { isolation: initial; }
+    &-unset { isolation: unset }
+}
+
+// ISOLATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:isolation {
+        &-auto { isolation: auto; }
+        &-isolate { isolation: isolate; }
+        &-inherit { isolation: inherit; }
+        &-initial { isolation: initial; }
+        &-unset { isolation: unset }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:isolation {
+        &-auto { isolation: auto; }
+        &-isolate { isolation: isolate; }
+        &-inherit { isolation: inherit; }
+        &-initial { isolation: initial; }
+        &-unset { isolation: unset }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:isolation {
+        &-auto { isolation: auto; }
+        &-isolate { isolation: isolate; }
+        &-inherit { isolation: inherit; }
+        &-initial { isolation: initial; }
+        &-unset { isolation: unset }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:isolation {
+        &-auto { isolation: auto; }
+        &-isolate { isolation: isolate; }
+        &-inherit { isolation: inherit; }
+        &-initial { isolation: initial; }
+        &-unset { isolation: unset }
+    }
+}
+
+// H:ISOLATION @MEDIA ARENA //
+// @media (max-width: 640px) {
+//     .sm\:isolation-isolate {
+//         isolation: isolate;
+//     }
+// }
+
+// @media (max-width: 800px) {
+//     .md\:isolation-isolate {
+//         isolation: isolate;
+//     }
+// }
+
+// @media (min-width: 1024px) {
+//     .lg\:isolation-isolate {
+//         isolation: isolate;
+//     }
+// }
+
+// @media (min-width: 1280px) {
+//     .xl\:isolation-isolate {
+//         isolation: isolate;
+//     }
+// }
+
+// A:ISOLATION @MEDIA ARENA //
+// @media (max-width: 640px) {
+//     .sm\:isolation-inherit {
+//         isolation: inherit;
+//     }
+// }
+
+// @media (max-width: 800px) {
+//     .md\:isolation-inherit {
+//         isolation: inherit;
+//     }
+// }
+
+// @media (min-width: 1024px) {
+//     .lg\:isolation-inherit {
+//         isolation: inherit;
+//     }
+// }
+
+// @media (min-width: 1280px) {
+//     .xl\:isolation-inherit {
+//         isolation: inherit;
+//     }
+// }
+
+// BACKGROUND-POSITION ARENA //
+.bg-position {
+    &-top { background-position: top; }
+    &-left { background-position: left; }
+    &-right { background-position: right; }
+    &-bottom { background-position: bottom; }
+    &-center { background-position: center; }
+    &-inherit { background-position: inherit; }
+    &-initial { background-position: initial; }
+    &-unset { background-position: unset; }
+}
+
+// BACKGROUND-POSITION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-position {
+        &-top { background-position: top; }
+        &-left { background-position: left; }
+        &-right { background-position: right; }
+        &-bottom { background-position: bottom; }
+        &-center { background-position: center; }
+        &-inherit { background-position: inherit; }
+        &-initial { background-position: initial; }
+        &-unset { background-position: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-position {
+        &-top { background-position: top; }
+        &-left { background-position: left; }
+        &-right { background-position: right; }
+        &-bottom { background-position: bottom; }
+        &-center { background-position: center; }
+        &-inherit { background-position: inherit; }
+        &-initial { background-position: initial; }
+        &-unset { background-position: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-position {
+        &-top { background-position: top; }
+        &-left { background-position: left; }
+        &-right { background-position: right; }
+        &-bottom { background-position: bottom; }
+        &-center { background-position: center; }
+        &-inherit { background-position: inherit; }
+        &-initial { background-position: initial; }
+        &-unset { background-position: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-position {
+        &-top { background-position: top; }
+        &-left { background-position: left; }
+        &-right { background-position: right; }
+        &-bottom { background-position: bottom; }
+        &-center { background-position: center; }
+        &-inherit { background-position: inherit; }
+        &-initial { background-position: initial; }
+        &-unset { background-position: unset; }
+    }
+}
+
+// BACKGROUND-POSITION-X ARENA //
+.bg-position-x {
+    &-top { background-position-x: top; }
+    &-left { background-position-x: left; }
+    &-right { background-position-x: right; }
+    &-bottom { background-position-x: bottom; }
+    &-center { background-position-x: center; }
+    &-inherit { background-position-x: inherit; }
+    &-initial { background-position-x: initial; }
+    &-unset { background-position-x: unset; }
+}
+
+// BACKGROUND-POSITION-X @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-position-x {
+        &-top { background-position-x: top; }
+        &-left { background-position-x: left; }
+        &-right { background-position-x: right; }
+        &-bottom { background-position-x: bottom; }
+        &-center { background-position-x: center; }
+        &-inherit { background-position-x: inherit; }
+        &-initial { background-position-x: initial; }
+        &-unset { background-position-x: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-position-x {
+        &-top { background-position-x: top; }
+        &-left { background-position-x: left; }
+        &-right { background-position-x: right; }
+        &-bottom { background-position-x: bottom; }
+        &-center { background-position-x: center; }
+        &-inherit { background-position-x: inherit; }
+        &-initial { background-position-x: initial; }
+        &-unset { background-position-x: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-position-x {
+        &-top { background-position-x: top; }
+        &-left { background-position-x: left; }
+        &-right { background-position-x: right; }
+        &-bottom { background-position-x: bottom; }
+        &-center { background-position-x: center; }
+        &-inherit { background-position-x: inherit; }
+        &-initial { background-position-x: initial; }
+        &-unset { background-position-x: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-position-x {
+        &-top { background-position-x: top; }
+        &-left { background-position-x: left; }
+        &-right { background-position-x: right; }
+        &-bottom { background-position-x: bottom; }
+        &-center { background-position-x: center; }
+        &-inherit { background-position-x: inherit; }
+        &-initial { background-position-x: initial; }
+        &-unset { background-position-x: unset; }
+    }
+}
+
+// BACKGROUND-POSITION-Y ARENA //
+.bg-position-y {
+    &-top { background-position-y: top; }
+    &-left { background-position-y: left; }
+    &-right { background-position-y: right; }
+    &-bottom { background-position-y: bottom; }
+    &-center { background-position-y: center; }
+    &-inherit { background-position-y: inherit; }
+    &-initial { background-position-y: initial; }
+    &-unset { background-position-y: unset; }
+}
+
+// BACKGROUND-POSITION-Y @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-position-y {
+        &-top { background-position-y: top; }
+        &-left { background-position-y: left; }
+        &-right { background-position-y: right; }
+        &-bottom { background-position-y: bottom; }
+        &-center { background-position-y: center; }
+        &-inherit { background-position-y: inherit; }
+        &-initial { background-position-y: initial; }
+        &-unset { background-position-y: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-position-y {
+        &-top { background-position-y: top; }
+        &-left { background-position-y: left; }
+        &-right { background-position-y: right; }
+        &-bottom { background-position-y: bottom; }
+        &-center { background-position-y: center; }
+        &-inherit { background-position-y: inherit; }
+        &-initial { background-position-y: initial; }
+        &-unset { background-position-y: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-position-y {
+        &-top { background-position-y: top; }
+        &-left { background-position-y: left; }
+        &-right { background-position-y: right; }
+        &-bottom { background-position-y: bottom; }
+        &-center { background-position-y: center; }
+        &-inherit { background-position-y: inherit; }
+        &-initial { background-position-y: initial; }
+        &-unset { background-position-y: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-position-y {
+        &-top { background-position-y: top; }
+        &-left { background-position-y: left; }
+        &-right { background-position-y: right; }
+        &-bottom { background-position-y: bottom; }
+        &-center { background-position-y: center; }
+        &-inherit { background-position-y: inherit; }
+        &-initial { background-position-y: initial; }
+        &-unset { background-position-y: unset; }
+    }
+}
+
+// BACKGROUND-IMAGE ARENA //
+.bg-image {
+    &-none { background-image: none; }
+    &-inherit { background-image: inherit; }
+    &-initial { background-image: initial; }
+    &-unset { background-image: unset; }
+}
+
+// BACKGROUND-IMAGE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-image {
+        &-none { background-image: none; }
+        &-inherit { background-image: inherit; }
+        &-initial { background-image: initial; }
+        &-unset { background-image: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-image {
+        &-none { background-image: none; }
+        &-inherit { background-image: inherit; }
+        &-initial { background-image: initial; }
+        &-unset { background-image: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-image {
+        &-none { background-image: none; }
+        &-inherit { background-image: inherit; }
+        &-initial { background-image: initial; }
+        &-unset { background-image: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-image {
+        &-none { background-image: none; }
+        &-inherit { background-image: inherit; }
+        &-initial { background-image: initial; }
+        &-unset { background-image: unset; }
+    }
+}
+
+// BACKGROUND-REPEAT ARENA //
+.bg-repeat {
+    &-round { background-repeat: round; }
+    &-space { background-repeat: space; }
+    &-repeat { background-repeat: repeat; }
+    &-repeat-y { background-repeat: repeat-y; }
+    &-repeat-x { background-repeat: repeat-x; }
+    &-no-repeat { background-repeat: no-repeat; }
+    &-inherit { background-repeat: inherit; }
+    &-initial { background-repeat: initial; }
+    &-unset { background-repeat: unset; }
+}
+
+// BACKGROUND-REPEAT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-repeat {
+        &-round { background-repeat: round; }
+        &-space { background-repeat: space; }
+        &-repeat { background-repeat: repeat; }
+        &-repeat-y { background-repeat: repeat-y; }
+        &-repeat-x { background-repeat: repeat-x; }
+        &-no-repeat { background-repeat: no-repeat; }
+        &-inherit { background-repeat: inherit; }
+        &-initial { background-repeat: initial; }
+        &-unset { background-repeat: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-repeat {
+        &-round { background-repeat: round; }
+        &-space { background-repeat: space; }
+        &-repeat { background-repeat: repeat; }
+        &-repeat-y { background-repeat: repeat-y; }
+        &-repeat-x { background-repeat: repeat-x; }
+        &-no-repeat { background-repeat: no-repeat; }
+        &-inherit { background-repeat: inherit; }
+        &-initial { background-repeat: initial; }
+        &-unset { background-repeat: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-repeat {
+        &-round { background-repeat: round; }
+        &-space { background-repeat: space; }
+        &-repeat { background-repeat: repeat; }
+        &-repeat-y { background-repeat: repeat-y; }
+        &-repeat-x { background-repeat: repeat-x; }
+        &-no-repeat { background-repeat: no-repeat; }
+        &-inherit { background-repeat: inherit; }
+        &-initial { background-repeat: initial; }
+        &-unset { background-repeat: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-repeat {
+        &-round { background-repeat: round; }
+        &-space { background-repeat: space; }
+        &-repeat { background-repeat: repeat; }
+        &-repeat-y { background-repeat: repeat-y; }
+        &-repeat-x { background-repeat: repeat-x; }
+        &-no-repeat { background-repeat: no-repeat; }
+        &-inherit { background-repeat: inherit; }
+        &-initial { background-repeat: initial; }
+        &-unset { background-repeat: unset; }
+    }
+}
+
+// BACKGROUND-SIZE ARENA //
+.bg-size {
+    &-auto { background-size: auto; }
+    &-contain { background-size: contain; }
+    &-cover { background-size: cover; }
+    &-inherit { background-size: inherit; }
+    &-initial { background-size: initial; }
+    &-unset { background-size: unset; }
+}
+
+// BACKGROUND-SIZE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-size {
+        &-auto { background-size: auto; }
+        &-contain { background-size: contain; }
+        &-cover { background-size: cover; }
+        &-inherit { background-size: inherit; }
+        &-initial { background-size: initial; }
+        &-unset { background-size: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-size {
+        &-auto { background-size: auto; }
+        &-contain { background-size: contain; }
+        &-cover { background-size: cover; }
+        &-inherit { background-size: inherit; }
+        &-initial { background-size: initial; }
+        &-unset { background-size: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-size {
+        &-auto { background-size: auto; }
+        &-contain { background-size: contain; }
+        &-cover { background-size: cover; }
+        &-inherit { background-size: inherit; }
+        &-initial { background-size: initial; }
+        &-unset { background-size: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-size {
+        &-auto { background-size: auto; }
+        &-contain { background-size: contain; }
+        &-cover { background-size: cover; }
+        &-inherit { background-size: inherit; }
+        &-initial { background-size: initial; }
+        &-unset { background-size: unset; }
+    }
+}
+
+// BACKGROUND-CLIP ARENA //
+.bg-clip {
+    &-border-box { background-clip: border-box; }
+    &-content-box { background-clip: content-box; }
+    &-padding-box { background-clip: padding-box; }
+    &-inherit { background-clip: inherit; }
+    &-initial { background-clip: initial; }
+    &-unset { background-clip: unset; }
+}
+
+// BACKGROUND-CLIP @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-clip {
+        &-border-box { background-clip: border-box; }
+        &-content-box { background-clip: content-box; }
+        &-padding-box { background-clip: padding-box; }
+        &-inherit { background-clip: inherit; }
+        &-initial { background-clip: initial; }
+        &-unset { background-clip: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-clip {
+        &-border-box { background-clip: border-box; }
+        &-content-box { background-clip: content-box; }
+        &-padding-box { background-clip: padding-box; }
+        &-inherit { background-clip: inherit; }
+        &-initial { background-clip: initial; }
+        &-unset { background-clip: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-clip {
+        &-border-box { background-clip: border-box; }
+        &-content-box { background-clip: content-box; }
+        &-padding-box { background-clip: padding-box; }
+        &-inherit { background-clip: inherit; }
+        &-initial { background-clip: initial; }
+        &-unset { background-clip: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-clip {
+        &-border-box { background-clip: border-box; }
+        &-content-box { background-clip: content-box; }
+        &-padding-box { background-clip: padding-box; }
+        &-inherit { background-clip: inherit; }
+        &-initial { background-clip: initial; }
+        &-unset { background-clip: unset; }
+    }
+}
+
+// BACKGROUND-ATTACHMENT ARENA //
+.bg-attachment {
+    &-fixed { background-attachment: fixed; }
+    &-local { background-attachment: local; }
+    &-scroll { background-attachment: scroll; }
+    &-scroll { background-attachment: scroll; }
+    &-inherit { background-attachment: inherit; }
+    &-initial { background-attachment: initial; }
+    &-unset { background-attachment: unset; }
+}
+
+// BACKGROUND-ATTACHMENT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-attachment {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-attachment {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-attachment {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-attachment {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+// BACKGROUND-BLED-MODE ARENA //
+.bg-blend-mode {
+    &-color { background-blend-mode: color; }
+    &-color-burn { background-blend-mode: color-burn; }
+    &-color-dodge { background-blend-mode: color-dodge; }
+    &-darken { background-blend-mode: darken; }
+    &-difference { background-blend-mode: difference; }
+    &-exclusion { background-blend-mode: exclusion; }
+    &-hard-light { background-blend-mode: hard-light; }
+    &-hue { background-blend-mode: hue; }
+    &-lighten { background-blend-mode: lighten; }
+    &-luminosity { background-blend-mode: luminosity; }
+    &-multiply { background-blend-mode: multiply; }
+    &-normal { background-blend-mode: normal; }
+    &-overlay { background-blend-mode: overlay; }
+    &-saturation { background-blend-mode: saturation; }
+    &-screen { background-blend-mode: screen; }
+    &-soft-light { background-blend-mode: soft-light; }
+    &-inherit { background-blend-mode: inherit; }
+    &-initial { background-blend-mode: initial; }
+    &-unset { background-blend-mode: unset; }
+}
+
+// BACKGROUND-ATTACHMENT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg-blend-mode {
+        &-color { background-blend-mode: color; }
+        &-color-burn { background-blend-mode: color-burn; }
+        &-color-dodge { background-blend-mode: color-dodge; }
+        &-darken { background-blend-mode: darken; }
+        &-difference { background-blend-mode: difference; }
+        &-exclusion { background-blend-mode: exclusion; }
+        &-hard-light { background-blend-mode: hard-light; }
+        &-hue { background-blend-mode: hue; }
+        &-lighten { background-blend-mode: lighten; }
+        &-luminosity { background-blend-mode: luminosity; }
+        &-multiply { background-blend-mode: multiply; }
+        &-normal { background-blend-mode: normal; }
+        &-overlay { background-blend-mode: overlay; }
+        &-saturation { background-blend-mode: saturation; }
+        &-screen { background-blend-mode: screen; }
+        &-soft-light { background-blend-mode: soft-light; }
+        &-inherit { background-blend-mode: inherit; }
+        &-initial { background-blend-mode: initial; }
+        &-unset { background-blend-mode: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg-blend-mode {
+        &-color { background-blend-mode: color; }
+        &-color-burn { background-blend-mode: color-burn; }
+        &-color-dodge { background-blend-mode: color-dodge; }
+        &-darken { background-blend-mode: darken; }
+        &-difference { background-blend-mode: difference; }
+        &-exclusion { background-blend-mode: exclusion; }
+        &-hard-light { background-blend-mode: hard-light; }
+        &-hue { background-blend-mode: hue; }
+        &-lighten { background-blend-mode: lighten; }
+        &-luminosity { background-blend-mode: luminosity; }
+        &-multiply { background-blend-mode: multiply; }
+        &-normal { background-blend-mode: normal; }
+        &-overlay { background-blend-mode: overlay; }
+        &-saturation { background-blend-mode: saturation; }
+        &-screen { background-blend-mode: screen; }
+        &-soft-light { background-blend-mode: soft-light; }
+        &-inherit { background-blend-mode: inherit; }
+        &-initial { background-blend-mode: initial; }
+        &-unset { background-blend-mode: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-blend-mode {
+        &-color { background-blend-mode: color; }
+        &-color-burn { background-blend-mode: color-burn; }
+        &-color-dodge { background-blend-mode: color-dodge; }
+        &-darken { background-blend-mode: darken; }
+        &-difference { background-blend-mode: difference; }
+        &-exclusion { background-blend-mode: exclusion; }
+        &-hard-light { background-blend-mode: hard-light; }
+        &-hue { background-blend-mode: hue; }
+        &-lighten { background-blend-mode: lighten; }
+        &-luminosity { background-blend-mode: luminosity; }
+        &-multiply { background-blend-mode: multiply; }
+        &-normal { background-blend-mode: normal; }
+        &-overlay { background-blend-mode: overlay; }
+        &-saturation { background-blend-mode: saturation; }
+        &-screen { background-blend-mode: screen; }
+        &-soft-light { background-blend-mode: soft-light; }
+        &-inherit { background-blend-mode: inherit; }
+        &-initial { background-blend-mode: initial; }
+        &-unset { background-blend-mode: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg-blend-mode {
+        &-color { background-blend-mode: color; }
+        &-color-burn { background-blend-mode: color-burn; }
+        &-color-dodge { background-blend-mode: color-dodge; }
+        &-darken { background-blend-mode: darken; }
+        &-difference { background-blend-mode: difference; }
+        &-exclusion { background-blend-mode: exclusion; }
+        &-hard-light { background-blend-mode: hard-light; }
+        &-hue { background-blend-mode: hue; }
+        &-lighten { background-blend-mode: lighten; }
+        &-luminosity { background-blend-mode: luminosity; }
+        &-multiply { background-blend-mode: multiply; }
+        &-normal { background-blend-mode: normal; }
+        &-overlay { background-blend-mode: overlay; }
+        &-saturation { background-blend-mode: saturation; }
+        &-screen { background-blend-mode: screen; }
+        &-soft-light { background-blend-mode: soft-light; }
+        &-inherit { background-blend-mode: inherit; }
+        &-initial { background-blend-mode: initial; }
+        &-unset { background-blend-mode: unset; }
+    }
+}
+
+// BLANK ARENA //
+.bg-gradient\:
+
+// BLANK @MEDIA ARENA //

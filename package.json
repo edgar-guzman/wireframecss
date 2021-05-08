@@ -1,7 +1,7 @@
 {
   "name": "fortwooden",
   "version": "1.0.0",
-  "description": "",
+  "description": "**working in progress**",
   "main": "index.js",
   "dependencies": {
     "sass": "^1.32.8"

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/fortwooden.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <title>Document : Framewood</title>
+</head>
+<body class="font-arial reset text-black">
+    <header class="w-full h-20 bg-white flex align-center justify-between flex-row px-4 lg:px-32 fixed">
+        <!-- <a class="text-2xl">iuashdusiu</a> -->
+        <a class="text-2xl font-bold">f<span class="font-semibold font-italic text-stroke-color-black text-stroke-width-1 fill-color-transparent">ramewoo</span>d</a>
+
+        <nav>
+            <ul class="flex cursor-pointer">
+                <li class="p-2 hover:text-black hover:bg-gray-300 rounded text-center lg:show md:none sm:none"><a href="">Home</a></li>
+                <li class="p-2 hover:text-black hover:bg-gray-300 rounded text-center lg:show md:none sm:none"><a class="font-semibold" href="">Docs</a></li>
+                <li class="p-2 hover:text-black hover:bg-gray-300 rounded text-center lg:show md:none sm:none"><a href="">Grid</a></li>
+                <li class="p-2 hover:text-black hover:bg-gray-300 rounded text-center lg:show md:none sm:none"><a href="">About</a></li>
+            </ul>
+
+            <p class="menu cta text-black h:border h:border-solid h:border-black radius-2em xl:none lg:none md:show sm:show">Menu</p>
+
+            <section class="overlay h-full fixed overflow-hidden bg-white">
+                <a class="close" href="">&times;</a>
+
+                <div class="h-full flex align-center flex-col justify-center">
+                    <a class="p-2 text-black radius-round text-center" href="">Home</a>
+                    <a class="p-2 text-black radius-round text-center font-semibold" href="">docs</a>
+                    <a class="p-2 text-black radius-round text-center" href="/public/grid/grid.html">Grid</a>
+                    <a class="p-2 text-black radius-round text-center" href="">About</a>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <section class="breadcrumb w-full mt-20 bg-white fixed px-4 lg:px-32 py-1 overlay-none">
+        <div class="w-full h-full flex align-center overflow-x-auto">
+            <a class="font-semibold" href="">Documentation</a>
+            <span class="pl-1 pr-1 ">/</span>
+            <a class="h:font-semibold" href="">Screencast</a>
+        </div>
+    </section>
+
+    <main class="overflow-hidden pt-28 px-4 lg:px-32">
+    </main>
+
+    <script src="/js/mobile.js"></script>
+</body>
+</html>

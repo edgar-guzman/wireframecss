@@ -99,7 +99,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:cursor {
         &-alias { cursor: alias; }
         &-all-scroll { cursor: all-scroll; }
@@ -252,516 +252,6 @@
     }
 }
 
-// H:CURSOR ARENA //
-.h\:cursor {
-    &-alias:hover { cursor: alias; }
-    &-all-scroll:hover { cursor: all-scroll; }
-    &-auto:hover { cursor: auto; }
-    &-cell:hover { cursor: cell; }
-    &-col-resize:hover { cursor: col-resize; }
-    &-context-menu:hover { cursor: context-menu; }
-    &-col-copy:hover { cursor: copy; }
-    &-crosshair:hover { cursor: crosshair; }
-    &-default:hover { cursor: default; }
-    &-e-resize:hover { cursor: e-resize; }
-    &-grab:hover { cursor: grab; }
-    &-grabbing:hover { cursor: grabbing; }
-    &-help:hover { cursor: help; }
-    &-move:hover { cursor: move; }
-    &-n-resize:hover { cursor: n-resize; }
-    &-ne-resize:hover { cursor: ne-resize; }
-    &-nesw-resize:hover { cursor: nesw-resize; }
-    &-no-drop:hover { cursor: no-drop; }
-    &-none:hover { cursor: none; }
-    &-not-allowed:hover { cursor: not-allowed; }
-    &-ns-resize:hover { cursor: ns-resize; }
-    &-nw-resize:hover { cursor: nw-resize; }
-    &-nwse-resize:hover { cursor: nwse-resize; }
-    &-pointer:hover { cursor: pointer; }
-    &-progress:hover { cursor: progress; }
-    &-row-resize:hover { cursor: row-resize; }
-    &-s-resize:hover { cursor: s-resize; }
-    &-se-resize:hover { cursor: se-resize; }
-    &-sw-resize:hover { cursor: sw-resize; }
-    &-text:hover { cursor: text; }
-    &-vertical-text:hover { cursor: vertical-text; }
-    &-w-resize:hover { cursor: w-resize; }
-    &-wait:hover { cursor: wait; }
-    &-zoom-in:hover { cursor: zoom-in; }
-    &-zoom-out:hover { cursor: zoom-out; }
-    &-moz-grab:hover { cursor: -moz-grab; }
-    &-moz-grabbing:hover { cursor: -moz-grabbing; }
-    &-moz-zoom-in:hover { cursor: -moz-zoom-in; }
-    &-moz-zoom-out:hover { cursor: -moz-zoom-out; }
-    &-webkit-grab:hover { cursor: -webkit-grab; }
-    &-webkit-grabbing:hover { cursor: -webkit-grabbing; }
-    &-webkit-zoom-in:hover { cursor: -webkit-zoom-in; }
-    &-webkit-zoom-out:hover { cursor: -webkit-zoom-out; }
-    &-inherit:hover { cursor: inherit; }
-    &-initial:hover { cursor: initial; }
-    &-unset:hover { cursor: unset; }
-}
-
-@media (max-width: 640px) {
-    .sm\:h\:cursor {
-        &-alias:hover { cursor: alias; }
-        &-all-scroll:hover { cursor: all-scroll; }
-        &-auto:hover { cursor: auto; }
-        &-cell:hover { cursor: cell; }
-        &-col-resize:hover { cursor: col-resize; }
-        &-context-menu:hover { cursor: context-menu; }
-        &-col-copy:hover { cursor: copy; }
-        &-crosshair:hover { cursor: crosshair; }
-        &-default:hover { cursor: default; }
-        &-e-resize:hover { cursor: e-resize; }
-        &-grab:hover { cursor: grab; }
-        &-grabbing:hover { cursor: grabbing; }
-        &-help:hover { cursor: help; }
-        &-move:hover { cursor: move; }
-        &-n-resize:hover { cursor: n-resize; }
-        &-ne-resize:hover { cursor: ne-resize; }
-        &-nesw-resize:hover { cursor: nesw-resize; }
-        &-no-drop:hover { cursor: no-drop; }
-        &-none:hover { cursor: none; }
-        &-not-allowed:hover { cursor: not-allowed; }
-        &-ns-resize:hover { cursor: ns-resize; }
-        &-nw-resize:hover { cursor: nw-resize; }
-        &-nwse-resize:hover { cursor: nwse-resize; }
-        &-pointer:hover { cursor: pointer; }
-        &-progress:hover { cursor: progress; }
-        &-row-resize:hover { cursor: row-resize; }
-        &-s-resize:hover { cursor: s-resize; }
-        &-se-resize:hover { cursor: se-resize; }
-        &-sw-resize:hover { cursor: sw-resize; }
-        &-text:hover { cursor: text; }
-        &-vertical-text:hover { cursor: vertical-text; }
-        &-w-resize:hover { cursor: w-resize; }
-        &-wait:hover { cursor: wait; }
-        &-zoom-in:hover { cursor: zoom-in; }
-        &-zoom-out:hover { cursor: zoom-out; }
-        &-moz-grab:hover { cursor: -moz-grab; }
-        &-moz-grabbing:hover { cursor: -moz-grabbing; }
-        &-moz-zoom-in:hover { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:hover { cursor: -moz-zoom-out; }
-        &-webkit-grab:hover { cursor: -webkit-grab; }
-        &-webkit-grabbing:hover { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:hover { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:hover { cursor: -webkit-zoom-out; }
-        &-inherit:hover { cursor: inherit; }
-        &-initial:hover { cursor: initial; }
-        &-unset:hover { cursor: unset; }
-    }
-}
-
-@media (max-width: 800px) {
-    .md\:h\:cursor {
-        &-alias:hover { cursor: alias; }
-        &-all-scroll:hover { cursor: all-scroll; }
-        &-auto:hover { cursor: auto; }
-        &-cell:hover { cursor: cell; }
-        &-col-resize:hover { cursor: col-resize; }
-        &-context-menu:hover { cursor: context-menu; }
-        &-col-copy:hover { cursor: copy; }
-        &-crosshair:hover { cursor: crosshair; }
-        &-default:hover { cursor: default; }
-        &-e-resize:hover { cursor: e-resize; }
-        &-grab:hover { cursor: grab; }
-        &-grabbing:hover { cursor: grabbing; }
-        &-help:hover { cursor: help; }
-        &-move:hover { cursor: move; }
-        &-n-resize:hover { cursor: n-resize; }
-        &-ne-resize:hover { cursor: ne-resize; }
-        &-nesw-resize:hover { cursor: nesw-resize; }
-        &-no-drop:hover { cursor: no-drop; }
-        &-none:hover { cursor: none; }
-        &-not-allowed:hover { cursor: not-allowed; }
-        &-ns-resize:hover { cursor: ns-resize; }
-        &-nw-resize:hover { cursor: nw-resize; }
-        &-nwse-resize:hover { cursor: nwse-resize; }
-        &-pointer:hover { cursor: pointer; }
-        &-progress:hover { cursor: progress; }
-        &-row-resize:hover { cursor: row-resize; }
-        &-s-resize:hover { cursor: s-resize; }
-        &-se-resize:hover { cursor: se-resize; }
-        &-sw-resize:hover { cursor: sw-resize; }
-        &-text:hover { cursor: text; }
-        &-vertical-text:hover { cursor: vertical-text; }
-        &-w-resize:hover { cursor: w-resize; }
-        &-wait:hover { cursor: wait; }
-        &-zoom-in:hover { cursor: zoom-in; }
-        &-zoom-out:hover { cursor: zoom-out; }
-        &-moz-grab:hover { cursor: -moz-grab; }
-        &-moz-grabbing:hover { cursor: -moz-grabbing; }
-        &-moz-zoom-in:hover { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:hover { cursor: -moz-zoom-out; }
-        &-webkit-grab:hover { cursor: -webkit-grab; }
-        &-webkit-grabbing:hover { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:hover { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:hover { cursor: -webkit-zoom-out; }
-        &-inherit:hover { cursor: inherit; }
-        &-initial:hover { cursor: initial; }
-        &-unset:hover { cursor: unset; }
-    }
-}
-
-@media (min-width: 1024px) {
-    .lg\:h\:cursor {
-        &-alias:hover { cursor: alias; }
-        &-all-scroll:hover { cursor: all-scroll; }
-        &-auto:hover { cursor: auto; }
-        &-cell:hover { cursor: cell; }
-        &-col-resize:hover { cursor: col-resize; }
-        &-context-menu:hover { cursor: context-menu; }
-        &-col-copy:hover { cursor: copy; }
-        &-crosshair:hover { cursor: crosshair; }
-        &-default:hover { cursor: default; }
-        &-e-resize:hover { cursor: e-resize; }
-        &-grab:hover { cursor: grab; }
-        &-grabbing:hover { cursor: grabbing; }
-        &-help:hover { cursor: help; }
-        &-move:hover { cursor: move; }
-        &-n-resize:hover { cursor: n-resize; }
-        &-ne-resize:hover { cursor: ne-resize; }
-        &-nesw-resize:hover { cursor: nesw-resize; }
-        &-no-drop:hover { cursor: no-drop; }
-        &-none:hover { cursor: none; }
-        &-not-allowed:hover { cursor: not-allowed; }
-        &-ns-resize:hover { cursor: ns-resize; }
-        &-nw-resize:hover { cursor: nw-resize; }
-        &-nwse-resize:hover { cursor: nwse-resize; }
-        &-pointer:hover { cursor: pointer; }
-        &-progress:hover { cursor: progress; }
-        &-row-resize:hover { cursor: row-resize; }
-        &-s-resize:hover { cursor: s-resize; }
-        &-se-resize:hover { cursor: se-resize; }
-        &-sw-resize:hover { cursor: sw-resize; }
-        &-text:hover { cursor: text; }
-        &-vertical-text:hover { cursor: vertical-text; }
-        &-w-resize:hover { cursor: w-resize; }
-        &-wait:hover { cursor: wait; }
-        &-zoom-in:hover { cursor: zoom-in; }
-        &-zoom-out:hover { cursor: zoom-out; }
-        &-moz-grab:hover { cursor: -moz-grab; }
-        &-moz-grabbing:hover { cursor: -moz-grabbing; }
-        &-moz-zoom-in:hover { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:hover { cursor: -moz-zoom-out; }
-        &-webkit-grab:hover { cursor: -webkit-grab; }
-        &-webkit-grabbing:hover { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:hover { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:hover { cursor: -webkit-zoom-out; }
-        &-inherit:hover { cursor: inherit; }
-        &-initial:hover { cursor: initial; }
-        &-unset:hover { cursor: unset; }
-    }
-}
-
-@media (min-width: 1280px) {
-    .xl\:h\:cursor {
-        &-alias:hover { cursor: alias; }
-        &-all-scroll:hover { cursor: all-scroll; }
-        &-auto:hover { cursor: auto; }
-        &-cell:hover { cursor: cell; }
-        &-col-resize:hover { cursor: col-resize; }
-        &-context-menu:hover { cursor: context-menu; }
-        &-col-copy:hover { cursor: copy; }
-        &-crosshair:hover { cursor: crosshair; }
-        &-default:hover { cursor: default; }
-        &-e-resize:hover { cursor: e-resize; }
-        &-grab:hover { cursor: grab; }
-        &-grabbing:hover { cursor: grabbing; }
-        &-help:hover { cursor: help; }
-        &-move:hover { cursor: move; }
-        &-n-resize:hover { cursor: n-resize; }
-        &-ne-resize:hover { cursor: ne-resize; }
-        &-nesw-resize:hover { cursor: nesw-resize; }
-        &-no-drop:hover { cursor: no-drop; }
-        &-none:hover { cursor: none; }
-        &-not-allowed:hover { cursor: not-allowed; }
-        &-ns-resize:hover { cursor: ns-resize; }
-        &-nw-resize:hover { cursor: nw-resize; }
-        &-nwse-resize:hover { cursor: nwse-resize; }
-        &-pointer:hover { cursor: pointer; }
-        &-progress:hover { cursor: progress; }
-        &-row-resize:hover { cursor: row-resize; }
-        &-s-resize:hover { cursor: s-resize; }
-        &-se-resize:hover { cursor: se-resize; }
-        &-sw-resize:hover { cursor: sw-resize; }
-        &-text:hover { cursor: text; }
-        &-vertical-text:hover { cursor: vertical-text; }
-        &-w-resize:hover { cursor: w-resize; }
-        &-wait:hover { cursor: wait; }
-        &-zoom-in:hover { cursor: zoom-in; }
-        &-zoom-out:hover { cursor: zoom-out; }
-        &-moz-grab:hover { cursor: -moz-grab; }
-        &-moz-grabbing:hover { cursor: -moz-grabbing; }
-        &-moz-zoom-in:hover { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:hover { cursor: -moz-zoom-out; }
-        &-webkit-grab:hover { cursor: -webkit-grab; }
-        &-webkit-grabbing:hover { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:hover { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:hover { cursor: -webkit-zoom-out; }
-        &-inherit:hover { cursor: inherit; }
-        &-initial:hover { cursor: initial; }
-        &-unset:hover { cursor: unset; }
-    }
-}
-
-// A:CURSOR ARENA //
-.a\:cursor {
-    &-alias:active { cursor: alias; }
-    &-all-scroll:active { cursor: all-scroll; }
-    &-auto:active { cursor: auto; }
-    &-cell:active { cursor: cell; }
-    &-col-resize:active { cursor: col-resize; }
-    &-context-menu:active { cursor: context-menu; }
-    &-col-copy:active { cursor: copy; }
-    &-crosshair:active { cursor: crosshair; }
-    &-default:active { cursor: default; }
-    &-e-resize:active { cursor: e-resize; }
-    &-grab:active { cursor: grab; }
-    &-grabbing:active { cursor: grabbing; }
-    &-help:active { cursor: help; }
-    &-move:active { cursor: move; }
-    &-n-resize:active { cursor: n-resize; }
-    &-ne-resize:active { cursor: ne-resize; }
-    &-nesw-resize:active { cursor: nesw-resize; }
-    &-no-drop:active { cursor: no-drop; }
-    &-none:active { cursor: none; }
-    &-not-allowed:active { cursor: not-allowed; }
-    &-ns-resize:active { cursor: ns-resize; }
-    &-nw-resize:active { cursor: nw-resize; }
-    &-nwse-resize:active { cursor: nwse-resize; }
-    &-pointer:active { cursor: pointer; }
-    &-progress:active { cursor: progress; }
-    &-row-resize:active { cursor: row-resize; }
-    &-s-resize:active { cursor: s-resize; }
-    &-se-resizea:active { cursor: se-resize; }
-    &-sw-resize:active { cursor: sw-resize; }
-    &-text:active { cursor: text; }
-    &-vertical-text:active { cursor: vertical-text; }
-    &-w-resize:active { cursor: w-resize; }
-    &-wait:active { cursor: wait; }
-    &-zoom-in:active { cursor: zoom-in; }
-    &-zoom-out:active { cursor: zoom-out; }
-    &-moz-grab:active { cursor: -moz-grab; }
-    &-moz-grabbing:active { cursor: -moz-grabbing; }
-    &-moz-zoom-in:active { cursor: -moz-zoom-in; }
-    &-moz-zoom-out:active { cursor: -moz-zoom-out; }
-    &-webkit-grab:active { cursor: -webkit-grab; }
-    &-webkit-grabbing:active { cursor: -webkit-grabbing; }
-    &-webkit-zoom-in:active { cursor: -webkit-zoom-in; }
-    &-webkit-zoom-out:active { cursor: -webkit-zoom-out; }
-    &-inherit:active { cursor: inherit; }
-    &-initial:active { cursor: initial; }
-    &-unset:active { cursor: unset; }
-}
-
-@media (max-width: 640px) {
-    .sm\:a\:cursor {
-        &-alias:active { cursor: alias; }
-        &-all-scroll:active { cursor: all-scroll; }
-        &-auto:active { cursor: auto; }
-        &-cell:active { cursor: cell; }
-        &-col-resize:active { cursor: col-resize; }
-        &-context-menu:active { cursor: context-menu; }
-        &-col-copy:active { cursor: copy; }
-        &-crosshair:active { cursor: crosshair; }
-        &-default:active { cursor: default; }
-        &-e-resize:active { cursor: e-resize; }
-        &-grab:active { cursor: grab; }
-        &-grabbing:active { cursor: grabbing; }
-        &-help:active { cursor: help; }
-        &-move:active { cursor: move; }
-        &-n-resize:active { cursor: n-resize; }
-        &-ne-resize:active { cursor: ne-resize; }
-        &-nesw-resize:active { cursor: nesw-resize; }
-        &-no-drop:active { cursor: no-drop; }
-        &-none:active { cursor: none; }
-        &-not-allowed:active { cursor: not-allowed; }
-        &-ns-resize:active { cursor: ns-resize; }
-        &-nw-resize:active { cursor: nw-resize; }
-        &-nwse-resize:active { cursor: nwse-resize; }
-        &-pointer:active { cursor: pointer; }
-        &-progress:active { cursor: progress; }
-        &-row-resize:active { cursor: row-resize; }
-        &-s-resize:active { cursor: s-resize; }
-        &-se-resizea:active { cursor: se-resize; }
-        &-sw-resize:active { cursor: sw-resize; }
-        &-text:active { cursor: text; }
-        &-vertical-text:active { cursor: vertical-text; }
-        &-w-resize:active { cursor: w-resize; }
-        &-wait:active { cursor: wait; }
-        &-zoom-in:active { cursor: zoom-in; }
-        &-zoom-out:active { cursor: zoom-out; }
-        &-moz-grab:active { cursor: -moz-grab; }
-        &-moz-grabbing:active { cursor: -moz-grabbing; }
-        &-moz-zoom-in:active { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:active { cursor: -moz-zoom-out; }
-        &-webkit-grab:active { cursor: -webkit-grab; }
-        &-webkit-grabbing:active { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:active { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:active { cursor: -webkit-zoom-out; }
-        &-inherit:active { cursor: inherit; }
-        &-initial:active { cursor: initial; }
-        &-unset:active { cursor: unset; }
-    }
-}
-
-@media (max-width: 800px) {
-    .md\:a\:cursor {
-        &-alias:active { cursor: alias; }
-        &-all-scroll:active { cursor: all-scroll; }
-        &-auto:active { cursor: auto; }
-        &-cell:active { cursor: cell; }
-        &-col-resize:active { cursor: col-resize; }
-        &-context-menu:active { cursor: context-menu; }
-        &-col-copy:active { cursor: copy; }
-        &-crosshair:active { cursor: crosshair; }
-        &-default:active { cursor: default; }
-        &-e-resize:active { cursor: e-resize; }
-        &-grab:active { cursor: grab; }
-        &-grabbing:active { cursor: grabbing; }
-        &-help:active { cursor: help; }
-        &-move:active { cursor: move; }
-        &-n-resize:active { cursor: n-resize; }
-        &-ne-resize:active { cursor: ne-resize; }
-        &-nesw-resize:active { cursor: nesw-resize; }
-        &-no-drop:active { cursor: no-drop; }
-        &-none:active { cursor: none; }
-        &-not-allowed:active { cursor: not-allowed; }
-        &-ns-resize:active { cursor: ns-resize; }
-        &-nw-resize:active { cursor: nw-resize; }
-        &-nwse-resize:active { cursor: nwse-resize; }
-        &-pointer:active { cursor: pointer; }
-        &-progress:active { cursor: progress; }
-        &-row-resize:active { cursor: row-resize; }
-        &-s-resize:active { cursor: s-resize; }
-        &-se-resizea:active { cursor: se-resize; }
-        &-sw-resize:active { cursor: sw-resize; }
-        &-text:active { cursor: text; }
-        &-vertical-text:active { cursor: vertical-text; }
-        &-w-resize:active { cursor: w-resize; }
-        &-wait:active { cursor: wait; }
-        &-zoom-in:active { cursor: zoom-in; }
-        &-zoom-out:active { cursor: zoom-out; }
-        &-moz-grab:active { cursor: -moz-grab; }
-        &-moz-grabbing:active { cursor: -moz-grabbing; }
-        &-moz-zoom-in:active { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:active { cursor: -moz-zoom-out; }
-        &-webkit-grab:active { cursor: -webkit-grab; }
-        &-webkit-grabbing:active { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:active { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:active { cursor: -webkit-zoom-out; }
-        &-inherit:active { cursor: inherit; }
-        &-initial:active { cursor: initial; }
-        &-unset:active { cursor: unset; }
-    }
-}
-
-@media (min-width: 1024px) {
-    .lg\:a\:cursor {
-        &-alias:active { cursor: alias; }
-        &-all-scroll:active { cursor: all-scroll; }
-        &-auto:active { cursor: auto; }
-        &-cell:active { cursor: cell; }
-        &-col-resize:active { cursor: col-resize; }
-        &-context-menu:active { cursor: context-menu; }
-        &-col-copy:active { cursor: copy; }
-        &-crosshair:active { cursor: crosshair; }
-        &-default:active { cursor: default; }
-        &-e-resize:active { cursor: e-resize; }
-        &-grab:active { cursor: grab; }
-        &-grabbing:active { cursor: grabbing; }
-        &-help:active { cursor: help; }
-        &-move:active { cursor: move; }
-        &-n-resize:active { cursor: n-resize; }
-        &-ne-resize:active { cursor: ne-resize; }
-        &-nesw-resize:active { cursor: nesw-resize; }
-        &-no-drop:active { cursor: no-drop; }
-        &-none:active { cursor: none; }
-        &-not-allowed:active { cursor: not-allowed; }
-        &-ns-resize:active { cursor: ns-resize; }
-        &-nw-resize:active { cursor: nw-resize; }
-        &-nwse-resize:active { cursor: nwse-resize; }
-        &-pointer:active { cursor: pointer; }
-        &-progress:active { cursor: progress; }
-        &-row-resize:active { cursor: row-resize; }
-        &-s-resize:active { cursor: s-resize; }
-        &-se-resizea:active { cursor: se-resize; }
-        &-sw-resize:active { cursor: sw-resize; }
-        &-text:active { cursor: text; }
-        &-vertical-text:active { cursor: vertical-text; }
-        &-w-resize:active { cursor: w-resize; }
-        &-wait:active { cursor: wait; }
-        &-zoom-in:active { cursor: zoom-in; }
-        &-zoom-out:active { cursor: zoom-out; }
-        &-moz-grab:active { cursor: -moz-grab; }
-        &-moz-grabbing:active { cursor: -moz-grabbing; }
-        &-moz-zoom-in:active { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:active { cursor: -moz-zoom-out; }
-        &-webkit-grab:active { cursor: -webkit-grab; }
-        &-webkit-grabbing:active { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:active { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:active { cursor: -webkit-zoom-out; }
-        &-inherit:active { cursor: inherit; }
-        &-initial:active { cursor: initial; }
-        &-unset:active { cursor: unset; }
-    }
-}
-
-@media (min-width: 1280px) {
-    .xl\:a\:cursor {
-        &-alias:active { cursor: alias; }
-        &-all-scroll:active { cursor: all-scroll; }
-        &-auto:active { cursor: auto; }
-        &-cell:active { cursor: cell; }
-        &-col-resize:active { cursor: col-resize; }
-        &-context-menu:active { cursor: context-menu; }
-        &-col-copy:active { cursor: copy; }
-        &-crosshair:active { cursor: crosshair; }
-        &-default:active { cursor: default; }
-        &-e-resize:active { cursor: e-resize; }
-        &-grab:active { cursor: grab; }
-        &-grabbing:active { cursor: grabbing; }
-        &-help:active { cursor: help; }
-        &-move:active { cursor: move; }
-        &-n-resize:active { cursor: n-resize; }
-        &-ne-resize:active { cursor: ne-resize; }
-        &-nesw-resize:active { cursor: nesw-resize; }
-        &-no-drop:active { cursor: no-drop; }
-        &-none:active { cursor: none; }
-        &-not-allowed:active { cursor: not-allowed; }
-        &-ns-resize:active { cursor: ns-resize; }
-        &-nw-resize:active { cursor: nw-resize; }
-        &-nwse-resize:active { cursor: nwse-resize; }
-        &-pointer:active { cursor: pointer; }
-        &-progress:active { cursor: progress; }
-        &-row-resize:active { cursor: row-resize; }
-        &-s-resize:active { cursor: s-resize; }
-        &-se-resizea:active { cursor: se-resize; }
-        &-sw-resize:active { cursor: sw-resize; }
-        &-text:active { cursor: text; }
-        &-vertical-text:active { cursor: vertical-text; }
-        &-w-resize:active { cursor: w-resize; }
-        &-wait:active { cursor: wait; }
-        &-zoom-in:active { cursor: zoom-in; }
-        &-zoom-out:active { cursor: zoom-out; }
-        &-moz-grab:active { cursor: -moz-grab; }
-        &-moz-grabbing:active { cursor: -moz-grabbing; }
-        &-moz-zoom-in:active { cursor: -moz-zoom-in; }
-        &-moz-zoom-out:active { cursor: -moz-zoom-out; }
-        &-webkit-grab:active { cursor: -webkit-grab; }
-        &-webkit-grabbing:active { cursor: -webkit-grabbing; }
-        &-webkit-zoom-in:active { cursor: -webkit-zoom-in; }
-        &-webkit-zoom-out:active { cursor: -webkit-zoom-out; }
-        &-inherit:active { cursor: inherit; }
-        &-initial:active { cursor: initial; }
-        &-unset:active { cursor: unset; }
-    }
-}
-
-
-
 // OVERFLOW ARENA //
 .overflow {
     &-auto { overflow: auto; }
@@ -819,7 +309,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:overflow {
         &-auto { overflow: auto; }
         &-hidden { overflow: hidden; }
@@ -906,7 +396,6 @@
     }
 }
 
-// INLINE ARENA //
 .inline {
     display: inline;
 
@@ -916,7 +405,7 @@
     &-grid { display: inline-grid; }
 }
 
-// INLINE @MEDIA ARENA //
+// DISPLAY ARENA //
 @media (max-width: 640px) {
     .sm\:inline {
         display: inline;
@@ -928,7 +417,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:inline {
         display: inline;
     
@@ -961,6 +450,25 @@
     }
 }
 
+// HIDDEN ARENA //
+.hidden { display: none; }
+
+@media (max-width: 640px) {
+    .sm\:hidden { display: none; }
+}
+
+@media (max-width: 768px) {
+    .md\:hidden { display: none; }
+}
+
+@media (min-width: 1024px) {
+    .lg\:hidden { display: none; }
+}
+
+@media (min-width: 1280px) {
+    .xl\:hidden { display: none; }
+}
+
 // BLOCK ARENA //
 .block { display: block; }
 
@@ -968,7 +476,7 @@
     .sm\:block { display: block; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:block { display: block; }
 }
 
@@ -994,7 +502,7 @@
     .sm\:grid { display: grid; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:grid { display: grid; }
 }
 
@@ -1014,7 +522,7 @@
     .sm\:-moz-grid { display: -moz-grid; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:-moz-grid { display: -moz-grid; }
 }
 
@@ -1026,36 +534,30 @@
     .xl\:-moz-grid { display: -moz-grid; }
 }
 
-// PLACE ARENA //
-.place {
-    &-items { place-items: center; }
-    // &-content { place-content: ; }
-    // &-self { place-self: ; }
+.xd-grid {
+
+    display: grid;
+    grid-gap: 12px;
+    // grid-column: 3/8;
+    // margin: 0 140px 0 140px;
+    grid-template-columns: 1fr 1fr 1fr;
+    // grid-template-columns: repeat(12, 1fr);
+    // grid-template-columns: repeat(11, 1fr 20px) 1fr;
+
 }
 
-// PLACE @MEDIA ARENA //
-@media (max-width: 800px) {
-    .md\:place {
-        &-items { place-items: center; }
-        // &-content { place-content: ; }
-        // &-self { place-self: ; }
-    }
-}
+.xd-grid-1 {
 
-@media (min-width: 1024px) {
-    .lg\:place {
-        &-items { place-items: center; }
-        // &-content { place-content: ; }
-        // &-self { place-self: ; }
-    }
-}
+    display: grid;
+    grid-gap: 12px;
+    // grid-column: 3/8;
+    // max-width: 960px;
+    // margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    // margin: 0 140px 0 140px;
+    // grid-template-columns: repeat(12, 1fr);
+    // grid-template-columns: repeat(11, 1fr 20px) 1fr;
 
-@media (min-width: 1280px) {
-    .xl\:place {
-        &-items { place-items: center; }
-        // &-content { place-content: ; }
-        // &-self { place-self: ; }
-    }
 }
 
 // FROM TAILWINDCSS GRID
@@ -1094,7 +596,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:grid-cols {
         &-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
         &-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1148,7 +650,6 @@
     }
 }
 
-// COL ARENA //
 .col {
     &-auto { grid-column: auto; }
     &-span-1 { grid-column: span 1 / span 1; }
@@ -1196,7 +697,7 @@
 
 // COL @MEDIA ARENA //
 @media (max-width: 640px) {
-    .sm\:col {
+    .sm\:.col {
         &-auto { grid-column: auto; }
         &-span-1 { grid-column: span 1 / span 1; }
         &-span-2 { grid-column: span 2 / span 2; }
@@ -1242,8 +743,8 @@
     }
 }
 
-@media (max-width: 800px) {
-    .md\:col {
+@media (max-width: 768px) {
+    .md\:.col {
         &-auto { grid-column: auto; }
         &-span-1 { grid-column: span 1 / span 1; }
         &-span-2 { grid-column: span 2 / span 2; }
@@ -1290,7 +791,7 @@
 }
 
 @media (min-width: 1024px) {
-    .lg\:col {
+    .lg\:.col {
         &-auto { grid-column: auto; }
         &-span-1 { grid-column: span 1 / span 1; }
         &-span-2 { grid-column: span 2 / span 2; }
@@ -1337,7 +838,7 @@
 }
 
 @media (min-width: 1280px) {
-    .xl\:col {
+    .xl\:.col {
         &-auto { grid-column: auto; }
         &-span-1 { grid-column: span 1 / span 1; }
         &-span-2 { grid-column: span 2 / span 2; }
@@ -1410,14 +911,14 @@
     &-start-5 { grid-row-start: 5; }
     &-start-6 { grid-row-start: 6; }
     &-start-7 { grid-row-start: 7; }
-    &-start-auto { grid-row-start: auto; }
-    &-end-1	{ grid-row-end: 1; }
-    &-end-2	{ grid-row-end: 2; }
-    &-end-3	{ grid-row-end: 3; }
-    &-end-4	{ grid-row-end: 4; }
-    &-end-5	{ grid-row-end: 5; }
-    &-end-6	{ grid-row-end: 6; }
-    &-end-7	{ grid-row-end: 7; }
+    &-start-auto { grid-row-start: auto; ;
+    &-end-1 { grid-row-end: 1; }
+    &-end-2 { grid-row-end: 2; }
+    &-end-3 { grid-row-end: 3; }
+    &-end-4 { grid-row-end: 4; }
+    &-end-5 { grid-row-end: 5; }
+    &-end-6 { grid-row-end: 6; }
+    &-end-7 { grid-row-end: 7; }
     &-end-auto { grid-row-end: auto; }
 }
 
@@ -1442,6 +943,112 @@
     &-fr { grid-auto-rows: minmax(0, 1fr); }
 }
 
+// .gap-0 {gap: 0px};
+// .gap-x-0 {column-gap: 0px};
+// .gap-y-0 {row-gap: 0px};
+// .gap-0.5 {gap: 0.125rem};
+// .gap-x-0.5 {column-gap: 0.125rem};
+// .gap-y-0.5 {row-gap: 0.125rem};
+// .gap-1 {gap: 0.25rem};
+// .gap-x-1 {column-gap: 0.25rem};
+// .gap-y-1 {row-gap: 0.25rem};
+// .gap-1.5 {gap: 0.375rem};
+// .gap-x-1.5 {column-gap: 0.375rem};
+// .gap-y-1.5 {row-gap: 0.375rem};
+// .gap-2 {gap: 0.5rem};
+// .gap-x-2 {column-gap: 0.5rem};
+// .gap-y-2 {row-gap: 0.5rem};
+// .gap-2.5 {gap: 0.625rem};
+// .gap-x-2.5 {column-gap: 0.625rem};
+// .gap-y-2.5 {row-gap: 0.625rem};
+// .gap-3 {gap: 0.75rem};
+// .gap-x-3 {column-gap: 0.75rem};
+// .gap-y-3 {row-gap: 0.75rem};
+// .gap-3.5 {gap: 0.875rem};
+// .gap-x-3.5 {column-gap: 0.875rem};
+// .gap-y-3.5 {row-gap: 0.875rem};
+// .gap-4 {gap: 1rem};
+// .gap-x-4 {column-gap: 1rem};
+// .gap-y-4 {row-gap: 1rem};
+// .gap-5 {gap: 1.25rem};
+// .gap-x-5 {column-gap: 1.25rem};
+// .gap-y-5 {row-gap: 1.25rem};
+// .gap-6 {gap: 1.5rem};
+// .gap-x-6 {column-gap: 1.5rem};
+// .gap-y-6 {row-gap: 1.5rem};
+// .gap-7 {gap: 1.75rem};
+// .gap-x-7 {column-gap: 1.75rem};
+// .gap-y-7 {row-gap: 1.75rem};
+// .gap-8 {gap: 2rem};
+// .gap-x-8 {column-gap: 2rem};
+// .gap-y-8 {row-gap: 2rem};
+// .gap-9 {gap: 2.25rem};
+// .gap-x-9 {column-gap: 2.25rem};
+// .gap-y-9 {row-gap: 2.25rem};
+// .gap-10 {gap: 2.5rem};
+// .gap-x-10 {column-gap: 2.5rem};
+// .gap-y-10 {row-gap: 2.5rem};
+// .gap-11	{gap: 2.75rem};
+// .gap-x-11 {column-gap: 2.75rem};
+// .gap-y-11 {row-gap: 2.75rem};
+// .gap-12	{gap: 3rem};
+// .gap-x-12 {column-gap: 3rem};
+// .gap-y-12 {row-gap: 3rem};
+// .gap-14	{gap: 3.5rem};
+// .gap-x-14 {column-gap: 3.5rem};
+// .gap-y-14 {row-gap: 3.5rem};
+// .gap-16 {gap: 4rem};
+// .gap-x-16 {column-gap: 4rem};
+// .gap-y-16 {row-gap: 4rem};
+// .gap-20 {gap: 5rem};
+// .gap-x-20 {column-gap: 5rem};
+// .gap-y-20 {row-gap: 5rem};
+// .gap-24 {gap: 6rem};
+// .gap-x-24 {column-gap: 6rem};
+// .gap-y-24 {row-gap: 6rem};
+// .gap-28	{gap: 7rem};
+// .gap-x-28 {column-gap: 7rem};
+// .gap-y-28 {row-gap: 7rem};
+// .gap-32 {gap: 8rem};
+// .gap-x-32 {column-gap: 8rem};
+// .gap-y-32 {row-gap: 8rem};
+// .gap-36	{gap: 9rem};
+// .gap-x-36 {column-gap: 9rem};
+// .gap-y-36 {row-gap: 9rem};
+// .gap-40 {gap: 10rem};
+// .gap-x-40 {column-gap: 10rem};
+// .gap-y-40 {row-gap: 10rem};
+// .gap-44 {gap: 11rem};
+// .gap-x-44 {column-gap: 11rem};
+// .gap-y-44 {row-gap: 11rem};
+// .gap-48 {gap: 12rem};
+// .gap-x-48 {column-gap: 12rem};
+// .gap-y-48 {row-gap: 12rem};
+// .gap-52 {gap: 13rem};
+// .gap-x-52 {column-gap: 13rem};
+// .gap-y-52 {row-gap: 13rem};
+// .gap-56 {gap: 14rem};
+// .gap-x-56 {column-gap: 14rem};
+// .gap-y-56 {row-gap: 14rem};
+// .gap-60 {gap: 15rem};
+// .gap-x-60 {column-gap: 15rem};
+// .gap-y-60 {row-gap: 15rem};
+// .gap-64 {gap: 16rem};
+// .gap-x-64 {column-gap: 16rem};
+// .gap-y-64 {row-gap: 16rem};
+// .gap-72 {gap: 18rem};
+// .gap-x-72 {column-gap: 18rem};
+// .gap-y-72 {row-gap: 18rem};
+// .gap-80 {gap: 20rem};
+// .gap-x-80 {column-gap: 20rem};
+// .gap-y-80 {row-gap: 20rem};
+// .gap-96 {gap: 24rem};
+// .gap-x-96 {column-gap: 24rem};
+// .gap-y-96 {row-gap: 24rem};
+// .gap-px {gap: 1px};
+// .gap-x-px {column-gap: 1px};
+// .gap-y-px {row-gap: 1px};
+
 // FLEX ARENA //
 .flex {
     display: flex;
@@ -1464,7 +1071,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:flex {
         display: flex;
     
@@ -1497,26 +1104,6 @@
     }
 }
 
-// FLEXBOX ARENA //
-.flexbox { display: flexbox; }
-
-// FLEXBOX @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:flexbox { display: flexbox; }
-}
-
-@media (max-width: 800px) {
-    .md\:flexbox { display: flexbox; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:flexbox { display: flexbox; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:flexbox { display: flexbox; }
-}
-
 // -MOZ-FLEX ARENA //
 .-moz-flex { display: -moz-flex; }
 
@@ -1525,7 +1112,7 @@
     .sm\:-moz-flex { display: -moz-flex; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:-moz-flex { display: -moz-flex; }
 }
 
@@ -1555,7 +1142,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:justify {
         &-center { justify-content: center; }
         &-around { justify-content: space-around; }
@@ -1582,6 +1169,31 @@
     }
 }
 
+// // FLEX ARENA //
+// .flex {
+//     &-col, &-column { flex-direction: column; }
+//     &-col-reverse { flex-direction: column-reverse; }
+//     &-row { flex-direction: row; }
+//     &-row-reverse { flex-direction: row-reverse; }
+// }
+
+// // @MEDIA : FLEX-COL #MEDIA //
+// @media (max-width: 640px) {
+//     .sm\:flex-row-reverse { flex-direction: row-reverse; }
+// }
+
+// @media (max-width: 768px) {
+//     .md\:flex-row-reverse { flex-direction: row-reverse; }
+// }
+
+// @media (min-width: 1024px) {
+//     .lg\:flex-row-reverse { flex-direction: row-reverse; }
+// }
+
+// @media (min-width: 1280px) {
+//     .xl\:flex-row-reverse { flex-direction: row-reverse; }
+// }
+
 // ALIGN ARENA //
 .align {
     &-baseline { align-items: baseline; }
@@ -1601,7 +1213,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .md\:align {
         &-baseline { align-items: baseline; }
         &-center { align-items: center; }
@@ -1631,6 +1243,55 @@
     }
 }
 
+// FLEXBOX ARENA //
+.flexbox { display: flexbox; }
+
+// FLEXBOX @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:flexbox { display: flexbox; }
+}
+
+@media (max-width: 768px) {
+    .md\:flexbox { display: flexbox; }
+}
+
+@media (min-width: 1024px) {
+    .lg\:flexbox { display: flexbox; }
+}
+
+@media (min-width: 1280px) {
+    .xl\:flexbox { display: flexbox; }
+}
+
+// -MOZ-FLEXBOX ARENA //
+.-moz-flexbox { display: -moz-flexbox; }
+
+// -MOZ-FLEXBOX @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:-moz-flexbox { display: -moz-flexbox; }
+}
+
+@media (max-width: 768px) {
+    .md\:-moz-flexbox { display: -moz-flexbox; }
+}
+
+@media (min-width: 1024px) {
+    .lg\:-moz-flexbox { display: -moz-flexbox; }
+}
+
+@media (min-width: 1280px) {
+    .xl\:-moz-flexbox { display: -moz-flexbox; }
+}
+
+.inline {
+    display: inline;
+
+    &-flex { display: inline-flex; }
+    &-block { display: inline-block; }
+    &-table { display: inline-table; }
+    &-grid { display: inline-grid; }
+}
+
 .table {
     display: table;
 
@@ -1643,203 +1304,6 @@
     &-row-group	{ display: table-row-group; }
     &-row { display: table-row; }
 }
-
-@media (max-width: 640px) {
-    .sm\:table {
-        display: table;
-    
-        &-cell { display: table-cell; }
-        &-column { display: table-column; }
-        &-caption { display: table-caption; }
-        &-column-group { display: table-column-group; }
-        &-footer-group { display: table-footer-group; }
-        &-header-group { display: table-header-group; }
-        &-row-group	{ display: table-row-group; }
-        &-row { display: table-row; }
-    }
-}
-
-@media (max-width: 800px) {
-    .md\:table {
-        display: table;
-    
-        &-cell { display: table-cell; }
-        &-column { display: table-column; }
-        &-caption { display: table-caption; }
-        &-column-group { display: table-column-group; }
-        &-footer-group { display: table-footer-group; }
-        &-header-group { display: table-header-group; }
-        &-row-group	{ display: table-row-group; }
-        &-row { display: table-row; }
-    }
-}
-
-@media (min-width: 1024px) {
-    .lg\:table {
-        display: table;
-    
-        &-cell { display: table-cell; }
-        &-column { display: table-column; }
-        &-caption { display: table-caption; }
-        &-column-group { display: table-column-group; }
-        &-footer-group { display: table-footer-group; }
-        &-header-group { display: table-header-group; }
-        &-row-group	{ display: table-row-group; }
-        &-row { display: table-row; }
-    }
-}
-
-@media (min-width: 1280px) {
-    .xl\:table {
-        display: table;
-    
-        &-cell { display: table-cell; }
-        &-column { display: table-column; }
-        &-caption { display: table-caption; }
-        &-column-group { display: table-column-group; }
-        &-footer-group { display: table-footer-group; }
-        &-header-group { display: table-header-group; }
-        &-row-group	{ display: table-row-group; }
-        &-row { display: table-row; }
-    }
-}
-
-// FLOW-ROOT ARENA //
 .flow-root { display: flow-root; }
-
-// FLOW-ROOT @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:flow-root { display: flow-root; }
-}
-
-@media (max-width: 800px) {
-    .md\:flow-root { display: flow-root; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:flow-root { display: flow-root; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:flow-root { display: flow-root; }
-}
-
-// CONTENTS ARENA //
 .contents { display: contents; }
-
-// CONTENTS @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:contents { display: contents; }
-}
-
-@media (max-width: 800px) {
-    .md\:contents { display: contents; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:contents { display: contents; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:contents { display: contents; }
-}
-
-// LIST-ITEM ARENA //
 .list-item { display: list-item; }
-
-// LIST-ITEM @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:list-item { display: list-item; }
-}
-
-@media (max-width: 800px) {
-    .md\:list-item { display: list-item; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:list-item { display: list-item; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:list-item { display: list-item; }
-}
-
-// SHOW ARENA //
-.show { display: show; }
-
-// SHOW @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:show { display: show; }
-}
-
-@media (max-width: 800px) {
-    .md\:show { display: show; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:show { display: show; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:show { display: show; }
-}
-
-// NONE ARENA //
-.none { display: none; }
-
-// NONE @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:none { display: none; }
-}
-
-@media (max-width: 800px) {
-    .md\:none { display: none; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:none { display: none; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:none { display: none; }
-}
-
-// VISIBLE ARENA //
-.visible { visibility: visible; }
-
-// VISIBLE @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:visible { visibility: visible; }
-}
-
-@media (min-width: 800px) {
-    .md\:visible { visibility: visible; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:visible { visibility: visible; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:visible { visibility: visible; }
-}
-
-// HIDDEN ARENA //
-.hidden { visibility: hidden; }
-
-// HIDDEN @MEDIA ARENA //
-@media (max-width: 640px) {
-    .sm\:hidden { visibility: hidden; }
-}
-
-@media (max-width: 800px) {
-    .md\:hidden { visibility: hidden; }
-}
-
-@media (min-width: 1024px) {
-    .lg\:hidden { visibility: hidden; }
-}
-
-@media (min-width: 1280px) {
-    .xl\:hidden { visibility: hidden; }
-}

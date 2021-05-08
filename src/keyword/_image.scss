@@ -13,3 +13,130 @@
     background-position: center;
 
 }
+
+
+// POINTER-EVENTS ARENA
+.pointer-events-all {
+    pointer-events: all;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-all {
+            pointer-events: all;
+        }
+    }
+}
+
+.pointer-events-fill {
+    pointer-events: fill;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-fill {
+            pointer-events: fill;
+        }
+    }
+}
+
+.pointer-events-none {
+    pointer-events: none;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-none {
+            pointer-events: none;
+        }
+    }
+}
+
+.pointer-events-painted {
+    pointer-events: painted;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-painted {
+            pointer-events: painted;
+        }
+    }
+}
+
+.pointer-events-stroke {
+    pointer-events: stroke;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-stroke {
+            pointer-events: stroke;
+        }
+    }
+}
+
+.pointer-events-visible {
+    pointer-events: visible;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-visible {
+            pointer-events: visible;
+        }
+    }
+}
+
+.pointer-events-visibleFill {
+    pointer-events: visibleFill;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-visibleFill {
+            pointer-events: visibleFill;
+        }
+    }
+}
+
+.pointer-events-visiblePainted {
+    pointer-events: visiblePainted;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-visiblePainted {
+            pointer-events: visiblePainted;
+        }
+    }
+}
+
+.pointer-events-visibleStroke {
+    pointer-events: visibleStroke;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-visibleStroke {
+            pointer-events: visibleStroke;
+        }
+    }
+}
+
+.pointer-events-inherit {
+    pointer-events: inherit;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-inherit {
+            pointer-events: inherit;
+        }
+    }
+}
+
+.pointer-events-initial {
+    pointer-events: initial;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-initial {
+            pointer-events: initial;
+        }
+    }
+}
+
+.pointer-events-unset {
+    pointer-events: unset;
+
+    @media (max-width: 640px) {
+        .sm\:pointer-events-unset {
+            pointer-events: unset;
+        }
+    }
+}
+
+// BACKGROUND FIXED
+.bg-fixed { background-attachment: fixed };
+.bg-local { background-attachment: local };
+.bg-scroll { background-attachment: scroll };

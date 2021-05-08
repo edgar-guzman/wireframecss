@@ -1,0 +1,223 @@
+:root {
+    --menu: 3.6rem;
+}
+
+header {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    // height: var(--menu);
+    justify-content: center;
+}
+
+.guzman span {
+
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--black);
+    // -moz-text-fill-color: transparent;
+    // -webkit-text-fill-color: transparent;
+    //      -moz-text-stroke-color: var(--black);
+    // -webkit-text-stroke-color: var(--black);
+    //      -moz-text-stroke-wifth: 1px;
+    // -webkit-text-stroke-wifth: 1px;
+
+}
+
+.guzman span:hover { -webkit-text-fill-color: var(--gray-ccc); }
+
+.active-text { font-weight: bold; }
+
+// Not Needed
+.nav__links a,
+.cta,
+.overlay__content a {
+
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+
+}
+
+.nav__links {
+
+    display: flex;
+    list-style: none;
+
+}
+
+.nav__links li {
+
+    padding: 0px 20px;
+
+}
+
+.nav__links li a {
+
+    transition: color 0.3s ease-in-out 0s;
+
+}
+
+.nav__links li a:hover {
+
+    background-color: var(--gray-ccc);
+
+}
+
+// MENU
+.cta {
+
+    cursor: pointer;
+    font-weight: bold;
+    padding: .6em 1rem;
+    border-radius: 2px;
+    color: var(--black);
+    // border: 1px solid var(--black);
+
+}
+
+.cta:hover { background-color: var(--gray-ccc); }
+
+// MOBLIE NAV //
+.menu {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .sm\:menu {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:menu {
+        display: none;
+    }
+}
+
+// OVERLAY-NONE ARENA //
+.overlay-none {
+    width: 0%;
+    display: none;
+}
+
+// OVERLAY-NONE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:overlay-none {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:overlay\:noneoverlay-none {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:overlay-none {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:overlay\:none {
+        width: 0%;
+        display: none;
+    }
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 0;
+    // z-index: 1;
+    // height: 100%;
+    // position: fixed;
+    // overflow: hidden;
+    // background-color: #ffffff;
+    transition: width 0.5s ease-in-out 0s;
+}
+
+.overlay--active {
+    width: 100%;
+}
+
+// .close {}
+
+.overlay__content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    display: block;
+    font-size: 36px;
+    transition: color 0.3s ease-in-out 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: var(--gray-ccc);
+}
+
+.overlay .close {
+    top: 20px;
+    right: 45px;
+    cursor: pointer;
+    font-size: 60px;
+    position: absolute;
+    color: var(--black);
+}
+
+@media (max-width: 450px) {
+    .overlay a { font-size: 20px; }
+
+    .overlay .close {
+        top: 15px;
+        right: 35px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav__links,
+    .cta {
+        display: none;
+    }
+
+    // .guzman h1 { margin-left: 20px; }
+
+    .menu {
+        // display: initial;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-text {
+        color: var(--black);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--black);
+    }
+}

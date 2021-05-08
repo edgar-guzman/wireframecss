@@ -1,63 +1,557 @@
-.font-arial { font-family: Arial, Helvetica, sans-serif; }
-.font-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-.font-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
-.font-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-.font-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
-.font-cursive { font-family: cursive; }
-.font-fantasy { font-family: fantasy; }
-.font-monospace { font-family: monospace; }
-.font-sans-serif { font-family: sans-serif; }
-.font-serif { font-family: serif; }
-.font-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+// FONT-FAMILY ARENA //
+.font {
+    &-arial { font-family: Arial, Helvetica, sans-serif; }
+    &-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    &-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
+    &-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+    &-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    &-cursive { font-family: cursive; }
+    &-fantasy { font-family: fantasy; }
+    &-monospace { font-family: monospace; }
+    &-sans-serif { font-family: sans-serif; }
+    &-serif { font-family: serif; }
+    &-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+}
 
-// font weight
+// FONT-FAMILY @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:font {
+        &-arial { font-family: Arial, Helvetica, sans-serif; }
+        &-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+        &-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
+        &-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        &-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        &-cursive { font-family: cursive; }
+        &-fantasy { font-family: fantasy; }
+        &-monospace { font-family: monospace; }
+        &-sans-serif { font-family: sans-serif; }
+        &-serif { font-family: serif; }
+        &-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    }
+}
 
-.font-thin { font-weight: 100; }
+@media (max-width: 800px) {
+    .md\:font {
+        &-arial { font-family: Arial, Helvetica, sans-serif; }
+        &-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+        &-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
+        &-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        &-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        &-cursive { font-family: cursive; }
+        &-fantasy { font-family: fantasy; }
+        &-monospace { font-family: monospace; }
+        &-sans-serif { font-family: sans-serif; }
+        &-serif { font-family: serif; }
+        &-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    }
+}
 
-.font-extralight { font-weight: 200; }
+@media (min-width: 1024px) {
+    .lg\:font {
+        &-arial { font-family: Arial, Helvetica, sans-serif; }
+        &-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+        &-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
+        &-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        &-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        &-cursive { font-family: cursive; }
+        &-fantasy { font-family: fantasy; }
+        &-monospace { font-family: monospace; }
+        &-sans-serif { font-family: sans-serif; }
+        &-serif { font-family: serif; }
+        &-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    }
+}
 
-.font-light { font-weight: 300; }
+@media (min-width: 1280px) {
+    .xl\:font {
+        &-arial { font-family: Arial, Helvetica, sans-serif; }
+        &-cambria { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+        &-georgia { font-family: Georgia, 'Times New Roman', Times, serif; }
+        &-impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+        &-verdana { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        &-cursive { font-family: cursive; }
+        &-fantasy { font-family: fantasy; }
+        &-monospace { font-family: monospace; }
+        &-sans-serif { font-family: sans-serif; }
+        &-serif { font-family: serif; }
+        &-sans-apple { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+    }
+}
 
-.font-normal { font-weight: 400; }
+// UPPERCASE & LOWERCASE ARENA //
+.font {
+    &-capitalize { text-transform: capitalize; }
+    &-lowercase { text-transform: lowercase; }
+    &-none { text-transform: none; }
+    &-uppercase { text-transform: uppercase; }
+}
 
-.font-medium { font-weight: 500; }
+// UPPERCASE & LOWERCASE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:font {
+        &-capitalize { text-transform: capitalize; }
+        &-lowercase { text-transform: lowercase; }
+        &-none { text-transform: none; }
+        &-uppercase { text-transform: uppercase; }
+    }
+}
 
-.font-semibold { font-weight: 600; }
+@media (max-width: 800px) {
+    .md\:font {
+        &-capitalize { text-transform: capitalize; }
+        &-lowercase { text-transform: lowercase; }
+        &-none { text-transform: none; }
+        &-uppercase { text-transform: uppercase; }
+    }
+}
 
-.font-bold { font-weight: 700; }
+@media (min-width: 1024px) {
+    .lg\:font {
+        &-capitalize { text-transform: capitalize; }
+        &-lowercase { text-transform: lowercase; }
+        &-none { text-transform: none; }
+        &-uppercase { text-transform: uppercase; }
+    }
+}
 
-.font-extrabold { font-weight: 800; }
+@media (min-width: 1280px) {
+    .xl\:font {
+        &-capitalize { text-transform: capitalize; }
+        &-lowercase { text-transform: lowercase; }
+        &-none { text-transform: none; }
+        &-uppercase { text-transform: uppercase; }
+    }
+}
 
-.font-black { font-weight: 900; }
+// FONT-WEIGHT ARENA //
+.font {
+    &-thin { font-weight: 100; }
+    &-extralight { font-weight: 200; }
+    &-light { font-weight: 300; }
+    &-normal { font-weight: 400; }
+    &-medium { font-weight: 500; }
+    &-semibold { font-weight: 600; }
+    &-bold { font-weight: 700; }
+    &-extrabold { font-weight: 800; }
+    &-black { font-weight: 900; }
+    &-bold { font-weight: bold; }
+    &-bolder { font-weight: bolder; }
+}
 
-.bold { font-weight: bold; }
+// FONT-WEIGHT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:font {
+        &-thin { font-weight: 100; }
+        &-extralight { font-weight: 200; }
+        &-light { font-weight: 300; }
+        &-normal { font-weight: 400; }
+        &-medium { font-weight: 500; }
+        &-semibold { font-weight: 600; }
+        &-bold { font-weight: 700; }
+        &-extrabold { font-weight: 800; }
+        &-black { font-weight: 900; }
+        &-bold { font-weight: bold; }
+        &-bolder { font-weight: bolder; }
+    }
+}
 
-.bolder { font-weight: bolder; }
+@media (max-width: 800px) {
+    .md\:font {
+        &-thin { font-weight: 100; }
+        &-extralight { font-weight: 200; }
+        &-light { font-weight: 300; }
+        &-normal { font-weight: 400; }
+        &-medium { font-weight: 500; }
+        &-semibold { font-weight: 600; }
+        &-bold { font-weight: 700; }
+        &-extrabold { font-weight: 800; }
+        &-black { font-weight: 900; }
+        &-bold { font-weight: bold; }
+        &-bolder { font-weight: bolder; }
+    }
+}
 
-// 
+@media (min-width: 1024px) {
+    .lg\:font {
+        &-thin { font-weight: 100; }
+        &-extralight { font-weight: 200; }
+        &-light { font-weight: 300; }
+        &-normal { font-weight: 400; }
+        &-medium { font-weight: 500; }
+        &-semibold { font-weight: 600; }
+        &-bold { font-weight: 700; }
+        &-extrabold { font-weight: 800; }
+        &-black { font-weight: 900; }
+        &-bold { font-weight: bold; }
+        &-bolder { font-weight: bolder; }
+    }
+}
 
-.font-italic { font-style: italic; }
+@media (min-width: 1280px) {
+    .xl\:font {
+        &-thin { font-weight: 100; }
+        &-extralight { font-weight: 200; }
+        &-light { font-weight: 300; }
+        &-normal { font-weight: 400; }
+        &-medium { font-weight: 500; }
+        &-semibold { font-weight: 600; }
+        &-bold { font-weight: 700; }
+        &-extrabold { font-weight: 800; }
+        &-black { font-weight: 900; }
+        &-bold { font-weight: bold; }
+        &-bolder { font-weight: bolder; }
+    }
+}
 
-.font-normal { font-style: normal; }
+// H:FONT-WEIGHT ARENA //
+.h\:font {
+    &-thin:hover { font-weight: 100; }
+    &-extralight:hover { font-weight: 200; }
+    &-light:hover { font-weight: 300; }
+    &-normal:hover { font-weight: 400; }
+    &-medium:hover { font-weight: 500; }
+    &-semibold:hover { font-weight: 600; }
+    &-bold:hover { font-weight: 700; }
+    &-extrabold:hover { font-weight: 800; }
+    &-black:hover { font-weight: 900; }
+    &-bold:hover { font-weight: bold; }
+    &-bolder:hover { font-weight: bolder; }
+}
 
-.font-oblique { font-style: oblique; }
+// H:FONT-WEIGHT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:h\:font {
+        &-thin:hover { font-weight: 100; }
+        &-extralight:hover { font-weight: 200; }
+        &-light:hover { font-weight: 300; }
+        &-normal:hover { font-weight: 400; }
+        &-medium:hover { font-weight: 500; }
+        &-semibold:hover { font-weight: 600; }
+        &-bold:hover { font-weight: 700; }
+        &-extrabold:hover { font-weight: 800; }
+        &-black:hover { font-weight: 900; }
+        &-bold:hover { font-weight: bold; }
+        &-bolder:hover { font-weight: bolder; }
+    }
+}
 
-// FONT-SIZE
+@media (max-width: 800px) {
+    .md\:h\:font {
+        &-thin:hover { font-weight: 100; }
+        &-extralight:hover { font-weight: 200; }
+        &-light:hover { font-weight: 300; }
+        &-normal:hover { font-weight: 400; }
+        &-medium:hover { font-weight: 500; }
+        &-semibold:hover { font-weight: 600; }
+        &-bold:hover { font-weight: 700; }
+        &-extrabold:hover { font-weight: 800; }
+        &-black:hover { font-weight: 900; }
+        &-bold:hover { font-weight: bold; }
+        &-bolder:hover { font-weight: bolder; }
+    }
+}
 
-.font-smaller { font-size: smaller; }
-.font-small { font-size: small; }
-.font-xsmall { font-size: x-small; }
-.font-xxsmall { font-size: xx-small; }
+@media (min-width: 1024px) {
+    .lg\:h\:font {
+        &-thin:hover { font-weight: 100; }
+        &-extralight:hover { font-weight: 200; }
+        &-light:hover { font-weight: 300; }
+        &-normal:hover { font-weight: 400; }
+        &-medium:hover { font-weight: 500; }
+        &-semibold:hover { font-weight: 600; }
+        &-bold:hover { font-weight: 700; }
+        &-extrabold:hover { font-weight: 800; }
+        &-black:hover { font-weight: 900; }
+        &-bold:hover { font-weight: bold; }
+        &-bolder:hover { font-weight: bolder; }
+    }
+}
 
-.font-medium { font-size: medium; }
+@media (min-width: 1280px) {
+    .xl\:h\:font {
+        &-thin:hover { font-weight: 100; }
+        &-extralight:hover { font-weight: 200; }
+        &-light:hover { font-weight: 300; }
+        &-normal:hover { font-weight: 400; }
+        &-medium:hover { font-weight: 500; }
+        &-semibold:hover { font-weight: 600; }
+        &-bold:hover { font-weight: 700; }
+        &-extrabold:hover { font-weight: 800; }
+        &-black:hover { font-weight: 900; }
+        &-bold:hover { font-weight: bold; }
+        &-bolder:hover { font-weight: bolder; }
+    }
+}
 
-.font-larger { font-size: larger; }
-.font-large { font-size: large; }
-.font-xlarge { font-size: x-large; }
-.font-xxlarge { font-size: xx-large; }
+// A:FONT-WEIGHT ARENA //
+.a\:font {
+    &-thin:active { font-weight: 100; }
+    &-extralight:active { font-weight: 200; }
+    &-light:active { font-weight: 300; }
+    &-normal:active { font-weight: 400; }
+    &-medium:active { font-weight: 500; }
+    &-semibold:active { font-weight: 600; }
+    &-bold:active { font-weight: 700; }
+    &-extrabold:active { font-weight: 800; }
+    &-black:active { font-weight: 900; }
+    &-bold:active { font-weight: bold; }
+    &-bolder:active { font-weight: bolder; }
+}
+
+// H:FONT-WEIGHT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:font {
+        &-thin:active { font-weight: 100; }
+        &-extralight:active { font-weight: 200; }
+        &-light:active { font-weight: 300; }
+        &-normal:active { font-weight: 400; }
+        &-medium:active { font-weight: 500; }
+        &-semibold:active { font-weight: 600; }
+        &-bold:active { font-weight: 700; }
+        &-extrabold:active { font-weight: 800; }
+        &-black:active { font-weight: 900; }
+        &-bold:active { font-weight: bold; }
+        &-bolder:active { font-weight: bolder; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:a\:font {
+        &-thin:active { font-weight: 100; }
+        &-extralight:active { font-weight: 200; }
+        &-light:active { font-weight: 300; }
+        &-normal:active { font-weight: 400; }
+        &-medium:active { font-weight: 500; }
+        &-semibold:active { font-weight: 600; }
+        &-bold:active { font-weight: 700; }
+        &-extrabold:active { font-weight: 800; }
+        &-black:active { font-weight: 900; }
+        &-bold:active { font-weight: bold; }
+        &-bolder:active { font-weight: bolder; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:font {
+        &-thin:active { font-weight: 100; }
+        &-extralight:active { font-weight: 200; }
+        &-light:active { font-weight: 300; }
+        &-normal:active { font-weight: 400; }
+        &-medium:active { font-weight: 500; }
+        &-semibold:active { font-weight: 600; }
+        &-bold:active { font-weight: 700; }
+        &-extrabold:active { font-weight: 800; }
+        &-black:active { font-weight: 900; }
+        &-bold:active { font-weight: bold; }
+        &-bolder:active { font-weight: bolder; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:font {
+        &-thin:active { font-weight: 100; }
+        &-extralight:active { font-weight: 200; }
+        &-light:active { font-weight: 300; }
+        &-normal:active { font-weight: 400; }
+        &-medium:active { font-weight: 500; }
+        &-semibold:active { font-weight: 600; }
+        &-bold:active { font-weight: 700; }
+        &-extrabold:active { font-weight: 800; }
+        &-black:active { font-weight: 900; }
+        &-bold:active { font-weight: bold; }
+        &-bolder:active { font-weight: bolder; }
+    }
+}
+
+// FONT-ITALIC ARENA //
+.font {
+    &-italic { font-style: italic; }
+    &-normal { font-style: normal; }
+    &-oblique { font-style: oblique; }
+}
+
+.h\:font {
+    &-italic:hover { font-style: italic; }
+    &-normal:hover { font-style: normal; }
+    &-oblique:hover { font-style: oblique; }
+}
+
+.a\:font {
+    &-italic:active { font-style: italic; }
+    &-normal:active { font-style: normal; }
+    &-oblique:active { font-style: oblique; }
+}
+
+// FONT-ITALIC @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:font {
+        &-italic { font-style: italic; }
+        &-normal { font-style: normal; }
+        &-oblique { font-style: oblique; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:font {
+        &-italic { font-style: italic; }
+        &-normal { font-style: normal; }
+        &-oblique { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:font {
+        &-italic { font-style: italic; }
+        &-normal { font-style: normal; }
+        &-oblique { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:font {
+        &-italic { font-style: italic; }
+        &-normal { font-style: normal; }
+        &-oblique { font-style: oblique; }
+    }
+}
+
+// H:FONT-ITALIC @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:h\:font {
+        &-italic:hover { font-style: italic; }
+        &-normal:hover { font-style: normal; }
+        &-oblique:hover { font-style: oblique; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:h\:font {
+        &-italic:hover { font-style: italic; }
+        &-normal:hover { font-style: normal; }
+        &-oblique:hover { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:font {
+        &-italic:hover { font-style: italic; }
+        &-normal:hover { font-style: normal; }
+        &-oblique:hover { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:font {
+        &-italic:hover { font-style: italic; }
+        &-normal:hover { font-style: normal; }
+        &-oblique:hover { font-style: oblique; }
+    }
+}
+
+// A:FONT-ITALIC @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:font {
+        &-italic:active { font-style: italic; }
+        &-normal:active { font-style: normal; }
+        &-oblique:active { font-style: oblique; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:a\:font {
+        &-italic:active { font-style: italic; }
+        &-normal:active { font-style: normal; }
+        &-oblique:active { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:font {
+        &-italic:active { font-style: italic; }
+        &-normal:active { font-style: normal; }
+        &-oblique:active { font-style: oblique; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:font {
+        &-italic:active { font-style: italic; }
+        &-normal:active { font-style: normal; }
+        &-oblique:active { font-style: oblique; }
+    }
+}
+
+// FONT-SIZE ARENA //
+.font {
+    &-smaller { font-size: smaller; }
+    &-small { font-size: small; }
+    &-xsmall { font-size: x-small; }
+    &-xxsmall { font-size: xx-small; }
+    &-medium { font-size: medium; }
+    &-larger { font-size: larger; }
+    &-large { font-size: large; }
+    &-xlarge { font-size: x-large; }
+    &-xxlarge { font-size: xx-large; }
+}
+
+// FONT-SIZE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:font {
+        &-smaller { font-size: smaller; }
+        &-small { font-size: small; }
+        &-xsmall { font-size: x-small; }
+        &-xxsmall { font-size: xx-small; }
+        &-medium { font-size: medium; }
+        &-larger { font-size: larger; }
+        &-large { font-size: large; }
+        &-xlarge { font-size: x-large; }
+        &-xxlarge { font-size: xx-large; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:font {
+        &-smaller { font-size: smaller; }
+        &-small { font-size: small; }
+        &-xsmall { font-size: x-small; }
+        &-xxsmall { font-size: xx-small; }
+        &-medium { font-size: medium; }
+        &-larger { font-size: larger; }
+        &-large { font-size: large; }
+        &-xlarge { font-size: x-large; }
+        &-xxlarge { font-size: xx-large; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:font {
+        &-smaller { font-size: smaller; }
+        &-small { font-size: small; }
+        &-xsmall { font-size: x-small; }
+        &-xxsmall { font-size: xx-small; }
+        &-medium { font-size: medium; }
+        &-larger { font-size: larger; }
+        &-large { font-size: large; }
+        &-xlarge { font-size: x-large; }
+        &-xxlarge { font-size: xx-large; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:font {
+        &-smaller { font-size: smaller; }
+        &-small { font-size: small; }
+        &-xsmall { font-size: x-small; }
+        &-xxsmall { font-size: xx-small; }
+        &-medium { font-size: medium; }
+        &-larger { font-size: larger; }
+        &-large { font-size: large; }
+        &-xlarge { font-size: x-large; }
+        &-xxlarge { font-size: xx-large; }
+    }
+}
 
 // FONT CLAMP;
-
 .font-clamp {
 
     padding: 1em;

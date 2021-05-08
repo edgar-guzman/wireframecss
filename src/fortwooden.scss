@@ -5,13 +5,14 @@
 // @import '';
 
 // @use
-    // @use  'fortwooden/main';
     @use 'fortwooden/basic';
+    @use 'fortwooden/layout';
 
 // @use
     @use 'components/FAQs';
     @use 'components/form';
     // @use 'components/card';
+    @use 'components/menu';
     @use 'components/table';
     @use 'components/header';
     @use 'components/button';
@@ -19,7 +20,7 @@
 
 // @use
     @use 'keyword/font';
-    @use 'keyword/color';
+    @use 'keyword/typography';
     @use 'keyword/image';
     @use 'keyword/width';
     @use 'keyword/border';
@@ -27,3 +28,7 @@
     @use 'keyword/margin';
     @use 'keyword/padding';
     @use 'keyword/display';
+    @use 'keyword/music';
+
+
+    // working in "@use 'keyword/typography';" //

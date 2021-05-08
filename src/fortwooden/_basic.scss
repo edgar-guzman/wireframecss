@@ -1,6 +1,6 @@
+$white: #ffffff;
 :root {
 
-    $white: #ffffff;
     --white: #ffffff;
 
     $black: #000000;
@@ -35,18 +35,22 @@
 
     // COLOR BLUE
 
+    --blue-50: #EFF6FF;
     --blue-el: #F0F4FB;
     --blue-light: #f1f8ff;
     --blue: #0366d6;
 
-    $blue-00: #F0F4FB;
-    $blue-50: #f1f8ff;
+    // $blue-50: #EFF6FF;
+    $blue-60: #F0F4FB;
+    $blue-70: #f1f8ff;
     $blue-500: #0366d6;
 
+    // $blue-50: #EFF6FF;
     $bg-blue-el: #F0F4FB;
     $bg-blue-light: #f1f8ff;
     $bg-blue: #0366d6;
 
+    --bg-blue-50: #EFF6FF;
     --bg-blue-el: #F0F4FB;
     --bg-blue-light: #f1f8ff;
     --bg-blue: #0366d6;
@@ -91,28 +95,28 @@
 
     --yellow-el: #fffff0;
     --yellow-light: #fff5b1;
-    --mastard-yellow: #fff000;
+    --yellow-mastard: #fff000;
     --yellow-ld: #ffd33d;
     --yellow-dark: #dbab09;
     --yellow: #ffff00;
 
     $yellow-el: #fffff0;
     $yellow-light: #fff5b1;
-    $mastard-yellow: #fff000;
+    $yellow-mastard: #fff000;
     $yellow-ld: #ffd33d;
     $yellow-dark: #dbab09;
     $yellow: #ffff00;
 
     $bg-yellow-el: #fffff0;
     $bg-yellow-light: #fff5b1;
-    $bg-mastard-yellow: #fff000;
+    $bg-yellow-mastard: #fff000;
     $bg-yellow-ld: #ffd33d;
     $bg-yellow-dark: #dbab09;
     $bg-yellow: #ffff00;
 
     --bg-yellow-el: #fffff0;
     --bg-yellow-light: #fff5b1;
-    --bg-mastard-yellow: #fff000;
+    --bg-yellow-mastard: #fff000;
     --bg-yellow-ld: #ffd33d;
     --bg-yellow-dark: #dbab09;
     --bg-yellow: #ffff00;
