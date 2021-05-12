@@ -1,4 +1,4 @@
-# fortwooden
+# wireframecss
  
 **working in progress**
 
@@ -6,6 +6,6 @@
 
 ``npm i sass``
 
-``type: "start": "sass --watch src/fortwooden.scss dist/fortwooden.css" in 'package.json'``
+``type: "start": "sass --watch src/wireframe.scss dist/wireframe.css" in 'package.json'``
 
 ``and in Terminal tpe: "npm start" to start sass``
