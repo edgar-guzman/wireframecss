@@ -210,6 +210,8 @@
     }
 }
 
+// F:TEXT @MEDIA ARENA //
+
 // LETTER-SPACING ARENA //
 .letter-spacing {
     &-normal { letter-spacing: normal; }
@@ -420,7 +422,7 @@
     }
 }
 
-// TEXT-DECORATION ARENA
+// TEXT-DECORATION ARENA //
 .text-decoration {
     &-none { text-decoration: none; }
     &-overline { text-decoration: overline; }
@@ -553,6 +555,172 @@
     }
 }
 
+// BOX-DECORATION ARENA //
+.box-decoration {
+    &-slice { box-decoration-break: slice; }
+    &-clone { box-decoration-break: clone; }
+    &-inherit { box-decoration-break: inherit; }
+    &-initial { box-decoration-break: initial; }
+    &-unset { box-decoration-break: unset; }
+}
+
+// BOX-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:box-decoration {
+        &-slice { box-decoration-break: slice; }
+        &-clone { box-decoration-break: clone; }
+        &-inherit { box-decoration-break: inherit; }
+        &-initial { box-decoration-break: initial; }
+        &-unset { box-decoration-break: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:box-decoration {
+        &-slice { box-decoration-break: slice; }
+        &-clone { box-decoration-break: clone; }
+        &-inherit { box-decoration-break: inherit; }
+        &-initial { box-decoration-break: initial; }
+        &-unset { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:box-decoration {
+        &-slice { box-decoration-break: slice; }
+        &-clone { box-decoration-break: clone; }
+        &-inherit { box-decoration-break: inherit; }
+        &-initial { box-decoration-break: initial; }
+        &-unset { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:box-decoration {
+        &-slice { box-decoration-break: slice; }
+        &-clone { box-decoration-break: clone; }
+        &-inherit { box-decoration-break: inherit; }
+        &-initial { box-decoration-break: initial; }
+        &-unset { box-decoration-break: unset; }
+    }
+}
+
+// H:BOX-DECORATION ARENA //
+.h\:box-decoration {
+    &-slice:hover { box-decoration-break: slice; }
+    &-clone:hover { box-decoration-break: clone; }
+    &-inherit:hover { box-decoration-break: inherit; }
+    &-initial:hover { box-decoration-break: initial; }
+    &-unset:hover { box-decoration-break: unset; }
+}
+
+// H:BOX-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:h\:box-decoration {
+        &-slice:hover { box-decoration-break: slice; }
+        &-clone:hover { box-decoration-break: clone; }
+        &-inherit:hover { box-decoration-break: inherit; }
+        &-initial:hover { box-decoration-break: initial; }
+        &-unset:hover { box-decoration-break: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:h\:box-decoration {
+        &-slice:hover { box-decoration-break: slice; }
+        &-clone:hover { box-decoration-break: clone; }
+        &-inherit:hover { box-decoration-break: inherit; }
+        &-initial:hover { box-decoration-break: initial; }
+        &-unset:hover { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:h\:box-decoration {
+        &-slice:hover { box-decoration-break: slice; }
+        &-clone:hover { box-decoration-break: clone; }
+        &-inherit:hover { box-decoration-break: inherit; }
+        &-initial:hover { box-decoration-break: initial; }
+        &-unset:hover { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:h\:box-decoration {
+        &-slice:hover { box-decoration-break: slice; }
+        &-clone:hover { box-decoration-break: clone; }
+        &-inherit:hover { box-decoration-break: inherit; }
+        &-initial:hover { box-decoration-break: initial; }
+        &-unset:hover { box-decoration-break: unset; }
+    }
+}
+
+// A:BOX-DECORATION ARENA //
+.a\:box-decoration {
+    &-slice:active { box-decoration-break: slice; }
+    &-clone:active { box-decoration-break: clone; }
+    &-inherit:active { box-decoration-break: inherit; }
+    &-initial:active { box-decoration-break: initial; }
+    &-unset:active { box-decoration-break: unset; }
+}
+
+// A:BOX-DECORATION @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:a\:box-decoration {
+        &-slice:active { box-decoration-break: slice; }
+        &-clone:active { box-decoration-break: clone; }
+        &-inherit:active { box-decoration-break: inherit; }
+        &-initial:active { box-decoration-break: initial; }
+        &-unset:active { box-decoration-break: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:a\:box-decoration {
+        &-slice:active { box-decoration-break: slice; }
+        &-clone:active { box-decoration-break: clone; }
+        &-inherit:active { box-decoration-break: inherit; }
+        &-initial:active { box-decoration-break: initial; }
+        &-unset:active { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:a\:box-decoration {
+        &-slice:active { box-decoration-break: slice; }
+        &-clone:active { box-decoration-break: clone; }
+        &-inherit:active { box-decoration-break: inherit; }
+        &-initial:active { box-decoration-break: initial; }
+        &-unset:active { box-decoration-break: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:a\:box-decoration {
+        &-slice:active { box-decoration-break: slice; }
+        &-clone:active { box-decoration-break: clone; }
+        &-inherit:active { box-decoration-break: inherit; }
+        &-initial:active { box-decoration-break: initial; }
+        &-unset:active { box-decoration-break: unset; }
+    }
+}
+
+// .f\:box-decoration {
+//     &-slice:focus { box-decoration-break: slice; }
+//     &-clone:focus { box-decoration-break: clone; }
+//     &-inherit:focus { box-decoration-break: inherit; }
+//     &-initial:focus { box-decoration-break: initial; }
+//     &-unset:focus { box-decoration-break: unset; }
+// }
+
+// .f-within\:box-decoration {
+//     &-clone:focus-within { box-decoration-break: clone; }
+//     &-slice:focus-within { box-decoration-break: slice; }
+//     &-inherit:focus-within { box-decoration-break: inherit; }
+//     &-initial:focus-within { box-decoration-break: initial; }
+//     &-unset:focus-within { box-decoration-break: unset; }
+// }
+
 // COLOR/BACKGROUND-COLOR ARENA
 // LIGHT OR DARK THEME ARENA
 // LIGHT MODE
@@ -568,7 +736,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .md\:light {
         color: var(--black);
         background-color: var(--white);
@@ -602,7 +770,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .md\:dark {
         color: var(--white);
         background-color: var(--black);
@@ -626,8 +794,8 @@
 // TEXT-BG--COLOR/HOVER\:TEXT-BG--COLOR
 .text {
     &-transparent { color: var(--transparent); }
-    &-white { color: var(--white); }
     &-black { color: var(--black); }
+    &-white { color: var(--white); }
     &-gray-ccc { color: var(--gray-ccc); }
     &-gray-light { color: var(--gray-light); }
     &-gray-medium { color: var(--gray-medium); }
@@ -657,8 +825,8 @@
 }
 .h\:text {
     &-transparent:hover { color: var(--transparent); }
-    &-white:hover { color: var(--white); }
     &-black:hover { color: var(--black); }
+    &-white:hover { color: var(--white); }
     &-gray-ccc:hover { color: var(--gray-ccc); }
     &-gray-light:hover { color: var(--gray-light); }
     &-gray-medium:hover { color: var(--gray-medium); }
@@ -689,8 +857,8 @@
 }
 .a\:text {
     &-transparent:active { color: var(--transparent); }
-    &-white:active { color: var(--white); }
     &-black:active { color: var(--black); }
+    &-white:active { color: var(--white); }
     &-gray-light:active { color: var(--gray-light); }
     &-gray-medium:active { color: var(--gray-medium); }
     &-gray-dark:active { color: var(--gray-dark); }
@@ -720,8 +888,8 @@
 
 .bg {
     &-transparent { background-color: var(--transparent); }
-    &-white { background-color: var(--white); }
     &-black { background-color: var(--black); }
+    &-white { background-color: var(--white); }
     &-gray-ccc { background-color: var(--gray-ccc); }
     &-gray-light { background-color: var(--gray-light); }
     &-gray-medium { background-color: var(--gray-medium); }
@@ -748,8 +916,8 @@
 }
 .h\:bg {
     &-transparent:hover { color: var(--transparent); }
+    &-black:hover { background-color: var(--black); }
     &-white:hover { background-color: var(--white); }
-    &-black { background-color: var(--black); }
     &-gray-ccc:hover { background-color: var(--gray-ccc); }
     &-gray-light:hover { background-color: var(--gray-light); }
     &-gray-medium:hover { background-color: var(--gray-medium); }
@@ -776,8 +944,8 @@
 }
 .a\:bg {
     &-transparent:active { color: var(--transparent); }
+    &-black:active { background-color: var(--black); }
     &-white:active { background-color: var(--white); }
-    &-black { background-color: var(--black); }
     &-gray-ccc:active { background-color: var(--gray-ccc); }
     &-gray-light:active { background-color: var(--gray-light); }
     &-gray-medium:active { background-color: var(--gray-medium); }

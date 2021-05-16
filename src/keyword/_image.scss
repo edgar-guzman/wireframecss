@@ -2,10 +2,69 @@
 
 // img::selection {}
 
-.object-fit {
+// OBJECT IMMAGE ARENA //
+.object {
+    &-contain { object-fit: contain; }
+    &-fit { object-fit: cover; }
+    &-fill { object-fit: fill; }
+    &-none { object-fit: none; }
+    &-scale-down { object-fit: scale-down; }
+    &-inherit { object-fit: inherit; }
+    &-initial { object-fit: initial; }
+    &-unset { object-fit: unset; }
+}
 
-    object-fit: cover;
+// OBJECT IMMAGE @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:object {
+        &-contain { object-fit: contain; }
+        &-fit { object-fit: cover; }
+        &-fill { object-fit: fill; }
+        &-none { object-fit: none; }
+        &-scale-down { object-fit: scale-down; }
+        &-inherit { object-fit: inherit; }
+        &-initial { object-fit: initial; }
+        &-unset { object-fit: unset; }
+    }
+}
 
+@media (max-width: 800px) {
+    .md\:object {
+        &-contain { object-fit: contain; }
+        &-fit { object-fit: cover; }
+        &-fill { object-fit: fill; }
+        &-none { object-fit: none; }
+        &-scale-down { object-fit: scale-down; }
+        &-inherit { object-fit: inherit; }
+        &-initial { object-fit: initial; }
+        &-unset { object-fit: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:object {
+        &-contain { object-fit: contain; }
+        &-fit { object-fit: cover; }
+        &-fill { object-fit: fill; }
+        &-none { object-fit: none; }
+        &-scale-down { object-fit: scale-down; }
+        &-inherit { object-fit: inherit; }
+        &-initial { object-fit: initial; }
+        &-unset { object-fit: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:object {
+        &-contain { object-fit: contain; }
+        &-fit { object-fit: cover; }
+        &-fill { object-fit: fill; }
+        &-none { object-fit: none; }
+        &-scale-down { object-fit: scale-down; }
+        &-inherit { object-fit: inherit; }
+        &-initial { object-fit: initial; }
+        &-unset { object-fit: unset; }
+    }
 }
 
 .background-position {
@@ -136,7 +195,57 @@
     }
 }
 
-// BACKGROUND FIXED
-.bg-fixed { background-attachment: fixed };
-.bg-local { background-attachment: local };
-.bg-scroll { background-attachment: scroll };
+// BACKGROUND-ATTACHMENT ARENA //
+.bg {
+    &-fixed { background-attachment: fixed; }
+    &-local { background-attachment: local; }
+    &-scroll { background-attachment: scroll; }
+    &-inherit { background-attachment: inherit; }
+    &-initial { background-attachment: initial; }
+    &-unset { background-attachment: unset; }
+}
+
+// BACKGROUND-ATTACHMENT @MEDIA ARENA //
+@media (max-width: 640px) {
+    .sm\:bg {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (max-width: 800px) {
+    .md\:bg {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}
+
+@media (min-width: 1280px) {
+    .xl\:bg {
+        &-fixed { background-attachment: fixed; }
+        &-local { background-attachment: local; }
+        &-scroll { background-attachment: scroll; }
+        &-inherit { background-attachment: inherit; }
+        &-initial { background-attachment: initial; }
+        &-unset { background-attachment: unset; }
+    }
+}

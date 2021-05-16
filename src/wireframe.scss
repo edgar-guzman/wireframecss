@@ -1,12 +1,12 @@
 // * Edgar Guzman
-// * fortwooden V1 (https://github.com/edgar-guzman/fortwooden)
-// * Licensed under MIT (https://github.com/edgar-guzman/fortwooden/blob/main/LICENSE)
+// * fortwooden V1 (https://github.com/edgar-guzman/wireframecss)
+// * Licensed under MIT (https://github.com/edgar-guzman/wireframecss/blob/main/LICENSE)
 
 // @import '';
 
 // @use
-    @use 'fortwooden/basic';
-    @use 'fortwooden/layout';
+    @use 'wireframe/basic';
+    @use 'wireframe/layout';
 
 // @use
     @use 'components/FAQs';
@@ -20,7 +20,8 @@
 
 // @use
     @use 'keyword/font';
-    @use 'keyword/typography';
+    // @use 'keyword/typography';
+    @use 'keyword/typography-enhance';
     @use 'keyword/image';
     @use 'keyword/width';
     @use 'keyword/border';
@@ -32,3 +33,5 @@
 
 
     // working in "@use 'keyword/typography';" //
+
+    // #E061DC

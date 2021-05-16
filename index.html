@@ -4,20 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/fortwooden.css">
-    <link rel="stylesheet" href="dist/fortwooden.css">
-    <title>wireframecss</title>
+    <link rel="stylesheet" href="/dist/wireframe.css">
+    <link rel="stylesheet" href="dist/wireframe.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"> -->
+    <title>Wireframe CSS : Coding while without leaving your HTML file.</title>
 </head>
-<body class="dark">
-    <main class="w-full h-screen flex align-center justify-center">
-        <section class="flex-col">
-            <h1 class="font-sans-apple"><a class="text-white h:text-decoration-underline" href="https://github.com/edgar-guzman/wireframecss">edgar-guzman/wireframecss</a></h1>
-            <br>
-            <p class="font-arial">
+<body>
+    <header class="w-full h-20 flex align-center justify-between flex-row px-4 lg:px-5 fixed">
+        <a class="text-2xl font-bold font-sans-apple text-black h:t-stroke:text-color-black h:t-stroke:text-width-1 h:fill:text-color-transparent">wireframe<span class="t-stroke:text-color-black t-stroke:text-width-1 fill:text-color-transparent">css</span></a>
+
+        <!-- <nav>
+            <ul class="flex cursor-pointer">
+                <li class="p-2 h:bg-gray-ccc rounded text-center lg:show md:none sm:none"><a href="">Documentation</a></li>
+                <li class="p-2 rounded text-center lg:show md:none sm:none">
+                    <a href="https://github.com/edgar-guzman/wireframecss">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </li>
+            </ul>
+
+                <a class="text-black font-semibold h:border h:border-solid h:border-black radius-round xl:none lg:none md:show sm:show" href="/docs/">Docs</a>
+                <p class="menu cta text-white font-semibold h:border h:border-solid h:border-black radius-round xl:none lg:none md:show sm:show">Menu</p>
+
+            <section class="overlay h-full fixed overflow-hidden bg-white">
+                <a class="close" href="">&times;</a>
+
+                <div class="h-full flex align-center flex-col justify-center">
+                    <a class="p-2 text-black radius-round text-center font-semibold" href="">Home</a>
+                    <a class="p-2 text-black radius-round text-center" href="/public/grid/grid.html">Grid</a>
+                    <a class="p-2 text-black radius-round text-center" href="">About</a>
+                </div>
+            </section>
+        </nav> -->
+    </header>
+
+    <main class="w-full h-screen flex align-center justify-center bg-yellow-200">
+        <section class="flex-col border-2 border-solid border-black radius-2xl padding">
+            <h1 class="font-sans-apple"><a class="text-black h:text-decoration-underline" href="https://github.com/edgar-guzman/wireframecss">edgar-guzman/wireframecss</a></h1>
+            <!-- <a class="text-black h:text-decoration-underline" href="https://github.com/edgar-guzman/wireframecss"><h1 class="font-arial">edgar-guzman/wireframecss</h1></a> -->
+            <!-- <br> -->
+            <p class="font-arial text-black">
                 Major release coming sonn...
                 Stay turned.
             </p>
+
+            <!-- <br>
+            <br>
+            <div class="flex flex-col">
+                <h1 class="font-arial">Hello</h1>
+                <input class="border sm:h:border-white radius-4xl px-1 py-1 font-semibold" type="name" name="full-name" aria-placeholder="full-name box" placeholder="full-name box">
+                <input class="border sm:h:border-white radius-4xl px-1 py-1 mar-top" type="password" name="password" aria-placeholder="password box" placeholder="password box">
+            </div> -->
         </section>
     </main>
+
+    <script src="/js/mobile.js"></script>
 </body>
 </html>

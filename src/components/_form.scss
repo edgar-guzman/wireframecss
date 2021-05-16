@@ -22,13 +22,13 @@ label {
 
 // Input Password
 
-input[type="password"] {
-// input[type="confirm-password"]
+// input[type="password"] {
+// // input[type="confirm-password"]
 
-    border-radius: 2px;
-    border: 2px solid var(--black);
+//     border-radius: 2px;
+//     border: 2px solid var(--black);
 
-}
+// }
 
 ::placeholder,
 aria-placeholder,
@@ -80,11 +80,11 @@ input:required, aria-required { border: 2px solid var(--black); }
 //     border: 2px dotted var(--red);
 // }
 
-form:valid, input:valid {
+// form:valid, input:valid {
 
-    border: 2px solid var(--green-dark);
+//     border: 2px solid var(--green-dark);
 
-}
+// }
 
 input:invalid {
 
